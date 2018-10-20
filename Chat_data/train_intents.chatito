@@ -1,8 +1,8 @@
 %[greeting]('training': '10', 'testing': '10')
-    ~[greet?]
+    ~[greet]
 
 %[create_apt]('training': '100', 'testing': '100')
-    ~[greet?] ~[please?] ~[create] ~[appointment] ~[with?] @[doctor?] ~[on?] @[date?]
+    ~[greet?] ~[please?] ~[create] ~[appointment] ~[with?] @[dr?] ~[on?] @[date?]
     ~[create] ~[appointment] ~[with?] @[dr?] ~[on?] @[date?]
 
 %[confirm_dr]('training': '100', 'testing': '100')
@@ -29,10 +29,13 @@
     @[medicine]
 
 %[message_dr]('training': '100', 'testing': '100')
-    ~[greet?] ~[please?] ~[message] ~[to?] @[dr?]
-    ~[message] ~[to?] @[dr?]
+    ~[greet?] ~[please?] ~[messageIntent] ~[to?] @[dr?]
+    ~[messageIntent] ~[to?] @[dr?]
     ~[greet?] ~[please?] ~[messagePre] @[dr] ~[messagePost]
     ~[messagePre] @[dr] ~[messagePost]
+
+%[note_to_doc]('training': '7', 'testing': '2')
+    ~[message]
 
 %[review_lab]('training': '100', 'testing': '100')
     ~[greet?] ~[please?] ~[resultsRequest]
@@ -66,6 +69,7 @@
     howdy
     aloha
     hiya
+    ello
 
 ~[please]
     could you please
@@ -179,7 +183,7 @@
     I want to try new prescription
     I don't like my medicine
 
-~[message]
+~[messageIntent]
     leave a message
     send them a note
     send them a message
@@ -196,16 +200,19 @@
     a note
     know that
 
+~[message]
+    My knee still hurts
+    My vision is blurred
+    My head hurts
+    I am having difficulty breathing
+    I feel out of it
+    I look forward to seeing you, thanks
+    Thank you for easing my pain and thanks for encouraging me
+    I am writing to let you know
+    I just wanted to say thank you
+
 ~[to]
     to
-
-@[doctor]
-    Dr. Marino
-    Dr. Barker
-    Dr. Fung
-    Doctor Marino
-    Doctor Barker
-    Doctor Fung
 
 ~[resultsRequest]
     see my lab results
