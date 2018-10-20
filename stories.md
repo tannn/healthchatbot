@@ -3,12 +3,28 @@
 * create_appointment{"dr":"Dr. Scott", "date":"Monday"}
 	- confirmed
 
-## Message to Doctor
-* message_doctor
+## Creating Appointment
+* create_appointment
+	- ask_which_dr
+* confirm_dr{"dr":"Dr. Adams"}
+		- ask_date
+* confirm_date {"date":"Thursday"}
+		- confirmed
+
+## Message to Doctor, yes message, and doc
+* message_doctor{"dr":"Dr. Marino"}
 	- utter_messageDoctor
+* note_to_doc{"message":"I am having secondary emotional effects"}
+	- confirmed
+
+## Message to Doctor2, no message, yes doctor
+* message_doctor
+	- ask_message
+* note_to_doc{"message":"My knee still hurts"}
+	- confirmed
 
 ## Get a Prescription refill
-* get_prescription
+* get_prescription{"medicine":"Ibuprofen"}
 	- utter_getPrescription
 
 ## Review lab results
@@ -19,7 +35,7 @@
 * create_appointment{"dr":"Dr. Pike", "date":"Friday"}
 	- confirmed
 * get_prescription
-	- utter_getPrescription
+	- utter_getPrescription{"medicine":"Benadryl"}
 * message_doctor
 	- utter_messageDoctor
 * review_labResults
@@ -35,6 +51,8 @@
 * message_doctor
 	- utter_messageDoctor
 * get_prescription
+	- utter_askMedicine
+* ask_medicine{"medicine":"Benzonatate"}
 	- utter_getPrescription
 * review_labResults
 	- utter_reviewLabResults
@@ -50,25 +68,17 @@
 	- confirmed
 * review_labResults
 	- utter_reviewLabResults
-* get_prescription
+* get_prescription{"medicine":"Mirena"}
 	- utter_getPrescription
 
-## Creating Appointment
-* create_appointment
-	- ask_which_dr
-* confirm_dr{"dr":"Dr. Adams"}
+## Confirm doc and date
+* confirm_dr{"dr":"Dr. Young"}
 	- ask_date
-* confirm_date {"date":"Tuesday"}
+* confirm_date{"date":"Wednesday"}
 	- confirmed
 
-## MoreComplicated2
-* confirm_dr
-	- ask_date
-* confirm_date
+## Confirm date
+* confirm_date{"date":"Saturday"}
 	- confirmed
 
-## MoreComplicated3
-* confirm_date
-	- confirmed
-
-## MoreComplicated4
+## MoreComplicated
