@@ -1,10 +1,14 @@
 intents:
   - create_apt
-  - refill
+  - request_refill
   - message_dr
   - review_lab
   - confirm_dr
   - confirm_date
+  - prescription_complaint
+  - makePayment
+  - viewBills
+  - greeting
 
 actions:
   - ask_which_dr
