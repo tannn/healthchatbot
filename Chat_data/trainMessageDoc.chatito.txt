@@ -1,0 +1,65 @@
+%[messageDoctor]('training': '100', 'testing': '100')
+    ~[greet?] ~[please?] ~[message] ~[to?] @[doctor?]
+    ~[message] ~[to?] @[doctor?]
+    ~[greet?] ~[please?] ~[messagePre] @[doctor] ~[messagePost]
+    ~[messagePre] @[doctor] ~[messagePost]
+
+%[confirmDoc]('training': '100', 'testing': '100')
+    ~[to?] @[doctor]
+
+~[greet]
+    hi
+    hello
+    hey
+    howdy
+    greetings
+    good morning
+    good afternoon
+    good day
+    are you there
+    morning
+    whatsup
+    wassup
+    sup
+    yo Mr. Bot
+    ay boi
+
+~[please]
+    could you please
+    please
+    want to
+    I want
+    I need
+    I'd like to
+    would you
+    can you
+    can I
+    may I
+
+~[message]
+    leave a message
+    send them a note
+    send them a message
+    let them know
+
+~[messagePre]
+    tell
+    leave
+    let
+
+~[messagePost]
+    something
+    a message
+    a note
+    know that
+
+~[to]
+    to
+
+@[doctor]
+    Dr. Marino
+    Dr. Barker
+    Dr. Fung
+    Doctor Marino
+    Doctor Barker
+    Doctor Fung

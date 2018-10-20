@@ -1,0 +1,43 @@
+﻿%[reviewLabResults]('training': '100', 'testing': '100')
+    ~[greet?] ~[please?] ~[resultsRequest]
+    ~[resultsRequest]
+
+~[greet]
+    hi
+    hello
+    hey
+    howdy
+    greetings
+    good morning
+    good afternoon
+    good day
+    are you there
+    morning
+    whatsup
+    wassup
+    sup
+    yo Mr. Bot
+    ay boi
+
+~[please]
+    could you please
+    please
+    want to
+    I want
+    I need
+    I'd like to
+    would you
+    can you
+    can I
+    may I
+
+~[resultsRequest]
+    see my lab results
+    see results
+    recent lab results
+    view results
+    appointment results
+    lab results
+    view results
+    results
+    request lab results

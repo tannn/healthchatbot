@@ -1,0 +1,61 @@
+%[requestRefill]('training': '100', 'testing': '100')
+    ~[greet?] ~[please?] ~[refillrequest]
+    ~[refillrequest]
+
+%[prescriptionComplaint]('training': '100', 'testing': '100')
+    ~[greet?] ~[iAm?] ~[medComplaint]
+
+~[greet]
+    hi
+    hello
+    hey
+    howdy
+    greetings
+    good morning
+    good afternoon
+    good day
+    are you there
+    morning
+    whatsup
+    wassup
+    sup
+    yo Mr. Bot
+    ay boi
+
+~[please]
+    could you please
+    please
+    want to
+    I want
+    I need
+    I'd like to
+    would you
+    can you
+    can I
+    may I
+
+~[Iam]
+    I am
+    I
+
+~[refillRequest]
+    refill
+    get a refill
+    need a refill
+    request a refill
+    prescription refill
+    more medicine
+    renew prescription
+    running low
+    prescription is running out
+
+~[medComplaint]
+    having problems with my prescription
+    experiencing symptoms
+    new medicine
+    different medicine
+    prescription not working
+    different prescription
+    try something different
+    try new prescription
+    don't like my medicine
