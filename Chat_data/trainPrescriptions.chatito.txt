@@ -1,9 +1,12 @@
 %[requestRefill]('training': '100', 'testing': '100')
-    ~[greet?] ~[please?] ~[refillrequest]
+    ~[greet?] ~[please?] ~[refillrequest] @[medicine?]
     ~[refillrequest]
 
 %[prescriptionComplaint]('training': '100', 'testing': '100')
     ~[greet?] ~[iAm?] ~[medComplaint]
+
+%[medicineName]('training':'10','testing':'10')
+    @[medicine]
 
 ~[greet]
     hi
@@ -48,6 +51,18 @@
     renew prescription
     running low
     prescription is running out
+
+@[medicine]
+    vicodin
+    simvastatin
+    lisinopril
+    levothryoxine
+    azithromycin
+    metformin
+    lipitor
+    amlodipine
+    hydrocodone
+    acetaminophen
 
 ~[medComplaint]
     having problems with my prescription

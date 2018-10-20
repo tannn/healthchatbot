@@ -1,0 +1,22 @@
+intents:
+  - create_apt
+  - refill
+  - message_dr
+  - review_lab
+  - confirm_dr
+  - confirm_date
+
+actions:
+  - ask_which_dr
+  - ask_date
+  - confirmed
+
+templates:
+  ask_which_dr:
+    - text: "Which doctor would you like to see?"
+    - text: "Ok, who's your doctor?"
+  ask_date:
+    - text: "When do you want to schedule this appointment?"
+    - text: "Ok, for what day?"
+    confirmed:
+    - text: "Got it! Your appointment is scheduled."
