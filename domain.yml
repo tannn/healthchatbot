@@ -10,6 +10,7 @@ actions:
   - ask_which_dr
   - ask_date
   - confirmed
+  - ok
 
 templates:
   ask_which_dr:
@@ -18,5 +19,8 @@ templates:
   ask_date:
     - text: "When do you want to schedule this appointment?"
     - text: "Ok, for what day?"
-    confirmed:
+  confirmed:
     - text: "Got it! Your appointment is scheduled."
+  ok:
+    - text: "Ok"
+    - text: "Got it"
