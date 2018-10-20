@@ -2,8 +2,9 @@
     ~[greet?] ~[please?] ~[refillrequest] ~[for?] @[medicine?]
     ~[refillrequest]
 
-%[prescriptionComplaint]('training': '100', 'testing': '100')
-    ~[greet?] ~[iAm?] ~[medComplaint]
+%[prescriptionComplaint]('training': '75', 'testing': '75')
+    ~[greet?] ~[medComplaint]
+    ~[medComplaintStandalone]
 
 %[medicineName]('training':'8','testing':'2')
     @[medicine]
@@ -36,10 +37,7 @@
     can you
     can I
     may I
-
-~[Iam]
-    I am
-    I
+    I would like to
 
 ~[refillRequest]
     refill
@@ -79,3 +77,14 @@
     try something different
     try new prescription
     don't like my medicine
+
+~[medComplaintStandalone]
+    I am having problems with my prescription
+    I am experiencing symptoms
+    i want to try new medicine
+    Could I get different medicine?
+    My prescription not working
+    I think I need a different prescription
+    Can I try something different
+    I want to try new prescription
+    I don't like my medicine
