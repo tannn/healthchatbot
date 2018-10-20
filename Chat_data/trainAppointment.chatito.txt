@@ -8,6 +8,11 @@
 %[confirmDate]('training': '14', 'testing': '14')
     ~[on?] @[day]
 
+%[seeNextAppointment]('training': '100', 'testing': '100')
+    ~[greet?] ~[please?] ~[showAppointment]
+    ~[showAppointment]
+
+
 ~[greet]
     hi
     hello
@@ -81,3 +86,9 @@
     Friday
     Saturday
     Sunday
+
+~[showAppointment]
+    tell me when my next appointment is
+    when is my next appointment?
+    view next appointment
+    when will my next appointment be?
