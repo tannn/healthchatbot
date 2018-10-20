@@ -1,84 +1,84 @@
 
 ## Create Appointment
-* create_appointment{"dr":"Dr. Scott", "date":"Monday"}
+* greeting
+	- greet
+* create_apt{"dr":"Dr. Scott", "date":"Monday"}
 	- confirmed
 
 ## Creating Appointment
-* create_appointment
+* create_apt
 	- ask_which_dr
 * confirm_dr{"dr":"Dr. Adams"}
-		- ask_date
-* confirm_date {"date":"Thursday"}
-		- confirmed
+	- ask_date
+* confirm_date{"date":"Thursday"}
+	- confirmed
 
 ## Message to Doctor, yes message, and doc
-* message_doctor{"dr":"Dr. Marino"}
-	- utter_messageDoctor
+* message_dr{"dr":"Dr. Marino"}
+	- ask_message
 * note_to_doc{"message":"I am having secondary emotional effects"}
-	- confirmed
+	- confirmed_message
 
 ## Message to Doctor2, no message, yes doctor
-* message_doctor
+* greeting
+	- greet
+* message_dr{"dr":"Dr. Young"}
 	- ask_message
 * note_to_doc{"message":"My knee still hurts"}
-	- confirmed
+	- confirmed_message
 
 ## Get a Prescription refill
-* get_prescription{"medicine":"Ibuprofen"}
-	- utter_getPrescription
+* request_refill{"medicine":"Ibuprofen"}
+	- utter_prescription_refill
 
 ## Review lab results
 * review_labResults
 	- utter_reviewLabResults
 
 ## Complicated
-* create_appointment{"dr":"Dr. Pike", "date":"Friday"}
+* create_apt{"dr":"Dr. Pike", "date":"Friday"}
 	- confirmed
-* get_prescription
-	- utter_getPrescription{"medicine":"Benadryl"}
-* message_doctor
-	- utter_messageDoctor
+* request_refill{"medicine":"Benadryl"}
+	- utter_prescription_refill
+* message_dr{"dr":"Dr. Mario"}
+	- ask_message
+* note_to_doc{"message":"I am having diarrhea}
+	- confirmed_message
 * review_labResults
 	- utter_reviewLabResults
 
 ## Complicated1
-* create_appointment
+* create_apt
 	- ask_which_dr
 * confirm_dr{"dr":"Dr. Blue"}
 	- ask_date
 * confirm_date {"date":"Wednesday"}
 	- confirmed
-* message_doctor
-	- utter_messageDoctor
-* get_prescription
-	- utter_askMedicine
-* ask_medicine{"medicine":"Benzonatate"}
-	- utter_getPrescription
+* message_dr
+	- ask_message
+* note_to_doc{"message":"My knee still hurts"}
+	- confirmed_message
+* request_refill
+	- utter_ask_medicine
+* medicineName{"medicine":"Benzonatate"}
+	- utter_prescription_refill
 * review_labResults
 	- utter_reviewLabResults
 
 ## Complicated2
-* message_doctor{"dr":"Dr. Adams"}
+* greeting
+	- greet
+* message_dr{"dr":"Dr. Adams"}
 	- ask_message
 * note_to_doc{"message":"My knee still hurts"}
 	- confirmed
-* create_appointment
+* create_apt
 	- ask_date
-* confirm_date {"date":"Tuesday"}
+* confirm_date{"date":"Tuesday"}
 	- confirmed
 * review_labResults
 	- utter_reviewLabResults
-* get_prescription{"medicine":"Mirena"}
-	- utter_getPrescription
+* request_refill{"medicine":"Mirena"}
+	- utter_prescription_refill
 
-## Confirm doc and date
-* confirm_dr{"dr":"Dr. Young"}
-	- ask_date
-* confirm_date{"date":"Wednesday"}
-	- confirmed
 
-## Confirm date
-* confirm_date{"date":"Saturday"}
-	- confirmed
-
-## MoreComplicated
