@@ -1,7 +1,7 @@
 
 ## Create Appointment
-* create_appointment
-	- utter_createAppointment
+* create_appointment{"dr":"Dr. Scott", "date":"Monday"}
+	- confirmed
 
 ## Message to Doctor
 * message_doctor
@@ -16,8 +16,8 @@
 	- utter_reviewLabResults
 
 ## Complicated
-* create_appointment
-	- utter_createAppointment
+* create_appointment{"dr":"Dr. Pike", "date":"Friday"}
+	- confirmed
 * get_prescription
 	- utter_getPrescription
 * message_doctor
@@ -27,7 +27,11 @@
 
 ## Complicated1
 * create_appointment
-	- utter_createAppointment
+	- ask_which_dr
+* confirm_dr{"dr":"Dr. Blue"}
+	- ask_date
+* confirm_date {"date":"Wednesday"}
+	- confirmed
 * message_doctor
 	- utter_messageDoctor
 * get_prescription
@@ -36,21 +40,25 @@
 	- utter_reviewLabResults
 
 ## Complicated2
-* message_doctor
-	- utter_messageDoctor
+* message_doctor{"dr":"Dr. Adams"}
+	- ask_message
+* note_to_doc{"message":"My knee still hurts"}
+	- confirmed
 * create_appointment
-	- utter_createAppointment
+	- ask_date
+* confirm_date {"date":"Tuesday"}
+	- confirmed
 * review_labResults
 	- utter_reviewLabResults
 * get_prescription
 	- utter_getPrescription
 
-## MoreComplicated
+## Creating Appointment
 * create_appointment
 	- ask_which_dr
-* confirm_dr
-	-ask_date
-* confirm_date
+* confirm_dr{"dr":"Dr. Adams"}
+	- ask_date
+* confirm_date {"date":"Tuesday"}
 	- confirmed
 
 ## MoreComplicated2
