@@ -3,6 +3,14 @@
 * create_appointment{"dr":"Dr. Scott", "date":"Monday"}
 	- confirmed
 
+## Creating Appointment
+* create_appointment
+	- ask_which_dr
+* confirm_dr{"dr":"Dr. Adams"}
+		- ask_date
+* confirm_date {"date":"Thursday"}
+		- confirmed
+
 ## Message to Doctor
 * message_doctor
 	- utter_messageDoctor
@@ -35,6 +43,8 @@
 * message_doctor
 	- utter_messageDoctor
 * get_prescription
+	- utter_askMedicine
+* ask_medicine{"medicine":"Benzonatate"}
 	- utter_getPrescription
 * review_labResults
 	- utter_reviewLabResults
@@ -50,25 +60,17 @@
 	- confirmed
 * review_labResults
 	- utter_reviewLabResults
-* get_prescription
+* get_prescription{"medicine":"Mirena"}
 	- utter_getPrescription
 
-## Creating Appointment
-* create_appointment
-	- ask_which_dr
-* confirm_dr{"dr":"Dr. Adams"}
+## Confirm doc and date
+* confirm_dr{"dr":"Dr. Young"}
 	- ask_date
-* confirm_date {"date":"Tuesday"}
+* confirm_date{"date":"Wednesday"}
 	- confirmed
 
-## MoreComplicated2
-* confirm_dr
-	- ask_date
-* confirm_date
+## Confirm date
+* confirm_date{"date":"Saturday"}
 	- confirmed
 
-## MoreComplicated3
-* confirm_date
-	- confirmed
-
-## MoreComplicated4
+## MoreComplicated
