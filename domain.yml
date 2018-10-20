@@ -9,6 +9,25 @@ intents:
   - makePayment
   - viewBills
   - greeting
+  - note_to_doc
+  - review_labResults
+  - medicineName
+
+slots:
+  dr:
+    type: text
+  date:
+    type: text
+  message:
+    type: text
+  medicine:
+    type: text
+
+entities:
+  - dr
+  - date
+  - message
+  - medicine
 
 actions:
   - ask_which_dr
@@ -17,6 +36,9 @@ actions:
   - ok
 
 templates:
+  greet:
+    - "Hello, how can I help you?"
+    - "Hello, welcome to the health portal!"
   ask_which_dr:
     - text: "Which doctor would you like to see?"
     - text: "Ok, who's your doctor?"
@@ -25,6 +47,14 @@ templates:
     - text: "Ok, for what day?"
   confirmed:
     - text: "Got it! Your appointment is scheduled."
+  confimed_message:
+    - text: "Got it! We'll forward your message to your doctor and get back to you soon."
   ok:
     - text: "Ok"
     - text: "Got it"
+  utter_reviewLabResults:
+    - text: "Here are your lab results: you are dead."
+  utter_prescription_refill:
+    - text: "Your doctor will review your prescription refill soon."
+  utter_ask_medicine:
+    - text: "What's the name of your medicine?"
