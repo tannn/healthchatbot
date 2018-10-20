@@ -1,11 +1,11 @@
 %[requestRefill]('training': '100', 'testing': '100')
-    ~[greet?] ~[please?] ~[refillrequest] @[medicine?]
+    ~[greet?] ~[please?] ~[refillrequest] ~[for?] @[medicine?]
     ~[refillrequest]
 
 %[prescriptionComplaint]('training': '100', 'testing': '100')
     ~[greet?] ~[iAm?] ~[medComplaint]
 
-%[medicineName]('training':'10','testing':'10')
+%[medicineName]('training':'8','testing':'2')
     @[medicine]
 
 ~[greet]
@@ -51,6 +51,11 @@
     renew prescription
     running low
     prescription is running out
+
+~[for]
+    for
+    on
+    of
 
 @[medicine]
     vicodin

@@ -4,8 +4,9 @@
     ~[greet?] ~[please?] ~[messagePre] @[doctor] ~[messagePost]
     ~[messagePre] @[doctor] ~[messagePost]
 
-%[confirmDoc]('training': '100', 'testing': '100')
+%[confirmDoc]('training': '14', 'testing': '4')
     ~[to?] @[doctor]
+    @[doctor]
 
 ~[greet]
     hi
