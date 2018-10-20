@@ -11,9 +11,17 @@
 * confirm_date {"date":"Thursday"}
 		- confirmed
 
-## Message to Doctor
-* message_doctor
+## Message to Doctor, yes message, and doc
+* message_doctor{"dr":"Dr. Marino"}
 	- utter_messageDoctor
+* note_to_doc{"message":"I am having secondary emotional effects"}
+	- confirmed
+
+## Message to Doctor2, no message, yes doctor
+* message_doctor
+	- ask_message
+* note_to_doc{"message":"My knee still hurts"}
+	- confirmed
 
 ## Get a Prescription refill
 * get_prescription
