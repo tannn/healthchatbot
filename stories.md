@@ -1,31 +1,31 @@
 
 ## Create Appointment
 * greeting
-	- greet
+	- utter_greet
 * create_apt{"dr":"Dr. Scott", "date":"Monday"}
-	- confirmed
+	- utter_confirmed
 
 ## Creating Appointment
 * create_apt
-	- ask_which_dr
+	- utter_ask_which_dr
 * confirm_dr{"dr":"Dr. Adams"}
-	- ask_date
+	- utter_ask_date
 * confirm_date{"date":"Thursday"}
-	- confirmed
+	- utter_confirmed
 
 ## Message to Doctor, yes message, and doc
 * message_dr{"dr":"Dr. Marino"}
-	- ask_message
+	- utter_ask_message
 * note_to_doc{"message":"I am having secondary emotional effects"}
-	- confirmed_message
+	- utter_confirmed_message
 
 ## Message to Doctor2, no message, yes doctor
 * greeting
-	- greet
+	- utter_greet
 * message_dr{"dr":"Dr. Young"}
-	- ask_message
+	- utter_ask_message
 * note_to_doc{"message":"My knee still hurts"}
-	- confirmed_message
+	- utter_confirmed_message
 
 ## Get a Prescription refill
 * request_refill{"medicine":"Ibuprofen"}
@@ -37,27 +37,27 @@
 
 ## Complicated
 * create_apt{"dr":"Dr. Pike", "date":"Friday"}
-	- confirmed
+	- utter_confirmed
 * request_refill{"medicine":"Benadryl"}
 	- utter_prescription_refill
 * message_dr{"dr":"Dr. Mario"}
-	- ask_message
-* note_to_doc{"message":"I am having diarrhea}
-	- confirmed_message
+	- utter_ask_message
+* note_to_doc{"message":"I am having diarrhea"}
+	- utter_confirmed_message
 * review_labResults
 	- utter_reviewLabResults
 
 ## Complicated1
 * create_apt
-	- ask_which_dr
+	- utter_ask_which_dr
 * confirm_dr{"dr":"Dr. Blue"}
-	- ask_date
+	- utter_ask_date
 * confirm_date {"date":"Wednesday"}
-	- confirmed
+	- utter_confirmed
 * message_dr
-	- ask_message
+	- utter_ask_message
 * note_to_doc{"message":"My knee still hurts"}
-	- confirmed_message
+	- utter_confirmed_message
 * request_refill
 	- utter_ask_medicine
 * medicineName{"medicine":"Benzonatate"}
@@ -67,15 +67,15 @@
 
 ## Complicated2
 * greeting
-	- greet
+	- utter_greet
 * message_dr{"dr":"Dr. Adams"}
-	- ask_message
+	- utter_ask_message
 * note_to_doc{"message":"My knee still hurts"}
-	- confirmed
+	- utter_confirmed
 * create_apt
-	- ask_date
+	- utter_ask_date
 * confirm_date{"date":"Tuesday"}
-	- confirmed
+	- utter_confirmed
 * review_labResults
 	- utter_reviewLabResults
 * request_refill{"medicine":"Mirena"}

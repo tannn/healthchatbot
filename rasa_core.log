@@ -1,0 +1,111 @@
+Rasa process starting
+/usr/local/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from models/current/nlu/intent_classifier_tensorflow_embedding.ckpt
+Rasa process starting
+/usr/local/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from models/current/nlu/intent_classifier_tensorflow_embedding.ckpt
+/usr/local/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+/usr/local/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from models/current/nlu/intent_classifier_tensorflow_embedding.ckpt
+/usr/local/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Encountered an exception while running action 'greet'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+The model predicted the custom action 'greet' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/processor.py", line 338, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/actions/action.py", line 305, in run
+    "".format(self.name(), DOCS_BASE_URL))
+Exception: The model predicted the custom action 'greet' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Rasa process starting
+/usr/local/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from models/current/nlu/intent_classifier_tensorflow_embedding.ckpt
+/usr/local/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Encountered an exception while running action 'greet'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+The model predicted the custom action 'greet' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/processor.py", line 338, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/actions/action.py", line 305, in run
+    "".format(self.name(), DOCS_BASE_URL))
+Exception: The model predicted the custom action 'greet' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Rasa process starting
+/usr/local/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from models/current/nlu/intent_classifier_tensorflow_embedding.ckpt
+Rasa process starting
+/usr/local/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from models/current/nlu/intent_classifier_tensorflow_embedding.ckpt
+/usr/local/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+/usr/local/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from models/current/nlu/intent_classifier_tensorflow_embedding.ckpt
+/usr/local/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
