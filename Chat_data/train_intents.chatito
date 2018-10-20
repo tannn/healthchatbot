@@ -1,0 +1,236 @@
+%[greeting]('training': '10', 'testing': '10')
+    ~[greet?]
+
+%[create_apt]('training': '100', 'testing': '100')
+    ~[greet?] ~[please?] ~[create] ~[appointment] ~[with?] @[doctor?] ~[on?] @[day?]
+    ~[create] ~[appointment] ~[with?] @[doctor?] ~[on?] @[day?]
+
+%[confirm_dr]('training': '100', 'testing': '100')
+    ~[with?] @[doctor] ~[on?] @[day?]
+
+%[confirm_date]('training': '14', 'testing': '14')
+    ~[on?] @[day]
+
+%[seeNextAppointment]('training': '100', 'testing': '100')
+    ~[greet?] ~[please?] ~[showAppointment]
+    ~[showAppointment]
+
+%[request_refill]('training': '100', 'testing': '100')
+    ~[greet?] ~[please?] ~[refillrequest] ~[for?] @[medicine?]
+    ~[refillrequest]
+
+%[prescription_complaint]('training': '75', 'testing': '75')
+    ~[greet?] ~[medComplaint]
+    ~[medComplaintStandalone]
+
+%[medicineName]('training':'8','testing':'2')
+    @[medicine]
+
+%[message_dr]('training': '100', 'testing': '100')
+    ~[greet?] ~[please?] ~[message] ~[to?] @[doctor?]
+    ~[message] ~[to?] @[doctor?]
+    ~[greet?] ~[please?] ~[messagePre] @[doctor] ~[messagePost]
+    ~[messagePre] @[doctor] ~[messagePost]
+
+%[confirm_dr]('training': '14', 'testing': '4')
+    ~[to?] @[doctor]
+    @[doctor]
+	
+%[review_lab]('training': '100', 'testing': '100')
+    ~[greet?] ~[please?] ~[resultsRequest]
+    ~[resultsRequest]
+	
+%[makePayment]('training': '100', 'testing': '100')
+    ~[greet?] ~[please?] ~[paymentRequest]
+    ~[resultsPayment]
+
+%[viewBills]('training': '100', 'testing': '100')
+    ~[greet?] ~[please?] ~[billRequest]
+    ~[billRequest]
+
+~[greet]
+    hi
+    hello
+    hey
+    howdy
+    greetings
+    good morning
+    good afternoon
+    good day
+    are you there
+    morning
+    whatsup
+    wassup
+    sup
+    yo Mr. Bot
+    ay boi
+    are you around?
+    howdy
+    aloha
+    hiya
+
+~[please]
+    could you please
+    please
+    want to
+    I'd like to
+    would you
+    can you
+
+~[create]
+    create an
+    create
+    make an
+    make
+    setup an
+    setup
+    set up an
+    setup    
+    schedule an
+    schedule
+    book an
+    book
+    request an
+    request
+
+~[appointment]
+    appointment
+    apt
+    apt.
+    meeting
+    consultation
+
+~[with]
+    with
+
+~[on]
+    on
+    at
+    by
+
+@[doctor]
+    Dr. Marino
+    Dr. Barker
+    Dr. Fung
+    Doctor Marino
+    Doctor Barker
+    Doctor Fung
+
+@[day]
+    Monday
+    Tuesday
+    Wednesday
+    Thursday
+    Friday
+    Saturday
+    Sunday
+
+~[showAppointment]
+    tell me when my next appointment is
+    when is my next appointment?
+    view next appointment
+    when will my next appointment be?
+	
+~[refillRequest]
+    refill
+    get a refill
+    need a refill
+    request a refill
+    prescription refill
+    more medicine
+    renew prescription
+    running low
+    prescription is running out
+
+~[for]
+    for
+    on
+    of
+
+@[medicine]
+    vicodin
+    simvastatin
+    lisinopril
+    levothryoxine
+    azithromycin
+    metformin
+    lipitor
+    amlodipine
+    hydrocodone
+    acetaminophen
+
+~[medComplaint]
+    having problems with my prescription
+    experiencing symptoms
+    new medicine
+    different medicine
+    prescription not working
+    different prescription
+    try something different
+    try new prescription
+    don't like my medicine
+
+~[medComplaintStandalone]
+    I am having problems with my prescription
+    I am experiencing symptoms
+    i want to try new medicine
+    Could I get different medicine?
+    My prescription not working
+    I think I need a different prescription
+    Can I try something different
+    I want to try new prescription
+    I don't like my medicine
+	
+~[message]
+    leave a message
+    send them a note
+    send them a message
+    let them know
+
+~[messagePre]
+    tell
+    leave
+    let
+
+~[messagePost]
+    something
+    a message
+    a note
+    know that
+
+~[to]
+    to
+
+@[doctor]
+    Dr. Marino
+    Dr. Barker
+    Dr. Fung
+    Doctor Marino
+    Doctor Barker
+    Doctor Fung
+
+~[resultsRequest]
+    see my lab results
+    see results
+    recent lab results
+    view results
+    appointment results
+    lab results
+    view results
+    results
+    request lab results
+	
+~[paymentRequest]
+    make a payment
+    pay bill
+    pay co-pay
+    pay copay
+
+~[billRequest]
+    view outstanding bills
+    request due payments
+    show outstanding payments
+    see bills due
+    view payments
+    see bills
+    view bill
