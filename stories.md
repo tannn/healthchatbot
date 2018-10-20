@@ -24,7 +24,7 @@
 	- confirmed
 
 ## Get a Prescription refill
-* get_prescription
+* get_prescription{"medicine":"Ibuprofen"}
 	- utter_getPrescription
 
 ## Review lab results
@@ -35,7 +35,7 @@
 * create_appointment{"dr":"Dr. Pike", "date":"Friday"}
 	- confirmed
 * get_prescription
-	- utter_getPrescription
+	- utter_getPrescription{"medicine":"Benadryl"}
 * message_doctor
 	- utter_messageDoctor
 * review_labResults
