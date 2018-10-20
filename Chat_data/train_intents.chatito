@@ -2,14 +2,16 @@
     ~[greet?]
 
 %[create_apt]('training': '100', 'testing': '100')
-    ~[greet?] ~[please?] ~[create] ~[appointment] ~[with?] @[doctor?] ~[on?] @[day?]
-    ~[create] ~[appointment] ~[with?] @[doctor?] ~[on?] @[day?]
+    ~[greet?] ~[please?] ~[create] ~[appointment] ~[with?] @[doctor?] ~[on?] @[date?]
+    ~[create] ~[appointment] ~[with?] @[dr?] ~[on?] @[date?]
 
 %[confirm_dr]('training': '100', 'testing': '100')
-    ~[with?] @[doctor] ~[on?] @[day?]
+    ~[with?] @[dr] ~[on?] @[date?]
+    ~[to?] @[dr]
+    @[dr]
 
 %[confirm_date]('training': '14', 'testing': '14')
-    ~[on?] @[day]
+    ~[on?] @[date]
 
 %[seeNextAppointment]('training': '100', 'testing': '100')
     ~[greet?] ~[please?] ~[showAppointment]
@@ -27,19 +29,15 @@
     @[medicine]
 
 %[message_dr]('training': '100', 'testing': '100')
-    ~[greet?] ~[please?] ~[message] ~[to?] @[doctor?]
-    ~[message] ~[to?] @[doctor?]
-    ~[greet?] ~[please?] ~[messagePre] @[doctor] ~[messagePost]
-    ~[messagePre] @[doctor] ~[messagePost]
+    ~[greet?] ~[please?] ~[message] ~[to?] @[dr?]
+    ~[message] ~[to?] @[dr?]
+    ~[greet?] ~[please?] ~[messagePre] @[dr] ~[messagePost]
+    ~[messagePre] @[dr] ~[messagePost]
 
-%[confirm_dr]('training': '14', 'testing': '4')
-    ~[to?] @[doctor]
-    @[doctor]
-	
 %[review_lab]('training': '100', 'testing': '100')
     ~[greet?] ~[please?] ~[resultsRequest]
     ~[resultsRequest]
-	
+
 %[makePayment]('training': '100', 'testing': '100')
     ~[greet?] ~[please?] ~[paymentRequest]
     ~[resultsPayment]
@@ -108,7 +106,7 @@
     at
     by
 
-@[doctor]
+@[dr]
     Dr. Marino
     Dr. Barker
     Dr. Fung
@@ -116,7 +114,7 @@
     Doctor Barker
     Doctor Fung
 
-@[day]
+@[date]
     Monday
     Tuesday
     Wednesday
@@ -130,7 +128,7 @@
     when is my next appointment?
     view next appointment
     when will my next appointment be?
-	
+
 ~[refillRequest]
     refill
     get a refill
@@ -180,7 +178,7 @@
     Can I try something different
     I want to try new prescription
     I don't like my medicine
-	
+
 ~[message]
     leave a message
     send them a note
@@ -219,7 +217,7 @@
     view results
     results
     request lab results
-	
+
 ~[paymentRequest]
     make a payment
     pay bill
