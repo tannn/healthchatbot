@@ -1,60 +1,47 @@
-﻿{
+{
   "rasa_nlu_data": {
-    "regex_features": [],
-    "entity_synonyms": [],
     "common_examples": [
       {
-        "text": "ello",
         "intent": "greeting",
-        "entities": []
+        "text": "ello"
       },
       {
-        "text": "good afternoon",
         "intent": "greeting",
-        "entities": []
+        "text": "good afternoon"
       },
       {
-        "text": "hello",
         "intent": "greeting",
-        "entities": []
+        "text": "hello"
       },
       {
-        "text": "aloha",
         "intent": "greeting",
-        "entities": []
+        "text": "aloha"
       },
       {
-        "text": "ay boi",
         "intent": "greeting",
-        "entities": []
+        "text": "ay boi"
       },
       {
-        "text": "hey",
         "intent": "greeting",
-        "entities": []
+        "text": "hey"
       },
       {
-        "text": "sup",
         "intent": "greeting",
-        "entities": []
+        "text": "sup"
       },
       {
-        "text": "morning",
         "intent": "greeting",
-        "entities": []
+        "text": "morning"
       },
       {
-        "text": "good morning",
         "intent": "greeting",
-        "entities": []
+        "text": "good morning"
       },
       {
-        "text": "hiya",
         "intent": "greeting",
-        "entities": []
+        "text": "hiya"
       },
       {
-        "text": "book an consultation with Doctor Barker Saturday",
         "intent": "create_apt",
         "entities": [
           {
@@ -69,10 +56,10 @@
             "start": 40,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "book an consultation with Doctor Barker Saturday"
       },
       {
-        "text": "schedule appointment Dr. Marino by Wednesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -87,10 +74,10 @@
             "start": 35,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "schedule appointment Dr. Marino by Wednesday"
       },
       {
-        "text": "set up an consultation with Doctor Barker at Friday",
         "intent": "create_apt",
         "entities": [
           {
@@ -105,10 +92,10 @@
             "start": 45,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "set up an consultation with Doctor Barker at Friday"
       },
       {
-        "text": "setup appointment with Doctor Marino on Thursday",
         "intent": "create_apt",
         "entities": [
           {
@@ -123,10 +110,10 @@
             "start": 40,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "setup appointment with Doctor Marino on Thursday"
       },
       {
-        "text": "book apt with Dr. Barker at Sunday",
         "intent": "create_apt",
         "entities": [
           {
@@ -141,10 +128,10 @@
             "start": 28,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "book apt with Dr. Barker at Sunday"
       },
       {
-        "text": "schedule meeting with Dr. Marino on Monday",
         "intent": "create_apt",
         "entities": [
           {
@@ -159,10 +146,10 @@
             "start": 36,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "schedule meeting with Dr. Marino on Monday"
       },
       {
-        "text": "setup meeting with Doctor Barker at Friday",
         "intent": "create_apt",
         "entities": [
           {
@@ -177,10 +164,10 @@
             "start": 36,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "setup meeting with Doctor Barker at Friday"
       },
       {
-        "text": "schedule consultation with dr. barker by Thursday",
         "intent": "create_apt",
         "entities": [
           {
@@ -195,10 +182,10 @@
             "start": 41,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "schedule consultation with dr. barker by Thursday"
       },
       {
-        "text": "make an meeting with doctor fung at Saturday",
         "intent": "create_apt",
         "entities": [
           {
@@ -213,10 +200,10 @@
             "start": 36,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "make an meeting with doctor fung at Saturday"
       },
       {
-        "text": "setup apt by Monday",
         "intent": "create_apt",
         "entities": [
           {
@@ -225,10 +212,10 @@
             "start": 13,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "setup apt by Monday"
       },
       {
-        "text": "make apt. Doctor Barker Saturday",
         "intent": "create_apt",
         "entities": [
           {
@@ -243,10 +230,10 @@
             "start": 24,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "make apt. Doctor Barker Saturday"
       },
       {
-        "text": "create consultation with by Tuesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -255,10 +242,10 @@
             "start": 28,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "create consultation with by Tuesday"
       },
       {
-        "text": "create an appointment with Dr. Fung at Wednesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -273,10 +260,10 @@
             "start": 39,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "create an appointment with Dr. Fung at Wednesday"
       },
       {
-        "text": "set up an consultation with Doctor Barker on Saturday",
         "intent": "create_apt",
         "entities": [
           {
@@ -291,10 +278,10 @@
             "start": 45,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "set up an consultation with Doctor Barker on Saturday"
       },
       {
-        "text": "make an appointment Dr. Barker on",
         "intent": "create_apt",
         "entities": [
           {
@@ -303,10 +290,10 @@
             "start": 20,
             "value": "Dr. Barker"
           }
-        ]
+        ],
+        "text": "make an appointment Dr. Barker on"
       },
       {
-        "text": "setup apt Dr. Fung Monday",
         "intent": "create_apt",
         "entities": [
           {
@@ -321,10 +308,10 @@
             "start": 19,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "setup apt Dr. Fung Monday"
       },
       {
-        "text": "schedule an consultation with Dr marino tuesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -339,10 +326,10 @@
             "start": 40,
             "value": "tuesday"
           }
-        ]
+        ],
+        "text": "schedule an consultation with Dr marino tuesday"
       },
       {
-        "text": "book an appointment Dr. Barker by Tuesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -357,10 +344,10 @@
             "start": 34,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "book an appointment Dr. Barker by Tuesday"
       },
       {
-        "text": "make an consultation Dr. Marino by",
         "intent": "create_apt",
         "entities": [
           {
@@ -369,10 +356,10 @@
             "start": 21,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "make an consultation Dr. Marino by"
       },
       {
-        "text": "create an meeting with Doctor Barker Friday",
         "intent": "create_apt",
         "entities": [
           {
@@ -387,10 +374,10 @@
             "start": 37,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "create an meeting with Doctor Barker Friday"
       },
       {
-        "text": "request apt. by Sunday",
         "intent": "create_apt",
         "entities": [
           {
@@ -399,10 +386,10 @@
             "start": 16,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "request apt. by Sunday"
       },
       {
-        "text": "create apt Doctor Barker on Tuesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -417,10 +404,10 @@
             "start": 28,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "create apt Doctor Barker on Tuesday"
       },
       {
-        "text": "setup meeting Monday",
         "intent": "create_apt",
         "entities": [
           {
@@ -429,10 +416,10 @@
             "start": 14,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "setup meeting Monday"
       },
       {
-        "text": "create apt doctor marino thursday",
         "intent": "create_apt",
         "entities": [
           {
@@ -447,10 +434,10 @@
             "start": 25,
             "value": "thursday"
           }
-        ]
+        ],
+        "text": "create apt doctor marino thursday"
       },
       {
-        "text": "book an apt Doctor Barker at Wednesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -465,10 +452,10 @@
             "start": 29,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "book an apt Doctor Barker at Wednesday"
       },
       {
-        "text": "book apt. with Doctor Barker by Thursday",
         "intent": "create_apt",
         "entities": [
           {
@@ -483,10 +470,10 @@
             "start": 32,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "book apt. with Doctor Barker by Thursday"
       },
       {
-        "text": "setup meeting with Doctor Marino by Saturday",
         "intent": "create_apt",
         "entities": [
           {
@@ -501,10 +488,10 @@
             "start": 36,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "setup meeting with Doctor Marino by Saturday"
       },
       {
-        "text": "make an apt. with by Saturday",
         "intent": "create_apt",
         "entities": [
           {
@@ -513,10 +500,10 @@
             "start": 21,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "make an apt. with by Saturday"
       },
       {
-        "text": "setup an apt with Doctor Barker by Sunday",
         "intent": "create_apt",
         "entities": [
           {
@@ -531,10 +518,10 @@
             "start": 35,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "setup an apt with Doctor Barker by Sunday"
       },
       {
-        "text": "setup apt with Doctor Barker at Tuesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -549,10 +536,10 @@
             "start": 32,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "setup apt with Doctor Barker at Tuesday"
       },
       {
-        "text": "book appointment with Dr. Barker by Friday",
         "intent": "create_apt",
         "entities": [
           {
@@ -567,10 +554,10 @@
             "start": 36,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "book appointment with Dr. Barker by Friday"
       },
       {
-        "text": "create an apt. Doctor Barker at Sunday",
         "intent": "create_apt",
         "entities": [
           {
@@ -585,10 +572,10 @@
             "start": 32,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "create an apt. Doctor Barker at Sunday"
       },
       {
-        "text": "request meeting with Doctor Barker by Saturday",
         "intent": "create_apt",
         "entities": [
           {
@@ -603,10 +590,10 @@
             "start": 38,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "request meeting with Doctor Barker by Saturday"
       },
       {
-        "text": "create appointment Dr. Fung by Thursday",
         "intent": "create_apt",
         "entities": [
           {
@@ -621,10 +608,10 @@
             "start": 31,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "create appointment Dr. Fung by Thursday"
       },
       {
-        "text": "make appointment Dr. Barker on Friday",
         "intent": "create_apt",
         "entities": [
           {
@@ -639,10 +626,10 @@
             "start": 31,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "make appointment Dr. Barker on Friday"
       },
       {
-        "text": "request an meeting Dr. Marino at Monday",
         "intent": "create_apt",
         "entities": [
           {
@@ -657,10 +644,10 @@
             "start": 33,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "request an meeting Dr. Marino at Monday"
       },
       {
-        "text": "schedule appointment on Thursday",
         "intent": "create_apt",
         "entities": [
           {
@@ -669,10 +656,10 @@
             "start": 24,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "schedule appointment on Thursday"
       },
       {
-        "text": "book apt with Dr. Marino by Wednesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -687,10 +674,10 @@
             "start": 28,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "book apt with Dr. Marino by Wednesday"
       },
       {
-        "text": "book appointment with Dr Marino at",
         "intent": "create_apt",
         "entities": [
           {
@@ -699,10 +686,10 @@
             "start": 22,
             "value": "Dr Marino"
           }
-        ]
+        ],
+        "text": "book appointment with Dr Marino at"
       },
       {
-        "text": "setup an apt. Doctor Marino Wednesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -717,10 +704,10 @@
             "start": 28,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "setup an apt. Doctor Marino Wednesday"
       },
       {
-        "text": "request appointment Doctor Barker on",
         "intent": "create_apt",
         "entities": [
           {
@@ -729,10 +716,10 @@
             "start": 20,
             "value": "Doctor Barker"
           }
-        ]
+        ],
+        "text": "request appointment Doctor Barker on"
       },
       {
-        "text": "book an meeting with Doctor Barker by Friday",
         "intent": "create_apt",
         "entities": [
           {
@@ -747,10 +734,10 @@
             "start": 38,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "book an meeting with Doctor Barker by Friday"
       },
       {
-        "text": "make an apt with Dr. Barker on Saturday",
         "intent": "create_apt",
         "entities": [
           {
@@ -765,10 +752,10 @@
             "start": 31,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "make an apt with Dr. Barker on Saturday"
       },
       {
-        "text": "schedule apt. Doctor Fung at Wednesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -783,10 +770,10 @@
             "start": 29,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "schedule apt. Doctor Fung at Wednesday"
       },
       {
-        "text": "make an apt with Doctor Fung Sunday",
         "intent": "create_apt",
         "entities": [
           {
@@ -801,10 +788,10 @@
             "start": 29,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "make an apt with Doctor Fung Sunday"
       },
       {
-        "text": "book an apt. on Tuesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -813,10 +800,10 @@
             "start": 16,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "book an apt. on Tuesday"
       },
       {
-        "text": "book an consultation with Doctor Fung on Friday",
         "intent": "create_apt",
         "entities": [
           {
@@ -831,10 +818,10 @@
             "start": 41,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "book an consultation with Doctor Fung on Friday"
       },
       {
-        "text": "setup meeting with Doctor Barker on Tuesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -849,10 +836,10 @@
             "start": 36,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "setup meeting with Doctor Barker on Tuesday"
       },
       {
-        "text": "create consultation Dr. Fung Sunday",
         "intent": "create_apt",
         "entities": [
           {
@@ -867,10 +854,10 @@
             "start": 29,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "create consultation Dr. Fung Sunday"
       },
       {
-        "text": "setup an meeting Dr. Fung at Sunday",
         "intent": "create_apt",
         "entities": [
           {
@@ -885,10 +872,10 @@
             "start": 29,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "setup an meeting Dr. Fung at Sunday"
       },
       {
-        "text": "book apt. with Dr. Barker by Friday",
         "intent": "create_apt",
         "entities": [
           {
@@ -903,10 +890,10 @@
             "start": 29,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "book apt. with Dr. Barker by Friday"
       },
       {
-        "text": "schedule apt. with Dr. Barker at Wednesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -921,10 +908,10 @@
             "start": 33,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "schedule apt. with Dr. Barker at Wednesday"
       },
       {
-        "text": "make meeting with Doctor Fung on Friday",
         "intent": "create_apt",
         "entities": [
           {
@@ -939,10 +926,10 @@
             "start": 33,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "make meeting with Doctor Fung on Friday"
       },
       {
-        "text": "make an appointment with Dr. Barker",
         "intent": "create_apt",
         "entities": [
           {
@@ -951,10 +938,10 @@
             "start": 25,
             "value": "Dr. Barker"
           }
-        ]
+        ],
+        "text": "make an appointment with Dr. Barker"
       },
       {
-        "text": "setup an appointment with on Thursday",
         "intent": "create_apt",
         "entities": [
           {
@@ -963,10 +950,10 @@
             "start": 29,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "setup an appointment with on Thursday"
       },
       {
-        "text": "request an appointment Doctor Fung",
         "intent": "create_apt",
         "entities": [
           {
@@ -975,10 +962,10 @@
             "start": 23,
             "value": "Doctor Fung"
           }
-        ]
+        ],
+        "text": "request an appointment Doctor Fung"
       },
       {
-        "text": "set up an meeting Dr. Fung on Wednesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -993,10 +980,10 @@
             "start": 30,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "set up an meeting Dr. Fung on Wednesday"
       },
       {
-        "text": "make an meeting at Wednesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1005,10 +992,10 @@
             "start": 19,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "make an meeting at Wednesday"
       },
       {
-        "text": "create consultation with Doctor Barker by Monday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1023,10 +1010,10 @@
             "start": 42,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "create consultation with Doctor Barker by Monday"
       },
       {
-        "text": "make appointment Doctor Barker by Tuesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1041,10 +1028,10 @@
             "start": 34,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "make appointment Doctor Barker by Tuesday"
       },
       {
-        "text": "schedule meeting Dr. Barker by Tuesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1059,10 +1046,10 @@
             "start": 31,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "schedule meeting Dr. Barker by Tuesday"
       },
       {
-        "text": "make appointment with at Saturday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1071,10 +1058,10 @@
             "start": 25,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "make appointment with at Saturday"
       },
       {
-        "text": "schedule an meeting Doctor Barker Thursday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1089,10 +1076,10 @@
             "start": 34,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "schedule an meeting Doctor Barker Thursday"
       },
       {
-        "text": "set up an apt. with Doctor Marino at Monday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1107,10 +1094,10 @@
             "start": 37,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "set up an apt. with Doctor Marino at Monday"
       },
       {
-        "text": "schedule an meeting Dr. Fung by Wednesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1125,10 +1112,10 @@
             "start": 32,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "schedule an meeting Dr. Fung by Wednesday"
       },
       {
-        "text": "make appointment Doctor Fung on Saturday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1143,10 +1130,10 @@
             "start": 32,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "make appointment Doctor Fung on Saturday"
       },
       {
-        "text": "setup apt. Doctor Fung at Thursday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1161,10 +1148,10 @@
             "start": 26,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "setup apt. Doctor Fung at Thursday"
       },
       {
-        "text": "setup an apt. Dr. Marino at Friday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1179,10 +1166,10 @@
             "start": 28,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "setup an apt. Dr. Marino at Friday"
       },
       {
-        "text": "setup meeting with Doctor Barker at Sunday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1197,10 +1184,10 @@
             "start": 36,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "setup meeting with Doctor Barker at Sunday"
       },
       {
-        "text": "setup an appointment at Tuesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1209,10 +1196,10 @@
             "start": 24,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "setup an appointment at Tuesday"
       },
       {
-        "text": "set up an consultation with Dr. Fung at Tuesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1227,10 +1214,10 @@
             "start": 40,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "set up an consultation with Dr. Fung at Tuesday"
       },
       {
-        "text": "make apt. with Doctor Barker by",
         "intent": "create_apt",
         "entities": [
           {
@@ -1239,10 +1226,10 @@
             "start": 15,
             "value": "Doctor Barker"
           }
-        ]
+        ],
+        "text": "make apt. with Doctor Barker by"
       },
       {
-        "text": "request appointment with Doctor Barker on Friday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1257,10 +1244,10 @@
             "start": 42,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "request appointment with Doctor Barker on Friday"
       },
       {
-        "text": "set up an apt. with Dr. Marino by Friday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1275,10 +1262,10 @@
             "start": 34,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "set up an apt. with Dr. Marino by Friday"
       },
       {
-        "text": "schedule an apt. on Tuesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1287,10 +1274,10 @@
             "start": 20,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "schedule an apt. on Tuesday"
       },
       {
-        "text": "schedule apt. Doctor Fung at Friday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1305,10 +1292,10 @@
             "start": 29,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "schedule apt. Doctor Fung at Friday"
       },
       {
-        "text": "schedule apt by Thursday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1317,10 +1304,10 @@
             "start": 16,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "schedule apt by Thursday"
       },
       {
-        "text": "set up an apt. with Dr. Fung Tuesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1335,10 +1322,10 @@
             "start": 29,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "set up an apt. with Dr. Fung Tuesday"
       },
       {
-        "text": "schedule an meeting with Doctor Barker on Tuesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1353,10 +1340,10 @@
             "start": 42,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "schedule an meeting with Doctor Barker on Tuesday"
       },
       {
-        "text": "book meeting with Dr. Barker on Thursday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1371,10 +1358,10 @@
             "start": 32,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "book meeting with Dr. Barker on Thursday"
       },
       {
-        "text": "make apt. Dr. Marino on Saturday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1389,10 +1376,10 @@
             "start": 24,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "make apt. Dr. Marino on Saturday"
       },
       {
-        "text": "create an apt with Doctor Fung at Monday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1407,10 +1394,10 @@
             "start": 34,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "create an apt with Doctor Fung at Monday"
       },
       {
-        "text": "book consultation with Dr. Barker at Thursday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1425,10 +1412,10 @@
             "start": 37,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "book consultation with Dr. Barker at Thursday"
       },
       {
-        "text": "set up an consultation with Doctor Barker at Sunday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1443,10 +1430,10 @@
             "start": 45,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "set up an consultation with Doctor Barker at Sunday"
       },
       {
-        "text": "book an apt. with Wednesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1455,10 +1442,10 @@
             "start": 18,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "book an apt. with Wednesday"
       },
       {
-        "text": "setup an apt Doctor Barker at Friday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1473,10 +1460,10 @@
             "start": 30,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "setup an apt Doctor Barker at Friday"
       },
       {
-        "text": "make an appointment with Dr. Fung Saturday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1491,10 +1478,10 @@
             "start": 34,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "make an appointment with Dr. Fung Saturday"
       },
       {
-        "text": "book apt. with Doctor Marino Friday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1509,10 +1496,10 @@
             "start": 29,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "book apt. with Doctor Marino Friday"
       },
       {
-        "text": "request consultation Sunday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1521,10 +1508,10 @@
             "start": 21,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "request consultation Sunday"
       },
       {
-        "text": "set up an apt with Doctor Fung",
         "intent": "create_apt",
         "entities": [
           {
@@ -1533,10 +1520,10 @@
             "start": 19,
             "value": "Doctor Fung"
           }
-        ]
+        ],
+        "text": "set up an apt with Doctor Fung"
       },
       {
-        "text": "request consultation Doctor Marino Monday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1551,10 +1538,10 @@
             "start": 35,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "request consultation Doctor Marino Monday"
       },
       {
-        "text": "make an apt Doctor Fung Thursday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1569,10 +1556,10 @@
             "start": 24,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "make an apt Doctor Fung Thursday"
       },
       {
-        "text": "setup meeting Doctor Barker by Tuesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1587,10 +1574,10 @@
             "start": 31,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "setup meeting Doctor Barker by Tuesday"
       },
       {
-        "text": "create an appointment Dr. Barker on Monday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1605,10 +1592,10 @@
             "start": 36,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "create an appointment Dr. Barker on Monday"
       },
       {
-        "text": "setup an appointment with Dr. Marino by Sunday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1623,10 +1610,10 @@
             "start": 40,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "setup an appointment with Dr. Marino by Sunday"
       },
       {
-        "text": "set up an apt with Dr. Fung Thursday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1641,10 +1628,10 @@
             "start": 28,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "set up an apt with Dr. Fung Thursday"
       },
       {
-        "text": "create meeting Dr. Fung at Saturday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1659,10 +1646,10 @@
             "start": 27,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "create meeting Dr. Fung at Saturday"
       },
       {
-        "text": "setup consultation with Dr. Barker at Friday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1677,10 +1664,10 @@
             "start": 38,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "setup consultation with Dr. Barker at Friday"
       },
       {
-        "text": "setup appointment with Doctor Barker Monday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1695,10 +1682,10 @@
             "start": 37,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "setup appointment with Doctor Barker Monday"
       },
       {
-        "text": "request consultation Tuesday",
         "intent": "create_apt",
         "entities": [
           {
@@ -1707,10 +1694,10 @@
             "start": 21,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "request consultation Tuesday"
       },
       {
-        "text": "to Doctor Barker",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -1719,10 +1706,10 @@
             "start": 3,
             "value": "Doctor Barker"
           }
-        ]
+        ],
+        "text": "to Doctor Barker"
       },
       {
-        "text": "Doctor Fung on Sunday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -1737,10 +1724,10 @@
             "start": 15,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "Doctor Fung on Sunday"
       },
       {
-        "text": "Dr. Barker",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -1749,10 +1736,10 @@
             "start": 0,
             "value": "Dr. Barker"
           }
-        ]
+        ],
+        "text": "Dr. Barker"
       },
       {
-        "text": "Dr. Barker Sunday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -1767,10 +1754,10 @@
             "start": 11,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "Dr. Barker Sunday"
       },
       {
-        "text": "Dr. Marino by Tuesday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -1785,10 +1772,10 @@
             "start": 14,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "Dr. Marino by Tuesday"
       },
       {
-        "text": "Doctor Fung at Monday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -1803,10 +1790,10 @@
             "start": 15,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "Doctor Fung at Monday"
       },
       {
-        "text": "with Doctor Barker by Monday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -1821,10 +1808,10 @@
             "start": 22,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "with Doctor Barker by Monday"
       },
       {
-        "text": "Dr. Marino on Sunday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -1839,10 +1826,10 @@
             "start": 14,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "Dr. Marino on Sunday"
       },
       {
-        "text": "Dr. Marino",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -1851,10 +1838,10 @@
             "start": 0,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "Dr. Marino"
       },
       {
-        "text": "with Dr. Marino at Thursday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -1869,10 +1856,10 @@
             "start": 19,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "with Dr. Marino at Thursday"
       },
       {
-        "text": "Doctor Marino by Sunday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -1887,10 +1874,10 @@
             "start": 17,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "Doctor Marino by Sunday"
       },
       {
-        "text": "with Dr. Barker at",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -1899,10 +1886,10 @@
             "start": 5,
             "value": "Dr. Barker"
           }
-        ]
+        ],
+        "text": "with Dr. Barker at"
       },
       {
-        "text": "Doctor Marino on Friday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -1917,10 +1904,10 @@
             "start": 17,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "Doctor Marino on Friday"
       },
       {
-        "text": "with Doctor Barker Tuesday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -1935,10 +1922,10 @@
             "start": 19,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "with Doctor Barker Tuesday"
       },
       {
-        "text": "with Doctor Barker by Friday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -1953,10 +1940,10 @@
             "start": 22,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "with Doctor Barker by Friday"
       },
       {
-        "text": "with Dr. Fung Tuesday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -1971,10 +1958,10 @@
             "start": 14,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "with Dr. Fung Tuesday"
       },
       {
-        "text": "Dr. Fung by",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -1983,10 +1970,10 @@
             "start": 0,
             "value": "Dr. Fung"
           }
-        ]
+        ],
+        "text": "Dr. Fung by"
       },
       {
-        "text": "with Doctor Barker by Sunday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2001,10 +1988,10 @@
             "start": 22,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "with Doctor Barker by Sunday"
       },
       {
-        "text": "with Dr. Marino on Saturday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2019,10 +2006,10 @@
             "start": 19,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "with Dr. Marino on Saturday"
       },
       {
-        "text": "with Dr. Marino Monday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2037,10 +2024,10 @@
             "start": 16,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "with Dr. Marino Monday"
       },
       {
-        "text": "Dr. Marino at Friday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2055,10 +2042,10 @@
             "start": 14,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "Dr. Marino at Friday"
       },
       {
-        "text": "with Dr. Fung by Sunday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2073,10 +2060,10 @@
             "start": 17,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "with Dr. Fung by Sunday"
       },
       {
-        "text": "with Doctor Fung at Friday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2091,10 +2078,10 @@
             "start": 20,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "with Doctor Fung at Friday"
       },
       {
-        "text": "Dr. Fung Saturday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2109,10 +2096,10 @@
             "start": 9,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "Dr. Fung Saturday"
       },
       {
-        "text": "Dr. Marino at",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2121,10 +2108,10 @@
             "start": 0,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "Dr. Marino at"
       },
       {
-        "text": "with Doctor Barker by Thursday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2139,10 +2126,10 @@
             "start": 22,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "with Doctor Barker by Thursday"
       },
       {
-        "text": "with Dr. Fung by",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2151,10 +2138,10 @@
             "start": 5,
             "value": "Dr. Fung"
           }
-        ]
+        ],
+        "text": "with Dr. Fung by"
       },
       {
-        "text": "Dr. Marino at Sunday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2169,10 +2156,10 @@
             "start": 14,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "Dr. Marino at Sunday"
       },
       {
-        "text": "with Dr. Barker at Thursday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2187,10 +2174,10 @@
             "start": 19,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "with Dr. Barker at Thursday"
       },
       {
-        "text": "Dr. Barker Thursday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2205,10 +2192,10 @@
             "start": 11,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "Dr. Barker Thursday"
       },
       {
-        "text": "with Doctor Barker Monday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2223,10 +2210,10 @@
             "start": 19,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "with Doctor Barker Monday"
       },
       {
-        "text": "Dr. Fung at Sunday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2241,10 +2228,10 @@
             "start": 12,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "Dr. Fung at Sunday"
       },
       {
-        "text": "Dr. Barker on",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2253,10 +2240,10 @@
             "start": 0,
             "value": "Dr. Barker"
           }
-        ]
+        ],
+        "text": "Dr. Barker on"
       },
       {
-        "text": "Doctor Marino",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2265,10 +2252,10 @@
             "start": 0,
             "value": "Doctor Marino"
           }
-        ]
+        ],
+        "text": "Doctor Marino"
       },
       {
-        "text": "Doctor Marino Saturday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2283,10 +2270,10 @@
             "start": 14,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "Doctor Marino Saturday"
       },
       {
-        "text": "Doctor Barker by Friday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2301,10 +2288,10 @@
             "start": 17,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "Doctor Barker by Friday"
       },
       {
-        "text": "with Doctor Marino at Friday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2319,10 +2306,10 @@
             "start": 22,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "with Doctor Marino at Friday"
       },
       {
-        "text": "with Dr. Barker Tuesday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2337,10 +2324,10 @@
             "start": 16,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "with Dr. Barker Tuesday"
       },
       {
-        "text": "Doctor Marino Thursday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2355,10 +2342,10 @@
             "start": 14,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "Doctor Marino Thursday"
       },
       {
-        "text": "with Doctor Fung by Friday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2373,10 +2360,10 @@
             "start": 20,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "with Doctor Fung by Friday"
       },
       {
-        "text": "with Doctor Fung at Wednesday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2391,10 +2378,10 @@
             "start": 20,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "with Doctor Fung at Wednesday"
       },
       {
-        "text": "with Dr. Fung Wednesday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2409,10 +2396,10 @@
             "start": 14,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "with Dr. Fung Wednesday"
       },
       {
-        "text": "with Doctor Marino at",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2421,10 +2408,10 @@
             "start": 5,
             "value": "Doctor Marino"
           }
-        ]
+        ],
+        "text": "with Doctor Marino at"
       },
       {
-        "text": "with Doctor Marino on Wednesday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2439,10 +2426,10 @@
             "start": 22,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "with Doctor Marino on Wednesday"
       },
       {
-        "text": "with Dr. Barker by Sunday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2457,10 +2444,10 @@
             "start": 19,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "with Dr. Barker by Sunday"
       },
       {
-        "text": "Dr. Marino by Monday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2475,10 +2462,10 @@
             "start": 14,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "Dr. Marino by Monday"
       },
       {
-        "text": "with Dr. Barker on Wednesday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2493,10 +2480,10 @@
             "start": 19,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "with Dr. Barker on Wednesday"
       },
       {
-        "text": "with Doctor Marino on",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2505,10 +2492,10 @@
             "start": 5,
             "value": "Doctor Marino"
           }
-        ]
+        ],
+        "text": "with Doctor Marino on"
       },
       {
-        "text": "with Doctor Marino by Friday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2523,10 +2510,10 @@
             "start": 22,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "with Doctor Marino by Friday"
       },
       {
-        "text": "with Dr. Marino Thursday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2541,10 +2528,10 @@
             "start": 16,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "with Dr. Marino Thursday"
       },
       {
-        "text": "with Dr. Marino by Tuesday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2559,10 +2546,10 @@
             "start": 19,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "with Dr. Marino by Tuesday"
       },
       {
-        "text": "Doctor Barker Monday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2577,10 +2564,10 @@
             "start": 14,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "Doctor Barker Monday"
       },
       {
-        "text": "Dr. Fung Monday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2595,10 +2582,10 @@
             "start": 9,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "Dr. Fung Monday"
       },
       {
-        "text": "Dr. Barker on Wednesday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2613,10 +2600,10 @@
             "start": 14,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "Dr. Barker on Wednesday"
       },
       {
-        "text": "Dr. Marino Thursday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2631,10 +2618,10 @@
             "start": 11,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "Dr. Marino Thursday"
       },
       {
-        "text": "Doctor Barker at Saturday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2649,10 +2636,10 @@
             "start": 17,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "Doctor Barker at Saturday"
       },
       {
-        "text": "Dr. Fung by Monday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2667,10 +2654,10 @@
             "start": 12,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "Dr. Fung by Monday"
       },
       {
-        "text": "with Doctor Marino at Saturday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2685,10 +2672,10 @@
             "start": 22,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "with Doctor Marino at Saturday"
       },
       {
-        "text": "Doctor Barker on Tuesday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2703,10 +2690,10 @@
             "start": 17,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "Doctor Barker on Tuesday"
       },
       {
-        "text": "with Dr. Fung at Tuesday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2721,10 +2708,10 @@
             "start": 17,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "with Dr. Fung at Tuesday"
       },
       {
-        "text": "with Dr. Marino on",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2733,10 +2720,10 @@
             "start": 5,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "with Dr. Marino on"
       },
       {
-        "text": "to Dr. Fung",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2745,10 +2732,10 @@
             "start": 3,
             "value": "Dr. Fung"
           }
-        ]
+        ],
+        "text": "to Dr. Fung"
       },
       {
-        "text": "with Doctor Marino on Tuesday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2763,10 +2750,10 @@
             "start": 22,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "with Doctor Marino on Tuesday"
       },
       {
-        "text": "Dr. Marino Saturday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2781,10 +2768,10 @@
             "start": 11,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "Dr. Marino Saturday"
       },
       {
-        "text": "with Dr. Barker at Sunday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2799,10 +2786,10 @@
             "start": 19,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "with Dr. Barker at Sunday"
       },
       {
-        "text": "with Dr. Fung on Friday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2817,10 +2804,10 @@
             "start": 17,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "with Dr. Fung on Friday"
       },
       {
-        "text": "with Doctor Barker Friday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2835,10 +2822,10 @@
             "start": 19,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "with Doctor Barker Friday"
       },
       {
-        "text": "with Dr. Barker on Monday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2853,10 +2840,10 @@
             "start": 19,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "with Dr. Barker on Monday"
       },
       {
-        "text": "with Dr. Marino at Friday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2871,10 +2858,10 @@
             "start": 19,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "with Dr. Marino at Friday"
       },
       {
-        "text": "Dr. Barker on Friday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2889,10 +2876,10 @@
             "start": 14,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "Dr. Barker on Friday"
       },
       {
-        "text": "with Doctor Fung on",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2901,10 +2888,10 @@
             "start": 5,
             "value": "Doctor Fung"
           }
-        ]
+        ],
+        "text": "with Doctor Fung on"
       },
       {
-        "text": "Doctor Marino Friday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2919,10 +2906,10 @@
             "start": 14,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "Doctor Marino Friday"
       },
       {
-        "text": "Dr. Fung at Saturday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2937,10 +2924,10 @@
             "start": 12,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "Dr. Fung at Saturday"
       },
       {
-        "text": "with Doctor Marino at Sunday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2955,10 +2942,10 @@
             "start": 22,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "with Doctor Marino at Sunday"
       },
       {
-        "text": "Dr. Barker Wednesday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2973,10 +2960,10 @@
             "start": 11,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "Dr. Barker Wednesday"
       },
       {
-        "text": "with Dr. Barker by Monday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -2991,10 +2978,10 @@
             "start": 19,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "with Dr. Barker by Monday"
       },
       {
-        "text": "with Doctor Barker by Tuesday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3009,10 +2996,10 @@
             "start": 22,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "with Doctor Barker by Tuesday"
       },
       {
-        "text": "Dr. Fung Friday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3027,10 +3014,10 @@
             "start": 9,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "Dr. Fung Friday"
       },
       {
-        "text": "Dr. Barker at Monday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3045,10 +3032,10 @@
             "start": 14,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "Dr. Barker at Monday"
       },
       {
-        "text": "Dr. Fung at Monday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3063,10 +3050,10 @@
             "start": 12,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "Dr. Fung at Monday"
       },
       {
-        "text": "Dr. Marino Wednesday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3081,10 +3068,10 @@
             "start": 11,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "Dr. Marino Wednesday"
       },
       {
-        "text": "with Dr. Marino at Sunday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3099,10 +3086,10 @@
             "start": 19,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "with Dr. Marino at Sunday"
       },
       {
-        "text": "Dr. Fung by Friday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3117,10 +3104,10 @@
             "start": 12,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "Dr. Fung by Friday"
       },
       {
-        "text": "Dr. Fung by Saturday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3135,10 +3122,10 @@
             "start": 12,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "Dr. Fung by Saturday"
       },
       {
-        "text": "Doctor Marino at Tuesday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3153,10 +3140,10 @@
             "start": 17,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "Doctor Marino at Tuesday"
       },
       {
-        "text": "Dr. Barker at Saturday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3171,10 +3158,10 @@
             "start": 14,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "Dr. Barker at Saturday"
       },
       {
-        "text": "with Dr. Fung at Monday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3189,10 +3176,10 @@
             "start": 17,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "with Dr. Fung at Monday"
       },
       {
-        "text": "with Doctor Barker Thursday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3207,10 +3194,10 @@
             "start": 19,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "with Doctor Barker Thursday"
       },
       {
-        "text": "with Dr. Barker on",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3219,10 +3206,10 @@
             "start": 5,
             "value": "Dr. Barker"
           }
-        ]
+        ],
+        "text": "with Dr. Barker on"
       },
       {
-        "text": "with Doctor Barker on Thursday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3237,10 +3224,10 @@
             "start": 22,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "with Doctor Barker on Thursday"
       },
       {
-        "text": "with Doctor Barker by Saturday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3255,10 +3242,10 @@
             "start": 22,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "with Doctor Barker by Saturday"
       },
       {
-        "text": "with Dr. Barker at Friday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3273,10 +3260,10 @@
             "start": 19,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "with Dr. Barker at Friday"
       },
       {
-        "text": "with Dr. Fung on",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3285,10 +3272,10 @@
             "start": 5,
             "value": "Dr. Fung"
           }
-        ]
+        ],
+        "text": "with Dr. Fung on"
       },
       {
-        "text": "Doctor Barker by Sunday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3303,10 +3290,10 @@
             "start": 17,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "Doctor Barker by Sunday"
       },
       {
-        "text": "Doctor Marino on Thursday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3321,10 +3308,10 @@
             "start": 17,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "Doctor Marino on Thursday"
       },
       {
-        "text": "with Doctor Barker at Wednesday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3339,10 +3326,10 @@
             "start": 22,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "with Doctor Barker at Wednesday"
       },
       {
-        "text": "with Dr. Fung Saturday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3357,10 +3344,10 @@
             "start": 14,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "with Dr. Fung Saturday"
       },
       {
-        "text": "Dr. Marino at Tuesday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3375,10 +3362,10 @@
             "start": 14,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "Dr. Marino at Tuesday"
       },
       {
-        "text": "with Doctor Barker",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3387,10 +3374,10 @@
             "start": 5,
             "value": "Doctor Barker"
           }
-        ]
+        ],
+        "text": "with Doctor Barker"
       },
       {
-        "text": "Dr. Fung by Sunday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -3405,10 +3392,10 @@
             "start": 12,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "Dr. Fung by Sunday"
       },
       {
-        "text": "Thursday",
         "intent": "confirm_date",
         "entities": [
           {
@@ -3417,10 +3404,10 @@
             "start": 0,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "Thursday"
       },
       {
-        "text": "by Saturday",
         "intent": "confirm_date",
         "entities": [
           {
@@ -3429,10 +3416,10 @@
             "start": 3,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "by Saturday"
       },
       {
-        "text": "Tuesday",
         "intent": "confirm_date",
         "entities": [
           {
@@ -3441,10 +3428,10 @@
             "start": 0,
             "value": "Tuesday"
           }
-        ]
+        ],
+        "text": "Tuesday"
       },
       {
-        "text": "at Wednesday",
         "intent": "confirm_date",
         "entities": [
           {
@@ -3453,10 +3440,10 @@
             "start": 3,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "at Wednesday"
       },
       {
-        "text": "at Thursday",
         "intent": "confirm_date",
         "entities": [
           {
@@ -3465,10 +3452,10 @@
             "start": 3,
             "value": "Thursday"
           }
-        ]
+        ],
+        "text": "at Thursday"
       },
       {
-        "text": "on Monday",
         "intent": "confirm_date",
         "entities": [
           {
@@ -3477,10 +3464,10 @@
             "start": 3,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "on Monday"
       },
       {
-        "text": "Monday",
         "intent": "confirm_date",
         "entities": [
           {
@@ -3489,10 +3476,10 @@
             "start": 0,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "Monday"
       },
       {
-        "text": "Saturday",
         "intent": "confirm_date",
         "entities": [
           {
@@ -3501,10 +3488,10 @@
             "start": 0,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "Saturday"
       },
       {
-        "text": "at Friday",
         "intent": "confirm_date",
         "entities": [
           {
@@ -3513,10 +3500,10 @@
             "start": 3,
             "value": "Friday"
           }
-        ]
+        ],
+        "text": "at Friday"
       },
       {
-        "text": "at Sunday",
         "intent": "confirm_date",
         "entities": [
           {
@@ -3525,10 +3512,10 @@
             "start": 3,
             "value": "Sunday"
           }
-        ]
+        ],
+        "text": "at Sunday"
       },
       {
-        "text": "on Saturday",
         "intent": "confirm_date",
         "entities": [
           {
@@ -3537,10 +3524,10 @@
             "start": 3,
             "value": "Saturday"
           }
-        ]
+        ],
+        "text": "on Saturday"
       },
       {
-        "text": "on Wednesday",
         "intent": "confirm_date",
         "entities": [
           {
@@ -3549,10 +3536,10 @@
             "start": 3,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "on Wednesday"
       },
       {
-        "text": "by Monday",
         "intent": "confirm_date",
         "entities": [
           {
@@ -3561,10 +3548,10 @@
             "start": 3,
             "value": "Monday"
           }
-        ]
+        ],
+        "text": "by Monday"
       },
       {
-        "text": "by Wednesday",
         "intent": "confirm_date",
         "entities": [
           {
@@ -3573,135 +3560,110 @@
             "start": 3,
             "value": "Wednesday"
           }
-        ]
+        ],
+        "text": "by Wednesday"
       },
       {
-        "text": "view next appointment",
         "intent": "seeNextAppointment",
-        "entities": []
+        "text": "view next appointment"
       },
       {
-        "text": "when will my next appointment be?",
         "intent": "seeNextAppointment",
-        "entities": []
+        "text": "when will my next appointment be?"
       },
       {
-        "text": "when is my next appointment?",
         "intent": "seeNextAppointment",
-        "entities": []
+        "text": "when is my next appointment?"
       },
       {
-        "text": "get a refill",
         "intent": "request_refill",
-        "entities": []
+        "text": "get a refill"
       },
       {
-        "text": "refill",
         "intent": "request_refill",
-        "entities": []
+        "text": "refill"
       },
       {
-        "text": "renew prescription",
         "intent": "request_refill",
-        "entities": []
+        "text": "renew prescription"
       },
       {
-        "text": "prescription refill",
         "intent": "request_refill",
-        "entities": []
+        "text": "prescription refill"
       },
       {
-        "text": "running low",
         "intent": "request_refill",
-        "entities": []
+        "text": "running low"
       },
       {
-        "text": "need a refill",
         "intent": "request_refill",
-        "entities": []
+        "text": "need a refill"
       },
       {
-        "text": "more medicine",
         "intent": "request_refill",
-        "entities": []
+        "text": "more medicine"
       },
       {
-        "text": "prescription is running out",
         "intent": "request_refill",
-        "entities": []
+        "text": "prescription is running out"
       },
       {
-        "text": "try new prescription",
         "intent": "prescription_complaint",
-        "entities": []
+        "text": "try new prescription"
       },
       {
-        "text": "My prescription not working",
         "intent": "prescription_complaint",
-        "entities": []
+        "text": "My prescription not working"
       },
       {
-        "text": "different medicine",
         "intent": "prescription_complaint",
-        "entities": []
+        "text": "different medicine"
       },
       {
-        "text": "prescription not working",
         "intent": "prescription_complaint",
-        "entities": []
+        "text": "prescription not working"
       },
       {
-        "text": "I think I need a different prescription",
         "intent": "prescription_complaint",
-        "entities": []
+        "text": "I think I need a different prescription"
       },
       {
-        "text": "I am having problems with my prescription",
         "intent": "prescription_complaint",
-        "entities": []
+        "text": "I am having problems with my prescription"
       },
       {
-        "text": "experiencing symptoms",
         "intent": "prescription_complaint",
-        "entities": []
+        "text": "experiencing symptoms"
       },
       {
-        "text": "don't like my medicine",
         "intent": "prescription_complaint",
-        "entities": []
+        "text": "don't like my medicine"
       },
       {
-        "text": "Could I get different medicine?",
         "intent": "prescription_complaint",
-        "entities": []
+        "text": "Could I get different medicine?"
       },
       {
-        "text": "having problems with my prescription",
         "intent": "prescription_complaint",
-        "entities": []
+        "text": "having problems with my prescription"
       },
       {
-        "text": "new medicine",
         "intent": "prescription_complaint",
-        "entities": []
+        "text": "new medicine"
       },
       {
-        "text": "try something different",
         "intent": "prescription_complaint",
-        "entities": []
+        "text": "try something different"
       },
       {
-        "text": "I am experiencing symptoms",
         "intent": "prescription_complaint",
-        "entities": []
+        "text": "I am experiencing symptoms"
       },
       {
-        "text": "different prescription",
         "intent": "prescription_complaint",
-        "entities": []
+        "text": "different prescription"
       },
       {
-        "text": "metformin",
         "intent": "medicineName",
         "entities": [
           {
@@ -3710,10 +3672,10 @@
             "start": 0,
             "value": "metformin"
           }
-        ]
+        ],
+        "text": "metformin"
       },
       {
-        "text": "vicodin",
         "intent": "medicineName",
         "entities": [
           {
@@ -3722,10 +3684,10 @@
             "start": 0,
             "value": "vicodin"
           }
-        ]
+        ],
+        "text": "vicodin"
       },
       {
-        "text": "lisinopril",
         "intent": "medicineName",
         "entities": [
           {
@@ -3734,10 +3696,10 @@
             "start": 0,
             "value": "lisinopril"
           }
-        ]
+        ],
+        "text": "lisinopril"
       },
       {
-        "text": "simvastatin",
         "intent": "medicineName",
         "entities": [
           {
@@ -3746,10 +3708,10 @@
             "start": 0,
             "value": "simvastatin"
           }
-        ]
+        ],
+        "text": "simvastatin"
       },
       {
-        "text": "amlodipine",
         "intent": "medicineName",
         "entities": [
           {
@@ -3758,10 +3720,10 @@
             "start": 0,
             "value": "amlodipine"
           }
-        ]
+        ],
+        "text": "amlodipine"
       },
       {
-        "text": "acetaminophen",
         "intent": "medicineName",
         "entities": [
           {
@@ -3770,10 +3732,10 @@
             "start": 0,
             "value": "acetaminophen"
           }
-        ]
+        ],
+        "text": "acetaminophen"
       },
       {
-        "text": "levothryoxine",
         "intent": "medicineName",
         "entities": [
           {
@@ -3782,10 +3744,10 @@
             "start": 0,
             "value": "levothryoxine"
           }
-        ]
+        ],
+        "text": "levothryoxine"
       },
       {
-        "text": "hydrocodone",
         "intent": "medicineName",
         "entities": [
           {
@@ -3794,10 +3756,10 @@
             "start": 0,
             "value": "hydrocodone"
           }
-        ]
+        ],
+        "text": "hydrocodone"
       },
       {
-        "text": "send them a message Doctor Marino",
         "intent": "message_dr",
         "entities": [
           {
@@ -3806,10 +3768,10 @@
             "start": 20,
             "value": "Doctor Marino"
           }
-        ]
+        ],
+        "text": "send them a message Doctor Marino"
       },
       {
-        "text": "let Doctor Fung know that",
         "intent": "message_dr",
         "entities": [
           {
@@ -3818,10 +3780,10 @@
             "start": 4,
             "value": "Doctor Fung"
           }
-        ]
+        ],
+        "text": "let Doctor Fung know that"
       },
       {
-        "text": "tell Dr. Fung something",
         "intent": "message_dr",
         "entities": [
           {
@@ -3830,10 +3792,10 @@
             "start": 5,
             "value": "Dr. Fung"
           }
-        ]
+        ],
+        "text": "tell Dr. Fung something"
       },
       {
-        "text": "leave a message to Dr. Marino",
         "intent": "message_dr",
         "entities": [
           {
@@ -3842,10 +3804,10 @@
             "start": 19,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "leave a message to Dr. Marino"
       },
       {
-        "text": "let Doctor Fung something",
         "intent": "message_dr",
         "entities": [
           {
@@ -3854,10 +3816,10 @@
             "start": 4,
             "value": "Doctor Fung"
           }
-        ]
+        ],
+        "text": "let Doctor Fung something"
       },
       {
-        "text": "send them a message to Dr. Barker",
         "intent": "message_dr",
         "entities": [
           {
@@ -3866,10 +3828,10 @@
             "start": 23,
             "value": "Dr. Barker"
           }
-        ]
+        ],
+        "text": "send them a message to Dr. Barker"
       },
       {
-        "text": "leave Doctor Barker know that",
         "intent": "message_dr",
         "entities": [
           {
@@ -3878,10 +3840,10 @@
             "start": 6,
             "value": "Doctor Barker"
           }
-        ]
+        ],
+        "text": "leave Doctor Barker know that"
       },
       {
-        "text": "send them a note to Doctor Barker",
         "intent": "message_dr",
         "entities": [
           {
@@ -3890,10 +3852,10 @@
             "start": 20,
             "value": "Doctor Barker"
           }
-        ]
+        ],
+        "text": "send them a note to Doctor Barker"
       },
       {
-        "text": "tell Doctor Marino a message",
         "intent": "message_dr",
         "entities": [
           {
@@ -3902,10 +3864,10 @@
             "start": 5,
             "value": "Doctor Marino"
           }
-        ]
+        ],
+        "text": "tell Doctor Marino a message"
       },
       {
-        "text": "tell Dr. Marino a note",
         "intent": "message_dr",
         "entities": [
           {
@@ -3914,10 +3876,10 @@
             "start": 5,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "tell Dr. Marino a note"
       },
       {
-        "text": "let them know to Dr. Marino",
         "intent": "message_dr",
         "entities": [
           {
@@ -3926,10 +3888,10 @@
             "start": 17,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "let them know to Dr. Marino"
       },
       {
-        "text": "leave Dr. Marino a message",
         "intent": "message_dr",
         "entities": [
           {
@@ -3938,10 +3900,10 @@
             "start": 6,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "leave Dr. Marino a message"
       },
       {
-        "text": "let them know to Doctor Marino",
         "intent": "message_dr",
         "entities": [
           {
@@ -3950,10 +3912,10 @@
             "start": 17,
             "value": "Doctor Marino"
           }
-        ]
+        ],
+        "text": "let them know to Doctor Marino"
       },
       {
-        "text": "leave Doctor Barker something",
         "intent": "message_dr",
         "entities": [
           {
@@ -3962,10 +3924,10 @@
             "start": 6,
             "value": "Doctor Barker"
           }
-        ]
+        ],
+        "text": "leave Doctor Barker something"
       },
       {
-        "text": "send them a message Dr. Fung",
         "intent": "message_dr",
         "entities": [
           {
@@ -3974,10 +3936,10 @@
             "start": 20,
             "value": "Dr. Fung"
           }
-        ]
+        ],
+        "text": "send them a message Dr. Fung"
       },
       {
-        "text": "leave Dr. Barker a note",
         "intent": "message_dr",
         "entities": [
           {
@@ -3986,10 +3948,10 @@
             "start": 6,
             "value": "Dr. Barker"
           }
-        ]
+        ],
+        "text": "leave Dr. Barker a note"
       },
       {
-        "text": "let Dr. Marino something",
         "intent": "message_dr",
         "entities": [
           {
@@ -3998,10 +3960,10 @@
             "start": 4,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "let Dr. Marino something"
       },
       {
-        "text": "tell Dr. Barker something",
         "intent": "message_dr",
         "entities": [
           {
@@ -4010,10 +3972,10 @@
             "start": 5,
             "value": "Dr. Barker"
           }
-        ]
+        ],
+        "text": "tell Dr. Barker something"
       },
       {
-        "text": "leave a message to Doctor Barker",
         "intent": "message_dr",
         "entities": [
           {
@@ -4022,10 +3984,10 @@
             "start": 19,
             "value": "Doctor Barker"
           }
-        ]
+        ],
+        "text": "leave a message to Doctor Barker"
       },
       {
-        "text": "let Doctor Barker know that",
         "intent": "message_dr",
         "entities": [
           {
@@ -4034,10 +3996,10 @@
             "start": 4,
             "value": "Doctor Barker"
           }
-        ]
+        ],
+        "text": "let Doctor Barker know that"
       },
       {
-        "text": "leave a message to Dr. Barker",
         "intent": "message_dr",
         "entities": [
           {
@@ -4046,10 +4008,10 @@
             "start": 19,
             "value": "Dr. Barker"
           }
-        ]
+        ],
+        "text": "leave a message to Dr. Barker"
       },
       {
-        "text": "leave Doctor Marino something",
         "intent": "message_dr",
         "entities": [
           {
@@ -4058,10 +4020,10 @@
             "start": 6,
             "value": "Doctor Marino"
           }
-        ]
+        ],
+        "text": "leave Doctor Marino something"
       },
       {
-        "text": "leave Doctor Fung a message",
         "intent": "message_dr",
         "entities": [
           {
@@ -4070,10 +4032,10 @@
             "start": 6,
             "value": "Doctor Fung"
           }
-        ]
+        ],
+        "text": "leave Doctor Fung a message"
       },
       {
-        "text": "leave Doctor Marino a message",
         "intent": "message_dr",
         "entities": [
           {
@@ -4082,10 +4044,10 @@
             "start": 6,
             "value": "Doctor Marino"
           }
-        ]
+        ],
+        "text": "leave Doctor Marino a message"
       },
       {
-        "text": "leave Dr. Barker something",
         "intent": "message_dr",
         "entities": [
           {
@@ -4094,15 +4056,14 @@
             "start": 6,
             "value": "Dr. Barker"
           }
-        ]
+        ],
+        "text": "leave Dr. Barker something"
       },
       {
-        "text": "leave a message",
         "intent": "message_dr",
-        "entities": []
+        "text": "leave a message"
       },
       {
-        "text": "leave Doctor Fung know that",
         "intent": "message_dr",
         "entities": [
           {
@@ -4111,15 +4072,14 @@
             "start": 6,
             "value": "Doctor Fung"
           }
-        ]
+        ],
+        "text": "leave Doctor Fung know that"
       },
       {
-        "text": "send them a message to",
         "intent": "message_dr",
-        "entities": []
+        "text": "send them a message to"
       },
       {
-        "text": "tell Doctor Barker a message",
         "intent": "message_dr",
         "entities": [
           {
@@ -4128,10 +4088,10 @@
             "start": 5,
             "value": "Doctor Barker"
           }
-        ]
+        ],
+        "text": "tell Doctor Barker a message"
       },
       {
-        "text": "leave a message Dr. Marino",
         "intent": "message_dr",
         "entities": [
           {
@@ -4140,10 +4100,10 @@
             "start": 16,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "leave a message Dr. Marino"
       },
       {
-        "text": "let Dr. Barker a note",
         "intent": "message_dr",
         "entities": [
           {
@@ -4152,10 +4112,10 @@
             "start": 4,
             "value": "Dr. Barker"
           }
-        ]
+        ],
+        "text": "let Dr. Barker a note"
       },
       {
-        "text": "tell Doctor Marino know that",
         "intent": "message_dr",
         "entities": [
           {
@@ -4164,15 +4124,14 @@
             "start": 5,
             "value": "Doctor Marino"
           }
-        ]
+        ],
+        "text": "tell Doctor Marino know that"
       },
       {
-        "text": "send them a note to",
         "intent": "message_dr",
-        "entities": []
+        "text": "send them a note to"
       },
       {
-        "text": "let Dr. Fung a note",
         "intent": "message_dr",
         "entities": [
           {
@@ -4181,10 +4140,10 @@
             "start": 4,
             "value": "Dr. Fung"
           }
-        ]
+        ],
+        "text": "let Dr. Fung a note"
       },
       {
-        "text": "send them a note to Dr. Fung",
         "intent": "message_dr",
         "entities": [
           {
@@ -4193,10 +4152,10 @@
             "start": 20,
             "value": "Dr. Fung"
           }
-        ]
+        ],
+        "text": "send them a note to Dr. Fung"
       },
       {
-        "text": "send them a message Doctor Barker",
         "intent": "message_dr",
         "entities": [
           {
@@ -4205,10 +4164,10 @@
             "start": 20,
             "value": "Doctor Barker"
           }
-        ]
+        ],
+        "text": "send them a message Doctor Barker"
       },
       {
-        "text": "let Dr. Marino know that",
         "intent": "message_dr",
         "entities": [
           {
@@ -4217,10 +4176,10 @@
             "start": 4,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "let Dr. Marino know that"
       },
       {
-        "text": "leave Dr. Fung know that",
         "intent": "message_dr",
         "entities": [
           {
@@ -4229,10 +4188,10 @@
             "start": 6,
             "value": "Dr. Fung"
           }
-        ]
+        ],
+        "text": "leave Dr. Fung know that"
       },
       {
-        "text": "leave Dr. Marino something",
         "intent": "message_dr",
         "entities": [
           {
@@ -4241,10 +4200,10 @@
             "start": 6,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "leave Dr. Marino something"
       },
       {
-        "text": "let them know dr Barker",
         "intent": "message_dr",
         "entities": [
           {
@@ -4253,10 +4212,10 @@
             "start": 14,
             "value": "dr Barker"
           }
-        ]
+        ],
+        "text": "let them know dr Barker"
       },
       {
-        "text": "leave Dr fung something",
         "intent": "message_dr",
         "entities": [
           {
@@ -4265,10 +4224,10 @@
             "start": 6,
             "value": "Dr fung"
           }
-        ]
+        ],
+        "text": "leave Dr fung something"
       },
       {
-        "text": "leave a message Dr. Fung",
         "intent": "message_dr",
         "entities": [
           {
@@ -4277,10 +4236,10 @@
             "start": 16,
             "value": "Dr. Fung"
           }
-        ]
+        ],
+        "text": "leave a message Dr. Fung"
       },
       {
-        "text": "let them know Doctor Barker",
         "intent": "message_dr",
         "entities": [
           {
@@ -4289,10 +4248,10 @@
             "start": 14,
             "value": "Doctor Barker"
           }
-        ]
+        ],
+        "text": "let them know Doctor Barker"
       },
       {
-        "text": "let Doctor Barker something",
         "intent": "message_dr",
         "entities": [
           {
@@ -4301,10 +4260,10 @@
             "start": 4,
             "value": "Doctor Barker"
           }
-        ]
+        ],
+        "text": "let Doctor Barker something"
       },
       {
-        "text": "leave a message to Doctor Fung",
         "intent": "message_dr",
         "entities": [
           {
@@ -4313,10 +4272,10 @@
             "start": 19,
             "value": "Doctor Fung"
           }
-        ]
+        ],
+        "text": "leave a message to Doctor Fung"
       },
       {
-        "text": "tell Dr. Barker know that",
         "intent": "message_dr",
         "entities": [
           {
@@ -4325,10 +4284,10 @@
             "start": 5,
             "value": "Dr. Barker"
           }
-        ]
+        ],
+        "text": "tell Dr. Barker know that"
       },
       {
-        "text": "leave a message to Dr. Fung",
         "intent": "message_dr",
         "entities": [
           {
@@ -4337,10 +4296,10 @@
             "start": 19,
             "value": "Dr. Fung"
           }
-        ]
+        ],
+        "text": "leave a message to Dr. Fung"
       },
       {
-        "text": "let them know to Doctor Fung",
         "intent": "message_dr",
         "entities": [
           {
@@ -4349,10 +4308,10 @@
             "start": 17,
             "value": "Doctor Fung"
           }
-        ]
+        ],
+        "text": "let them know to Doctor Fung"
       },
       {
-        "text": "leave Doctor Barker a note",
         "intent": "message_dr",
         "entities": [
           {
@@ -4361,10 +4320,10 @@
             "start": 6,
             "value": "Doctor Barker"
           }
-        ]
+        ],
+        "text": "leave Doctor Barker a note"
       },
       {
-        "text": "tell Doctor Barker something",
         "intent": "message_dr",
         "entities": [
           {
@@ -4373,10 +4332,10 @@
             "start": 5,
             "value": "Doctor Barker"
           }
-        ]
+        ],
+        "text": "tell Doctor Barker something"
       },
       {
-        "text": "send them a message Dr. Marino",
         "intent": "message_dr",
         "entities": [
           {
@@ -4385,10 +4344,10 @@
             "start": 20,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "send them a message Dr. Marino"
       },
       {
-        "text": "leave Dr. Marino know that",
         "intent": "message_dr",
         "entities": [
           {
@@ -4397,10 +4356,10 @@
             "start": 6,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "leave Dr. Marino know that"
       },
       {
-        "text": "let them know Dr. Marino",
         "intent": "message_dr",
         "entities": [
           {
@@ -4409,10 +4368,10 @@
             "start": 14,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "let them know Dr. Marino"
       },
       {
-        "text": "send them a note Dr. Barker",
         "intent": "message_dr",
         "entities": [
           {
@@ -4421,10 +4380,10 @@
             "start": 17,
             "value": "Dr. Barker"
           }
-        ]
+        ],
+        "text": "send them a note Dr. Barker"
       },
       {
-        "text": "tell Doctor Barker know that",
         "intent": "message_dr",
         "entities": [
           {
@@ -4433,10 +4392,10 @@
             "start": 5,
             "value": "Doctor Barker"
           }
-        ]
+        ],
+        "text": "tell Doctor Barker know that"
       },
       {
-        "text": "send them a message to Doctor Fung",
         "intent": "message_dr",
         "entities": [
           {
@@ -4445,10 +4404,10 @@
             "start": 23,
             "value": "Doctor Fung"
           }
-        ]
+        ],
+        "text": "send them a message to Doctor Fung"
       },
       {
-        "text": "leave Doctor Fung something",
         "intent": "message_dr",
         "entities": [
           {
@@ -4457,10 +4416,10 @@
             "start": 6,
             "value": "Doctor Fung"
           }
-        ]
+        ],
+        "text": "leave Doctor Fung something"
       },
       {
-        "text": "tell Doctor Barker a note",
         "intent": "message_dr",
         "entities": [
           {
@@ -4469,10 +4428,10 @@
             "start": 5,
             "value": "Doctor Barker"
           }
-        ]
+        ],
+        "text": "tell Doctor Barker a note"
       },
       {
-        "text": "send them a note Dr. Marino",
         "intent": "message_dr",
         "entities": [
           {
@@ -4481,10 +4440,10 @@
             "start": 17,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "send them a note Dr. Marino"
       },
       {
-        "text": "let Doctor Fung a note",
         "intent": "message_dr",
         "entities": [
           {
@@ -4493,10 +4452,10 @@
             "start": 4,
             "value": "Doctor Fung"
           }
-        ]
+        ],
+        "text": "let Doctor Fung a note"
       },
       {
-        "text": "tell Dr. Marino know that",
         "intent": "message_dr",
         "entities": [
           {
@@ -4505,10 +4464,10 @@
             "start": 5,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "tell Dr. Marino know that"
       },
       {
-        "text": "let them know to Dr. Fung",
         "intent": "message_dr",
         "entities": [
           {
@@ -4517,10 +4476,10 @@
             "start": 17,
             "value": "Dr. Fung"
           }
-        ]
+        ],
+        "text": "let them know to Dr. Fung"
       },
       {
-        "text": "let Doctor Marino know that",
         "intent": "message_dr",
         "entities": [
           {
@@ -4529,10 +4488,10 @@
             "start": 4,
             "value": "Doctor Marino"
           }
-        ]
+        ],
+        "text": "let Doctor Marino know that"
       },
       {
-        "text": "let them know to Doctor Barker",
         "intent": "message_dr",
         "entities": [
           {
@@ -4541,10 +4500,10 @@
             "start": 17,
             "value": "Doctor Barker"
           }
-        ]
+        ],
+        "text": "let them know to Doctor Barker"
       },
       {
-        "text": "tell Dr. Fung a message",
         "intent": "message_dr",
         "entities": [
           {
@@ -4553,10 +4512,10 @@
             "start": 5,
             "value": "Dr. Fung"
           }
-        ]
+        ],
+        "text": "tell Dr. Fung a message"
       },
       {
-        "text": "let Dr. Fung something",
         "intent": "message_dr",
         "entities": [
           {
@@ -4565,10 +4524,10 @@
             "start": 4,
             "value": "Dr. Fung"
           }
-        ]
+        ],
+        "text": "let Dr. Fung something"
       },
       {
-        "text": "let them know Dr. Fung",
         "intent": "message_dr",
         "entities": [
           {
@@ -4577,10 +4536,10 @@
             "start": 14,
             "value": "Dr. Fung"
           }
-        ]
+        ],
+        "text": "let them know Dr. Fung"
       },
       {
-        "text": "let Doctor Marino something",
         "intent": "message_dr",
         "entities": [
           {
@@ -4589,10 +4548,10 @@
             "start": 4,
             "value": "Doctor Marino"
           }
-        ]
+        ],
+        "text": "let Doctor Marino something"
       },
       {
-        "text": "send them a note to Doctor Fung",
         "intent": "message_dr",
         "entities": [
           {
@@ -4601,15 +4560,14 @@
             "start": 20,
             "value": "Doctor Fung"
           }
-        ]
+        ],
+        "text": "send them a note to Doctor Fung"
       },
       {
-        "text": "let them know",
         "intent": "message_dr",
-        "entities": []
+        "text": "let them know"
       },
       {
-        "text": "tell Doctor Fung something",
         "intent": "message_dr",
         "entities": [
           {
@@ -4618,10 +4576,10 @@
             "start": 5,
             "value": "Doctor Fung"
           }
-        ]
+        ],
+        "text": "tell Doctor Fung something"
       },
       {
-        "text": "let Dr. Barker a message",
         "intent": "message_dr",
         "entities": [
           {
@@ -4630,10 +4588,10 @@
             "start": 4,
             "value": "Dr. Barker"
           }
-        ]
+        ],
+        "text": "let Dr. Barker a message"
       },
       {
-        "text": "tell Dr. Barker a note",
         "intent": "message_dr",
         "entities": [
           {
@@ -4642,10 +4600,10 @@
             "start": 5,
             "value": "Dr. Barker"
           }
-        ]
+        ],
+        "text": "tell Dr. Barker a note"
       },
       {
-        "text": "tell Dr. Fung know that",
         "intent": "message_dr",
         "entities": [
           {
@@ -4654,10 +4612,10 @@
             "start": 5,
             "value": "Dr. Fung"
           }
-        ]
+        ],
+        "text": "tell Dr. Fung know that"
       },
       {
-        "text": "send them a note Doctor Fung",
         "intent": "message_dr",
         "entities": [
           {
@@ -4666,10 +4624,10 @@
             "start": 17,
             "value": "Doctor Fung"
           }
-        ]
+        ],
+        "text": "send them a note Doctor Fung"
       },
       {
-        "text": "leave a message to Doctor Marino",
         "intent": "message_dr",
         "entities": [
           {
@@ -4678,10 +4636,10 @@
             "start": 19,
             "value": "Doctor Marino"
           }
-        ]
+        ],
+        "text": "leave a message to Doctor Marino"
       },
       {
-        "text": "send them a note Doctor Marino",
         "intent": "message_dr",
         "entities": [
           {
@@ -4690,10 +4648,10 @@
             "start": 17,
             "value": "Doctor Marino"
           }
-        ]
+        ],
+        "text": "send them a note Doctor Marino"
       },
       {
-        "text": "leave a message Doctor Fung",
         "intent": "message_dr",
         "entities": [
           {
@@ -4702,10 +4660,10 @@
             "start": 16,
             "value": "Doctor Fung"
           }
-        ]
+        ],
+        "text": "leave a message Doctor Fung"
       },
       {
-        "text": "let Doctor Fung a message",
         "intent": "message_dr",
         "entities": [
           {
@@ -4714,10 +4672,10 @@
             "start": 4,
             "value": "Doctor Fung"
           }
-        ]
+        ],
+        "text": "let Doctor Fung a message"
       },
       {
-        "text": "let Doctor Marino a message",
         "intent": "message_dr",
         "entities": [
           {
@@ -4726,10 +4684,10 @@
             "start": 4,
             "value": "Doctor Marino"
           }
-        ]
+        ],
+        "text": "let Doctor Marino a message"
       },
       {
-        "text": "send them a message Dr. Barker",
         "intent": "message_dr",
         "entities": [
           {
@@ -4738,10 +4696,10 @@
             "start": 20,
             "value": "Dr. Barker"
           }
-        ]
+        ],
+        "text": "send them a message Dr. Barker"
       },
       {
-        "text": "let Dr. Marino a note",
         "intent": "message_dr",
         "entities": [
           {
@@ -4750,10 +4708,10 @@
             "start": 4,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "let Dr. Marino a note"
       },
       {
-        "text": "send them a message to Doctor Barker",
         "intent": "message_dr",
         "entities": [
           {
@@ -4762,10 +4720,10 @@
             "start": 23,
             "value": "Doctor Barker"
           }
-        ]
+        ],
+        "text": "send them a message to Doctor Barker"
       },
       {
-        "text": "tell Dr. Fung a note",
         "intent": "message_dr",
         "entities": [
           {
@@ -4774,10 +4732,10 @@
             "start": 5,
             "value": "Dr. Fung"
           }
-        ]
+        ],
+        "text": "tell Dr. Fung a note"
       },
       {
-        "text": "let Dr. Fung a message",
         "intent": "message_dr",
         "entities": [
           {
@@ -4786,10 +4744,10 @@
             "start": 4,
             "value": "Dr. Fung"
           }
-        ]
+        ],
+        "text": "let Dr. Fung a message"
       },
       {
-        "text": "let Dr. Barker know that",
         "intent": "message_dr",
         "entities": [
           {
@@ -4798,15 +4756,14 @@
             "start": 4,
             "value": "Dr. Barker"
           }
-        ]
+        ],
+        "text": "let Dr. Barker know that"
       },
       {
-        "text": "let them know to",
         "intent": "message_dr",
-        "entities": []
+        "text": "let them know to"
       },
       {
-        "text": "leave Dr. Marino a note",
         "intent": "message_dr",
         "entities": [
           {
@@ -4815,10 +4772,10 @@
             "start": 6,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "leave Dr. Marino a note"
       },
       {
-        "text": "let Doctor Barker a message",
         "intent": "message_dr",
         "entities": [
           {
@@ -4827,10 +4784,10 @@
             "start": 4,
             "value": "Doctor Barker"
           }
-        ]
+        ],
+        "text": "let Doctor Barker a message"
       },
       {
-        "text": "let Dr. Marino a message",
         "intent": "message_dr",
         "entities": [
           {
@@ -4839,10 +4796,10 @@
             "start": 4,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "let Dr. Marino a message"
       },
       {
-        "text": "leave Doctor Marino a note",
         "intent": "message_dr",
         "entities": [
           {
@@ -4851,10 +4808,10 @@
             "start": 6,
             "value": "Doctor Marino"
           }
-        ]
+        ],
+        "text": "leave Doctor Marino a note"
       },
       {
-        "text": "leave a message Doctor Barker",
         "intent": "message_dr",
         "entities": [
           {
@@ -4863,10 +4820,10 @@
             "start": 16,
             "value": "Doctor Barker"
           }
-        ]
+        ],
+        "text": "leave a message Doctor Barker"
       },
       {
-        "text": "tell Dr. Marino something",
         "intent": "message_dr",
         "entities": [
           {
@@ -4875,10 +4832,10 @@
             "start": 5,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "tell Dr. Marino something"
       },
       {
-        "text": "let them know to Dr. Barker",
         "intent": "message_dr",
         "entities": [
           {
@@ -4887,10 +4844,10 @@
             "start": 17,
             "value": "Dr. Barker"
           }
-        ]
+        ],
+        "text": "let them know to Dr. Barker"
       },
       {
-        "text": "let Dr. Barker something",
         "intent": "message_dr",
         "entities": [
           {
@@ -4899,15 +4856,14 @@
             "start": 4,
             "value": "Dr. Barker"
           }
-        ]
+        ],
+        "text": "let Dr. Barker something"
       },
       {
-        "text": "send them a note",
         "intent": "message_dr",
-        "entities": []
+        "text": "send them a note"
       },
       {
-        "text": "let Doctor Marino a note",
         "intent": "message_dr",
         "entities": [
           {
@@ -4916,10 +4872,10 @@
             "start": 4,
             "value": "Doctor Marino"
           }
-        ]
+        ],
+        "text": "let Doctor Marino a note"
       },
       {
-        "text": "tell Doctor Fung a message",
         "intent": "message_dr",
         "entities": [
           {
@@ -4928,10 +4884,10 @@
             "start": 5,
             "value": "Doctor Fung"
           }
-        ]
+        ],
+        "text": "tell Doctor Fung a message"
       },
       {
-        "text": "let them know Doctor Marino",
         "intent": "message_dr",
         "entities": [
           {
@@ -4940,10 +4896,10 @@
             "start": 14,
             "value": "Doctor Marino"
           }
-        ]
+        ],
+        "text": "let them know Doctor Marino"
       },
       {
-        "text": "send them a message to Dr. Marino",
         "intent": "message_dr",
         "entities": [
           {
@@ -4952,10 +4908,10 @@
             "start": 23,
             "value": "Dr. Marino"
           }
-        ]
+        ],
+        "text": "send them a message to Dr. Marino"
       },
       {
-        "text": "My vision is blurred",
         "intent": "note_to_doc",
         "entities": [
           {
@@ -4964,10 +4920,10 @@
             "start": 0,
             "value": "My vision is blurred"
           }
-        ]
+        ],
+        "text": "My vision is blurred"
       },
       {
-        "text": "I am writing to let you know",
         "intent": "note_to_doc",
         "entities": [
           {
@@ -4976,10 +4932,10 @@
             "start": 0,
             "value": "I am writing to let you know"
           }
-        ]
+        ],
+        "text": "I am writing to let you know"
       },
       {
-        "text": "I feel out of it",
         "intent": "note_to_doc",
         "entities": [
           {
@@ -4988,10 +4944,10 @@
             "start": 0,
             "value": "I feel out of it"
           }
-        ]
+        ],
+        "text": "I feel out of it"
       },
       {
-        "text": "I just wanted to say thank you",
         "intent": "note_to_doc",
         "entities": [
           {
@@ -5000,10 +4956,10 @@
             "start": 0,
             "value": "I just wanted to say thank you"
           }
-        ]
+        ],
+        "text": "I just wanted to say thank you"
       },
       {
-        "text": "I am having difficulty breathing",
         "intent": "note_to_doc",
         "entities": [
           {
@@ -5012,10 +4968,10 @@
             "start": 0,
             "value": "I am having difficulty breathing"
           }
-        ]
+        ],
+        "text": "I am having difficulty breathing"
       },
       {
-        "text": "My head hurts",
         "intent": "note_to_doc",
         "entities": [
           {
@@ -5024,10 +4980,10 @@
             "start": 0,
             "value": "My head hurts"
           }
-        ]
+        ],
+        "text": "My head hurts"
       },
       {
-        "text": "I look forward to seeing you, thanks",
         "intent": "note_to_doc",
         "entities": [
           {
@@ -5036,98 +4992,84 @@
             "start": 0,
             "value": "I look forward to seeing you, thanks"
           }
-        ]
+        ],
+        "text": "I look forward to seeing you, thanks"
       },
       {
-        "text": "see results",
         "intent": "review_labResults",
-        "entities": []
+        "text": "see results"
       },
       {
-        "text": "what are my lab results",
         "intent": "review_labResults",
-        "entities": []
+        "text": "what are my lab results"
       },
       {
-        "text": "results",
         "intent": "review_labResults",
-        "entities": []
+        "text": "results"
       },
       {
-        "text": "view results",
         "intent": "review_labResults",
-        "entities": []
+        "text": "view results"
       },
       {
-        "text": "lab results",
         "intent": "review_labResults",
-        "entities": []
+        "text": "lab results"
       },
       {
-        "text": "request lab results",
         "intent": "review_labResults",
-        "entities": []
+        "text": "request lab results"
       },
       {
-        "text": "see my lab results",
         "intent": "review_labResults",
-        "entities": []
+        "text": "see my lab results"
       },
       {
-        "text": "appointment results",
         "intent": "review_labResults",
-        "entities": []
+        "text": "appointment results"
       },
       {
-        "text": "recent lab results",
         "intent": "review_labResults",
-        "entities": []
+        "text": "recent lab results"
       },
       {
-        "text": "pay bill",
         "intent": "makePayment",
-        "entities": []
+        "text": "pay bill"
       },
       {
-        "text": "pay copay",
         "intent": "makePayment",
-        "entities": []
+        "text": "pay copay"
       },
       {
-        "text": "pay co-pay",
         "intent": "makePayment",
-        "entities": []
+        "text": "pay co-pay"
       },
       {
-        "text": "request due payments",
         "intent": "viewBills",
-        "entities": []
+        "text": "request due payments"
       },
       {
-        "text": "view payments",
         "intent": "viewBills",
-        "entities": []
+        "text": "view payments"
       },
       {
-        "text": "see bills due",
         "intent": "viewBills",
-        "entities": []
+        "text": "see bills due"
       },
       {
-        "text": "view outstanding bills",
         "intent": "viewBills",
-        "entities": []
+        "text": "view outstanding bills"
       },
       {
-        "text": "see bills",
         "intent": "viewBills",
-        "entities": []
+        "text": "see bills"
       },
       {
-        "text": "show outstanding payments",
         "intent": "viewBills",
-        "entities": []
+        "text": "show outstanding payments"
       }
-    ]
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
   }
 }

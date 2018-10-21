@@ -85,7 +85,7 @@
 * message_dr{"dr":"Dr. Adams"}
 	- utter_ask_message
 * note_to_doc{"message":"My knee still hurts"}
-	- utter_confirmed
+	- utter_confirmed_message
 * create_apt
 	- utter_ask_date
 * confirm_date{"date":"Tuesday"}

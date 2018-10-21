@@ -41,6 +41,7 @@ actions:
   - utter_ask_medicine
   - utter_prescription_refill
   - utter_greet
+  - utter_bills
 
 templates:
   utter_greet:
@@ -61,10 +62,14 @@ templates:
   utter_ok:
     - "Ok"
     - "Got it"
+  utter_bills:
+    - "Your last bill is still unpaid: $322 (General appointment)"
+    - "Your last 2 bills are unpaid: $22,040 (Thyroid Surgery), $2,200 (X-ray)"
   utter_reviewLabResults:
     - "Here are your lab results: the white blood cell count in your blood is high. Please schedule an appointment soon."
     - "Here are your lab results: a mass of mucus was detected at the bottom of your lungs. Your doctor sent your prescription to your local pharmacy."
+    - "Here are your lab results: it looks like your leg is healing well. You can take off the cast on Thursday."
   utter_prescription_refill:
-    - "{dr} will review your prescription refill soon."
+    - "Your doctor will review your prescription refill soon."
   utter_ask_medicine:
     - "What's the name of your medicine?"

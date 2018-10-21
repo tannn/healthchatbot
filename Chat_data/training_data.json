@@ -6774,6 +6774,54 @@
         ]
       },
       {
+        "text": "when will I be getting the information regarding how to treat butt pimples",
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 74,
+            "entity": "message",
+            "start": 0,
+            "value": "when will I be getting the information regarding how to treat butt pimples"
+          }
+        ]
+      },
+      {
+        "text": "I am not feeling well, I think I have pneumonia",
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "message",
+            "start": 0,
+            "value": "I am not feeling well, I think I have pneumonia"
+          }
+        ]
+      },
+      {
+        "text": "I feel sick",
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "message",
+            "start": 0,
+            "value": "I feel sick"
+          }
+        ]
+      },
+      {
+        "text": "I am not feeling well, I think I have pneumonia",
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "message",
+            "start": 0,
+            "value": "I am not feeling well, I think I have pneumonia"
+          }
+        ]
+      },
+      {
         "text": "I feel out of it",
         "intent": "note_to_doc",
         "entities": [
@@ -6794,6 +6842,18 @@
             "entity": "message",
             "start": 0,
             "value": "I am having difficulty breathing"
+          }
+        ]
+      },
+      {
+        "text": "How long will it take to completely have my bone healed",
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "message",
+            "start": 0,
+            "value": "How long will it take to completely have my bone healed"
           }
         ]
       },
@@ -6830,6 +6890,30 @@
             "entity": "message",
             "start": 0,
             "value": "Thank you for easing my pain and thanks for encouraging me"
+          }
+        ]
+      },
+      {
+        "text": "My feet are swollen",
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "message",
+            "start": 0,
+            "value": "My feet are swollen"
+          }
+        ]
+      },
+      {
+        "text": "My stomach hurts after eating pie, what should I do?",
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "message",
+            "start": 0,
+            "value": "My stomach hurts after eating pie, what should I do?"
           }
         ]
       },
