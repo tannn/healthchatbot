@@ -62,6 +62,8 @@
 	- utter_prescription_refill
 
 ## Complicated1
+* viewBills
+    - utter_bills
 * create_apt
 	- utter_ask_which_dr
 * confirm_dr{"dr":"Dr. Blue"}
