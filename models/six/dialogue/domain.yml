@@ -4,7 +4,6 @@ actions:
 - utter_ask_which_dr
 - utter_ask_date
 - utter_confirmed
-- utter_ok
 - utter_ask_message
 - utter_confirmed_message
 - utter_reviewLabResults
@@ -80,9 +79,6 @@ templates:
   utter_greet:
   - text: Hello, how can I help you?
   - text: Hello, welcome to the health portal!
-  utter_ok:
-  - text: Ok
-  - text: Got it
   utter_prescription_refill:
   - text: Your doctor will review your prescription refill soon.
   utter_reviewLabResults:

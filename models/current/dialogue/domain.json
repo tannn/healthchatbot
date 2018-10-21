@@ -10,7 +10,6 @@
     "intent_note_to_doc",
     "intent_prescription_complaint",
     "intent_request_refill",
-    "intent_review_lab",
     "intent_review_labResults",
     "intent_seeNextAppointment",
     "intent_viewBills",
@@ -28,12 +27,12 @@
     "prev_utter_ask_which_dr",
     "prev_utter_ask_date",
     "prev_utter_confirmed",
-    "prev_utter_ok",
     "prev_utter_ask_message",
     "prev_utter_confirmed_message",
     "prev_utter_reviewLabResults",
     "prev_utter_ask_medicine",
     "prev_utter_prescription_refill",
-    "prev_utter_greet"
+    "prev_utter_greet",
+    "prev_utter_bills"
   ]
 }

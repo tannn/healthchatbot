@@ -6046,7 +6046,7 @@
         "intent": "note_to_doc",
         "entities": [
           {
-            "end": 56,
+            "end": 55,
             "entity": "message",
             "start": 0,
             "value": "How long will it take to completely have my bone healed"

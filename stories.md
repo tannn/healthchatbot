@@ -22,7 +22,7 @@
 	- utter_confirmed_message
 
 ## Message to Doctor, yes message, and doc
-* message_dr{"dr":"Dr. Marino"}
+* message_dr{"dr":"dr jordan"}
 	- utter_ask_message
 * note_to_doc{"message":"I am having secondary emotional effects"}
 	- utter_confirmed_message
@@ -30,7 +30,7 @@
 ## Message to Doctor2, no message, yes doctor
 * greeting
 	- utter_greet
-* message_dr{"dr":"Dr. Young"}
+* message_dr{"dr":"Dr Young"}
 	- utter_ask_message
 * note_to_doc{"message":"My knee still hurts"}
 	- utter_confirmed_message
@@ -68,7 +68,7 @@
     - utter_bills
 * create_apt
 	- utter_ask_which_dr
-* confirm_dr{"dr":"Dr. Blue"}
+* confirm_dr{"dr":"Doctor Blue"}
 	- utter_ask_date
 * confirm_date {"date":"Wednesday"}
 	- utter_confirmed
@@ -172,6 +172,29 @@
     - utter_ask_medicine
 * medicineName{"medicine": "aspirin"}
     - slot{"medicine": "aspirin"}
+    - utter_prescription_refill
+
+## Generated Story -2477838826319677261
+* viewBills
+    - utter_bills
+* create_apt{"dr": "Dr. Squarepants", "date": "Saturday"}
+    - slot{"date": "Saturday"}
+    - slot{"dr": "Dr. Squarepants"}
+    - utter_confirmed
+* message_dr
+    - utter_ask_message
+* note_to_doc{"message": "My eye popped out!"}
+    - slot{"message": "My eye popped out!"}
+    - utter_confirmed_message
+* request_refill
+    - utter_ask_medicine
+* medicineName{"medicine": "NyQuil"}
+    - slot{"medicine": "NyQuil"}
+    - utter_prescription_refill
+
+## Generated Story -3251722074745246924
+* request_refill{"medicine": "Galzin"}
+    - slot{"medicine": "Galzin"}
     - utter_prescription_refill
 
 ## new story
