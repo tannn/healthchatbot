@@ -2,27 +2,30 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "medicine",
-        "date",
         "message",
-        "dr"
+        "dr",
+        "date",
+        "medicine"
       ]
-    },
-    "utter_confirmed_message": {
-      "slots": []
     },
     "utter_prescription_refill": {
       "slots": []
     },
-    "utter_confirmed": {
+    "utter_confirmed_message": {
       "slots": []
     },
     "utter_reviewLabResults": {
       "slots": []
+    },
+    "utter_bills": {
+      "slots": []
+    },
+    "utter_confirmed": {
+      "slots": []
     }
   },
   "rasa_core": "0.11.12",
-  "python": "3.6.5",
+  "python": "3.6.6",
   "max_histories": [
     null,
     3,
