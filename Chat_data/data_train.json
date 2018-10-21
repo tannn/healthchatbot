@@ -3626,6 +3626,41 @@
         "entities": []
       },
       {
+        "text": "I would like a refill of my prescription",
+        "intent": "request_refill",
+        "entities": []
+      },
+            {
+        "text": "I would like to refill my medicine",
+        "intent": "request_refill",
+        "entities": []
+      },
+      {
+        "text": "Could I please get a prescription refill?",
+        "intent": "request_refill",
+        "entities": []
+      },
+      {
+        "text": "Have the doctor refill my prescription",
+        "intent": "request_refill",
+        "entities": []
+      },
+      {
+        "text": "I need more medicine",
+        "intent": "request_refill",
+        "entities": []
+      },
+      {
+        "text": "I am out of medicine",
+        "intent": "request_refill",
+        "entities": []
+      },
+      {
+        "text": "please refill my prescription",
+        "intent": "request_refill",
+        "entities": []
+      },
+      {
         "text": "try new prescription",
         "intent": "prescription_complaint",
         "entities": []
