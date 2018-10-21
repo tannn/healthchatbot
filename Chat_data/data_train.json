@@ -6116,6 +6116,36 @@
         "text": "show outstanding payments",
         "intent": "viewBills",
         "entities": []
+      },
+	  {
+        "text": "what are my bills?",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "list bills",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "do I have any outstanding payments",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "do I owe money?",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "what are my outstanding bills",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "let me see my recent bills",
+        "intent": "viewBills",
+        "entities": []
       }
     ]
   }
