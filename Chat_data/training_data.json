@@ -192,19 +192,19 @@
         ]
       },
       {
-        "text": "wassup book an apt. Dr. Barker at Wednesday",
+        "text": "wassup book an apt. dr. chuck at Wednesday",
         "intent": "create_apt",
         "entities": [
           {
-            "end": 30,
+            "end": 29,
             "entity": "dr",
             "start": 20,
-            "value": "Dr. Barker"
+            "value": "dr. chuck"
           },
           {
-            "end": 43,
+            "end": 42,
             "entity": "date",
-            "start": 34,
+            "start": 33,
             "value": "Wednesday"
           }
         ]

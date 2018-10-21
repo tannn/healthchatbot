@@ -121,19 +121,19 @@
         "intent": "create_apt",
         "entities": [
           {
-            "end": 24,
+            "end": 23,
             "entity": "dr",
             "start": 14,
             "value": "Dr. Barker"
           },
           {
-            "end": 34,
+            "end": 33,
             "entity": "date",
-            "start": 28,
+            "start": 27,
             "value": "Sunday"
           }
         ],
-        "text": "book apt with Dr. Barker at Sunday"
+        "text": "book apt with dr. chuck at Sunday"
       },
       {
         "intent": "create_apt",
@@ -271,19 +271,19 @@
         "intent": "create_apt",
         "entities": [
           {
-            "end": 41,
+            "end": 43,
             "entity": "dr",
             "start": 28,
-            "value": "Doctor Barker"
+            "value": "doctor morrison"
           },
           {
-            "end": 53,
+            "end": 55,
             "entity": "date",
-            "start": 45,
+            "start": 47,
             "value": "Saturday"
           }
         ],
-        "text": "set up an consultation with Doctor Barker on Saturday"
+        "text": "set up an consultation with doctor morrison on Saturday"
       },
       {
         "intent": "create_apt",
