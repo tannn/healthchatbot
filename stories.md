@@ -177,6 +177,22 @@
     - utter_confirmed_message
 * request_refill
     - utter_ask_medicine
-* medicineName{"medicine": "aciprofen"}
-    - slot{"medicine": "aciprofen"}
+* medicineName{"medicine": "Adderrall"}
+    - slot{"medicine": "Adderrall"}
     - utter_prescription_refill
+
+## Note to Doctor
+* message_dr
+    - utter_ask_which_dr
+* confirm_dr{"dr": "Dr. Norris"}
+    - slot{"dr": "Dr. Norris"}
+    - utter_ask_message
+* note_to_doc{"message": "I want my scar to not be that visible"}
+    - slot{"message": "I want my scar to not be that visible"}
+    - utter_confirmed_message
+
+## Billing
+* greeting
+    - utter_greet
+* viewBills
+  	-	utter_bills
