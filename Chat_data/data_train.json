@@ -1433,14 +1433,14 @@
         ]
       },
       {
-        "text": "set up an consultation with Doctor Barker at Sunday",
+        "text": "set up an consultation with doctor murphy at Sunday",
         "intent": "create_apt",
         "entities": [
           {
             "end": 41,
             "entity": "dr",
             "start": 28,
-            "value": "Doctor Barker"
+            "value": "doctor murphy"
           },
           {
             "end": 51,
@@ -1745,11 +1745,11 @@
         ]
       },
       {
-        "text": "Dr. Barker",
+        "text": "dr moore",
         "intent": "confirm_dr",
         "entities": [
           {
-            "end": 10,
+            "end": 8,
             "entity": "dr",
             "start": 0,
             "value": "Dr. Barker"
@@ -1757,7 +1757,7 @@
         ]
       },
       {
-        "text": "Dr. Barker Sunday",
+        "text": "Dr. Barker sunday",
         "intent": "confirm_dr",
         "entities": [
           {
@@ -1770,7 +1770,7 @@
             "end": 17,
             "entity": "date",
             "start": 11,
-            "value": "Sunday"
+            "value": "sunday"
           }
         ]
       },
@@ -3714,6 +3714,18 @@
             "entity": "medicine",
             "start": 0,
             "value": "metformin"
+          }
+        ]
+      },
+      {
+        "text": "adderall xr",
+        "intent": "medicineName",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "medicine",
+            "start": 0,
+            "value": "adderall xr"
           }
         ]
       },
