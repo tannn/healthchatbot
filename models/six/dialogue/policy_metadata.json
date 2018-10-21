@@ -2,25 +2,25 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "dr",
+        "medicine",
         "date",
-        "message",
-        "medicine"
+        "dr",
+        "message"
       ]
+    },
+    "utter_prescription_refill": {
+      "slots": []
     },
     "utter_confirmed_message": {
       "slots": []
     },
-    "utter_prescription_refill": {
+    "utter_bills": {
       "slots": []
     },
     "utter_reviewLabResults": {
       "slots": []
     },
     "utter_confirmed": {
-      "slots": []
-    },
-    "utter_bills": {
       "slots": []
     }
   },

@@ -3568,18 +3568,6 @@
         "text": "by Wednesday"
       },
       {
-        "intent": "seeNextAppointment",
-        "text": "view next appointment"
-      },
-      {
-        "intent": "seeNextAppointment",
-        "text": "when will my next appointment be?"
-      },
-      {
-        "intent": "seeNextAppointment",
-        "text": "when is my next appointment?"
-      },
-      {
         "intent": "request_refill",
         "text": "get a refill"
       },
@@ -5975,6 +5963,78 @@
         "intent": "note_to_doc",
         "entities": [
           {
+            "end": 47,
+            "entity": "message",
+            "start": 0,
+            "value": "I am not feeling well, I think I have pneumonia"
+          }
+        ],
+        "text": "I am not feeling well, I think I have pneumonia"
+      },
+      {
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "message",
+            "start": 0,
+            "value": "I feel out of it"
+          }
+        ],
+        "text": "I feel out of it"
+      },
+      {
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "message",
+            "start": 0,
+            "value": "I am having difficulty breathing"
+          }
+        ],
+        "text": "I am having difficulty breathing"
+      },
+      {
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "message",
+            "start": 0,
+            "value": "How long will it take to completely have my bone healed"
+          }
+        ],
+        "text": "How long will it take to completely have my bone healed"
+      },
+      {
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "message",
+            "start": 0,
+            "value": "My feet are swollen"
+          }
+        ],
+        "text": "My feet are swollen"
+      },
+      {
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "message",
+            "start": 0,
+            "value": "My stomach hurts after eating pie, what should I do?"
+          }
+        ],
+        "text": "My stomach hurts after eating pie, what should I do?"
+      },
+      {
+        "intent": "note_to_doc",
+        "entities": [
+          {
             "end": 36,
             "entity": "message",
             "start": 0,
@@ -6018,18 +6078,6 @@
       {
         "intent": "review_labResults",
         "text": "recent lab results"
-      },
-      {
-        "intent": "makePayment",
-        "text": "pay bill"
-      },
-      {
-        "intent": "makePayment",
-        "text": "pay copay"
-      },
-      {
-        "intent": "makePayment",
-        "text": "pay co-pay"
       },
       {
         "intent": "viewBills",

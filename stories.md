@@ -22,7 +22,7 @@
 	- utter_confirmed_message
 
 ## Message to Doctor, yes message, and doc
-* message_dr{"dr":"Dr. Marino"}
+* message_dr{"dr":"dr jordan"}
 	- utter_ask_message
 * note_to_doc{"message":"I am having secondary emotional effects"}
 	- utter_confirmed_message
@@ -30,7 +30,7 @@
 ## Message to Doctor2, no message, yes doctor
 * greeting
 	- utter_greet
-* message_dr{"dr":"Dr. Young"}
+* message_dr{"dr":"Dr Young"}
 	- utter_ask_message
 * note_to_doc{"message":"My knee still hurts"}
 	- utter_confirmed_message
@@ -68,7 +68,7 @@
     - utter_bills
 * create_apt
 	- utter_ask_which_dr
-* confirm_dr{"dr":"Dr. Blue"}
+* confirm_dr{"dr":"Doctor Blue"}
 	- utter_ask_date
 * confirm_date {"date":"Wednesday"}
 	- utter_confirmed

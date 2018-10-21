@@ -27,7 +27,6 @@
     "prev_utter_ask_which_dr",
     "prev_utter_ask_date",
     "prev_utter_confirmed",
-    "prev_utter_ok",
     "prev_utter_ask_message",
     "prev_utter_confirmed_message",
     "prev_utter_reviewLabResults",
