@@ -2,10 +2,10 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "medicine",
         "date",
         "dr",
-        "message"
+        "message",
+        "medicine"
       ]
     },
     "utter_prescription_refill": {

@@ -880,25 +880,19 @@
         ]
       },
       {
-        "text": "setup an meeting Dr. Fung at Sunday",
+        "text": "setup an meeting Sunday",
         "intent": "create_apt",
         "entities": [
           {
-            "end": 25,
-            "entity": "dr",
-            "start": 17,
-            "value": "Dr. Fung"
-          },
-          {
-            "end": 35,
+            "end": 17,
             "entity": "date",
-            "start": 29,
+            "start": 23,
             "value": "Sunday"
           }
         ]
       },
       {
-        "text": "book apt. with Dr. Barker by Friday",
+        "text": "book apt. with Dr. Barker",
         "intent": "create_apt",
         "entities": [
           {
@@ -906,17 +900,11 @@
             "entity": "dr",
             "start": 15,
             "value": "Dr. Barker"
-          },
-          {
-            "end": 35,
-            "entity": "date",
-            "start": 29,
-            "value": "Friday"
           }
         ]
       },
       {
-        "text": "schedule apt. with Dr. Barker at Wednesday",
+        "text": "schedule apt. with Dr. Barker",
         "intent": "create_apt",
         "entities": [
           {
@@ -924,159 +912,52 @@
             "entity": "dr",
             "start": 19,
             "value": "Dr. Barker"
-          },
-          {
-            "end": 42,
-            "entity": "date",
-            "start": 33,
-            "value": "Wednesday"
           }
         ]
       },
       {
-        "text": "make meeting with Doctor Fung on Friday",
+        "text": "make meeting on Friday",
         "intent": "create_apt",
         "entities": [
           {
-            "end": 29,
-            "entity": "dr",
-            "start": 18,
-            "value": "Doctor Fung"
-          },
-          {
-            "end": 39,
+            "end": 16,
             "entity": "date",
-            "start": 33,
+            "start": 22,
             "value": "Friday"
           }
         ]
       },
       {
-        "text": "make an appointment with Dr. Barker",
+        "text": "make an appointment",
         "intent": "create_apt",
-        "entities": [
-          {
-            "end": 35,
-            "entity": "dr",
-            "start": 25,
-            "value": "Dr. Barker"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "setup an appointment with on Thursday",
+        "text": "setup an appointment",
         "intent": "create_apt",
-        "entities": [
-          {
-            "end": 37,
-            "entity": "date",
-            "start": 29,
-            "value": "Thursday"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "request an appointment Doctor Fung",
+        "text": "request an appointment",
         "intent": "create_apt",
-        "entities": [
-          {
-            "end": 34,
-            "entity": "dr",
-            "start": 23,
-            "value": "Doctor Fung"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "set up an meeting Dr. Fung on Wednesday",
+        "text": "make appointment",
         "intent": "create_apt",
-        "entities": [
-          {
-            "end": 26,
-            "entity": "dr",
-            "start": 18,
-            "value": "Dr. Fung"
-          },
-          {
-            "end": 39,
-            "entity": "date",
-            "start": 30,
-            "value": "Wednesday"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "make an meeting at Wednesday",
+        "text": "schedule meeting",
         "intent": "create_apt",
-        "entities": [
-          {
-            "end": 28,
-            "entity": "date",
-            "start": 19,
-            "value": "Wednesday"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "create consultation with Doctor Barker by Monday",
+        "text": "make appointment Saturday",
         "intent": "create_apt",
         "entities": [
           {
-            "end": 38,
-            "entity": "dr",
-            "start": 25,
-            "value": "Doctor Barker"
-          },
-          {
-            "end": 48,
-            "entity": "date",
-            "start": 42,
-            "value": "Monday"
-          }
-        ]
-      },
-      {
-        "text": "make appointment Doctor Barker by Tuesday",
-        "intent": "create_apt",
-        "entities": [
-          {
-            "end": 30,
-            "entity": "dr",
-            "start": 17,
-            "value": "Doctor Barker"
-          },
-          {
-            "end": 41,
-            "entity": "date",
-            "start": 34,
-            "value": "Tuesday"
-          }
-        ]
-      },
-      {
-        "text": "schedule meeting Dr. Barker by Tuesday",
-        "intent": "create_apt",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "dr",
-            "start": 17,
-            "value": "Dr. Barker"
-          },
-          {
-            "end": 38,
-            "entity": "date",
-            "start": 31,
-            "value": "Tuesday"
-          }
-        ]
-      },
-      {
-        "text": "make appointment with at Saturday",
-        "intent": "create_apt",
-        "entities": [
-          {
-            "end": 33,
+            "end": 17,
             "entity": "date",
             "start": 25,
             "value": "Saturday"
@@ -1084,115 +965,41 @@
         ]
       },
       {
-        "text": "schedule an meeting Doctor Barker Thursday",
+        "text": "schedule an meeting Thursday",
         "intent": "create_apt",
         "entities": [
           {
-            "end": 33,
-            "entity": "dr",
-            "start": 20,
-            "value": "Doctor Barker"
-          },
-          {
-            "end": 42,
-            "entity": "date",
-            "start": 34,
-            "value": "Thursday"
-          }
-        ]
-      },
-      {
-        "text": "set up an apt. with Doctor Marino at Monday",
-        "intent": "create_apt",
-        "entities": [
-          {
-            "end": 33,
-            "entity": "dr",
-            "start": 20,
-            "value": "Doctor Marino"
-          },
-          {
-            "end": 43,
-            "entity": "date",
-            "start": 37,
-            "value": "Monday"
-          }
-        ]
-      },
-      {
-        "text": "schedule an meeting Dr. Fung by Wednesday",
-        "intent": "create_apt",
-        "entities": [
-          {
-            "end": 28,
-            "entity": "dr",
-            "start": 20,
-            "value": "Dr. Fung"
-          },
-          {
-            "end": 41,
-            "entity": "date",
-            "start": 32,
-            "value": "Wednesday"
-          }
-        ]
-      },
-      {
-        "text": "make appointment Doctor Fung on Saturday",
-        "intent": "create_apt",
-        "entities": [
-          {
-            "end": 28,
-            "entity": "dr",
-            "start": 17,
-            "value": "Doctor Fung"
-          },
-          {
-            "end": 40,
-            "entity": "date",
-            "start": 32,
-            "value": "Saturday"
-          }
-        ]
-      },
-      {
-        "text": "setup apt. Doctor Fung at Thursday",
-        "intent": "create_apt",
-        "entities": [
-          {
-            "end": 22,
-            "entity": "dr",
-            "start": 11,
-            "value": "Doctor Fung"
-          },
-          {
-            "end": 34,
-            "entity": "date",
-            "start": 26,
-            "value": "Thursday"
-          }
-        ]
-      },
-      {
-        "text": "setup an apt. Dr. Marino at Friday",
-        "intent": "create_apt",
-        "entities": [
-          {
-            "end": 24,
-            "entity": "dr",
-            "start": 14,
-            "value": "Dr. Marino"
-          },
-          {
-            "end": 34,
+            "end": 19,
             "entity": "date",
             "start": 28,
+            "value": "Thursday"
+          }
+        ]
+      },
+      {
+        "text": "set up an apt",
+        "intent": "create_apt",
+        "entities": []
+      },
+      {
+        "text": "setup apt.",
+        "intent": "create_apt",
+        "entities": []
+      },
+      {
+        "text": "setup an apt. Friday",
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "date",
+            "start": 20,
             "value": "Friday"
           }
         ]
       },
       {
-        "text": "setup meeting with Doctor Barker at Sunday",
+        "text": "setup meeting with Doctor Barker",
         "intent": "create_apt",
         "entities": [
           {
@@ -1200,29 +1007,16 @@
             "entity": "dr",
             "start": 19,
             "value": "Doctor Barker"
-          },
-          {
-            "end": 42,
-            "entity": "date",
-            "start": 36,
-            "value": "Sunday"
           }
         ]
       },
       {
-        "text": "setup an appointment at Tuesday",
+        "text": "setup an appointment",
         "intent": "create_apt",
-        "entities": [
-          {
-            "end": 31,
-            "entity": "date",
-            "start": 24,
-            "value": "Tuesday"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "set up an consultation with Dr. Fung at Tuesday",
+        "text": "set up an consultation with Dr. Fung",
         "intent": "create_apt",
         "entities": [
           {
@@ -1230,107 +1024,31 @@
             "entity": "dr",
             "start": 28,
             "value": "Dr. Fung"
-          },
-          {
-            "end": 47,
-            "entity": "date",
-            "start": 40,
-            "value": "Tuesday"
           }
         ]
       },
       {
-        "text": "make apt. with Doctor Barker by",
+        "text": "request appointment with doctor",
         "intent": "create_apt",
-        "entities": [
-          {
-            "end": 28,
-            "entity": "dr",
-            "start": 15,
-            "value": "Doctor Barker"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "request appointment with Doctor Barker on Friday",
+        "text": "set up an apt. with Dr.",
         "intent": "create_apt",
-        "entities": [
-          {
-            "end": 38,
-            "entity": "dr",
-            "start": 25,
-            "value": "Doctor Barker"
-          },
-          {
-            "end": 48,
-            "entity": "date",
-            "start": 42,
-            "value": "Friday"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "set up an apt. with Dr. Marino by Friday",
+        "text": "schedule an apt",
         "intent": "create_apt",
-        "entities": [
-          {
-            "end": 30,
-            "entity": "dr",
-            "start": 20,
-            "value": "Dr. Marino"
-          },
-          {
-            "end": 40,
-            "entity": "date",
-            "start": 34,
-            "value": "Friday"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "schedule an apt. on Tuesday",
+        "text": "schedule apt.",
         "intent": "create_apt",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "date",
-            "start": 20,
-            "value": "Tuesday"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "schedule apt. Doctor Fung at Friday",
-        "intent": "create_apt",
-        "entities": [
-          {
-            "end": 25,
-            "entity": "dr",
-            "start": 14,
-            "value": "Doctor Fung"
-          },
-          {
-            "end": 35,
-            "entity": "date",
-            "start": 29,
-            "value": "Friday"
-          }
-        ]
-      },
-      {
-        "text": "schedule apt by Thursday",
-        "intent": "create_apt",
-        "entities": [
-          {
-            "end": 24,
-            "entity": "date",
-            "start": 16,
-            "value": "Thursday"
-          }
-        ]
-      },
-      {
-        "text": "set up an apt. with Dr. Fung Tuesday",
+        "text": "set up an apt. with Dr. Fung",
         "intent": "create_apt",
         "entities": [
           {
@@ -1338,104 +1056,28 @@
             "entity": "dr",
             "start": 20,
             "value": "Dr. Fung"
-          },
-          {
-            "end": 36,
-            "entity": "date",
-            "start": 29,
-            "value": "Tuesday"
           }
         ]
       },
       {
-        "text": "schedule an meeting with Doctor Barker on Tuesday",
+        "text": "schedule an meeting with my Doctor",
         "intent": "create_apt",
-        "entities": [
-          {
-            "end": 38,
-            "entity": "dr",
-            "start": 25,
-            "value": "Doctor Barker"
-          },
-          {
-            "end": 49,
-            "entity": "date",
-            "start": 42,
-            "value": "Tuesday"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "book meeting with Dr. Barker on Thursday",
+        "text": "book meeting with the doctor",
         "intent": "create_apt",
-        "entities": [
-          {
-            "end": 28,
-            "entity": "dr",
-            "start": 18,
-            "value": "Dr. Barker"
-          },
-          {
-            "end": 40,
-            "entity": "date",
-            "start": 32,
-            "value": "Thursday"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "make apt. Dr. Marino on Saturday",
+        "text": "create an apt with my Doctor",
         "intent": "create_apt",
-        "entities": [
-          {
-            "end": 20,
-            "entity": "dr",
-            "start": 10,
-            "value": "Dr. Marino"
-          },
-          {
-            "end": 32,
-            "entity": "date",
-            "start": 24,
-            "value": "Saturday"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "create an apt with Doctor Fung at Monday",
+        "text": "book consultation",
         "intent": "create_apt",
-        "entities": [
-          {
-            "end": 30,
-            "entity": "dr",
-            "start": 19,
-            "value": "Doctor Fung"
-          },
-          {
-            "end": 40,
-            "entity": "date",
-            "start": 34,
-            "value": "Monday"
-          }
-        ]
-      },
-      {
-        "text": "book consultation with Dr. Barker at Thursday",
-        "intent": "create_apt",
-        "entities": [
-          {
-            "end": 33,
-            "entity": "dr",
-            "start": 23,
-            "value": "Dr. Barker"
-          },
-          {
-            "end": 45,
-            "entity": "date",
-            "start": 37,
-            "value": "Thursday"
-          }
-        ]
+        "entities": []
       },
       {
         "text": "set up an consultation with doctor murphy at Sunday",
@@ -1456,268 +1098,68 @@
         ]
       },
       {
-        "text": "book an apt. with Wednesday",
+        "text": "book an apt. Wednesday",
         "intent": "create_apt",
         "entities": [
           {
-            "end": 27,
+            "end": 13,
             "entity": "date",
-            "start": 18,
+            "start": 22,
             "value": "Wednesday"
           }
         ]
       },
       {
-        "text": "setup an apt Doctor Barker at Friday",
+        "text": "request consultation",
         "intent": "create_apt",
-        "entities": [
-          {
-            "end": 26,
-            "entity": "dr",
-            "start": 13,
-            "value": "Doctor Barker"
-          },
-          {
-            "end": 36,
-            "entity": "date",
-            "start": 30,
-            "value": "Friday"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "make an appointment with Dr. Fung Saturday",
+        "text": "set up an apt",
         "intent": "create_apt",
-        "entities": [
-          {
-            "end": 33,
-            "entity": "dr",
-            "start": 25,
-            "value": "Dr. Fung"
-          },
-          {
-            "end": 42,
-            "entity": "date",
-            "start": 34,
-            "value": "Saturday"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "book apt. with Doctor Marino Friday",
+        "text": "make a doctor appointment",
         "intent": "create_apt",
-        "entities": [
-          {
-            "end": 28,
-            "entity": "dr",
-            "start": 15,
-            "value": "Doctor Marino"
-          },
-          {
-            "end": 35,
-            "entity": "date",
-            "start": 29,
-            "value": "Friday"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "request consultation Sunday",
-        "intent": "create_apt",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "date",
-            "start": 21,
-            "value": "Sunday"
-          }
-        ]
-      },
-      {
-        "text": "set up an apt with Doctor Fung",
+        "text": "setup a Doctors appointment on Tuesday",
         "intent": "create_apt",
         "entities": [
           {
             "end": 30,
-            "entity": "dr",
-            "start": 19,
-            "value": "Doctor Fung"
-          }
-        ]
-      },
-      {
-        "text": "request consultation Doctor Marino Monday",
-        "intent": "create_apt",
-        "entities": [
-          {
-            "end": 34,
-            "entity": "dr",
-            "start": 21,
-            "value": "Doctor Marino"
-          },
-          {
-            "end": 41,
-            "entity": "date",
-            "start": 35,
-            "value": "Monday"
-          }
-        ]
-      },
-      {
-        "text": "make an apt Doctor Fung Thursday",
-        "intent": "create_apt",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "dr",
-            "start": 12,
-            "value": "Doctor Fung"
-          },
-          {
-            "end": 32,
-            "entity": "date",
-            "start": 24,
-            "value": "Thursday"
-          }
-        ]
-      },
-      {
-        "text": "setup meeting Doctor Barker by Tuesday",
-        "intent": "create_apt",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "dr",
-            "start": 14,
-            "value": "Doctor Barker"
-          },
-          {
-            "end": 38,
-            "entity": "date",
-            "start": 31,
-            "value": "Tuesday"
-          }
-        ]
-      },
-      {
-        "text": "create an appointment Dr. Barker on Monday",
-        "intent": "create_apt",
-        "entities": [
-          {
-            "end": 32,
-            "entity": "dr",
-            "start": 22,
-            "value": "Dr. Barker"
-          },
-          {
-            "end": 42,
-            "entity": "date",
-            "start": 36,
-            "value": "Monday"
-          }
-        ]
-      },
-      {
-        "text": "setup an appointment with Dr. Marino by Sunday",
-        "intent": "create_apt",
-        "entities": [
-          {
-            "end": 36,
-            "entity": "dr",
-            "start": 26,
-            "value": "Dr. Marino"
-          },
-          {
-            "end": 46,
-            "entity": "date",
-            "start": 40,
-            "value": "Sunday"
-          }
-        ]
-      },
-      {
-        "text": "set up an apt with Dr. Fung Thursday",
-        "intent": "create_apt",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "dr",
-            "start": 19,
-            "value": "Dr. Fung"
-          },
-          {
-            "end": 36,
-            "entity": "date",
-            "start": 28,
-            "value": "Thursday"
-          }
-        ]
-      },
-      {
-        "text": "create meeting Dr. Fung at Saturday",
-        "intent": "create_apt",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "dr",
-            "start": 15,
-            "value": "Dr. Fung"
-          },
-          {
-            "end": 35,
-            "entity": "date",
-            "start": 27,
-            "value": "Saturday"
-          }
-        ]
-      },
-      {
-        "text": "setup consultation with Dr. Barker at Friday",
-        "intent": "create_apt",
-        "entities": [
-          {
-            "end": 34,
-            "entity": "dr",
-            "start": 24,
-            "value": "Dr. Barker"
-          },
-          {
-            "end": 44,
-            "entity": "date",
-            "start": 38,
-            "value": "Friday"
-          }
-        ]
-      },
-      {
-        "text": "setup appointment with Doctor Barker Monday",
-        "intent": "create_apt",
-        "entities": [
-          {
-            "end": 36,
-            "entity": "dr",
-            "start": 23,
-            "value": "Doctor Barker"
-          },
-          {
-            "end": 43,
             "entity": "date",
             "start": 37,
-            "value": "Monday"
+            "value": "Tuesday"
           }
         ]
       },
       {
-        "text": "request consultation Tuesday",
+        "text": "create a doctors appointment",
         "intent": "create_apt",
-        "entities": [
-          {
-            "end": 28,
-            "entity": "date",
-            "start": 21,
-            "value": "Tuesday"
-          }
-        ]
+        "entities": []
+      },
+      {
+        "text": "setup a doctors appointment",
+        "intent": "create_apt",
+        "entities": []
+      },
+      {
+        "text": "set up a doctors apt",
+        "intent": "create_apt",
+        "entities": []
+      },
+      {
+        "text": "make a doctors appointment",
+        "intent": "create_apt",
+        "entities": []
+      },
+      {
+        "text": "make a doctor appointment",
+        "intent": "create_apt",
+        "entities": []
       },
       {
         "text": "to Doctor Barker",
@@ -3586,12 +3028,12 @@
         ]
       },
       {
-        "text": "get a refill",
+        "text": "could I get a refill",
         "intent": "request_refill",
         "entities": []
       },
       {
-        "text": "refill",
+        "text": "refill medicine",
         "intent": "request_refill",
         "entities": []
       },
@@ -3606,7 +3048,7 @@
         "entities": []
       },
       {
-        "text": "running low",
+        "text": "running low on medicine",
         "intent": "request_refill",
         "entities": []
       },
@@ -3731,18 +3173,6 @@
         "entities": []
       },
       {
-        "text": "metformin",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 9,
-            "entity": "medicine",
-            "start": 0,
-            "value": "metformin"
-          }
-        ]
-      },
-      {
         "text": "Ibuprofen",
         "intent": "medicineName",
         "entities": [
@@ -3755,86 +3185,14 @@
         ]
       },
       {
-        "text": "Morphine Sulfate",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 16,
-            "entity": "medicine",
-            "start": 0,
-            "value": "Morphine Sulfate"
-          }
-        ]
-      },
-      {
-        "text": "Lamotrigine",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 11,
-            "entity": "medicine",
-            "start": 0,
-            "value": "Lamotrigine"
-          }
-        ]
-      },
-      {
-        "text": "Lisinopril",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 10,
-            "entity": "medicine",
-            "start": 0,
-            "value": "Lisinopril"
-          }
-        ]
-      },
-      {
-        "text": "Aspirin",
+        "text": "aspirin",
         "intent": "medicineName",
         "entities": [
           {
             "end": 7,
             "entity": "medicine",
             "start": 0,
-            "value": "Aspirin"
-          }
-        ]
-      },
-      {
-        "text": "Hydrocodone Bitartrate and Acetaminophen",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 40,
-            "entity": "medicine",
-            "start": 0,
-            "value": "Hydrocodone Bitartrate and Acetaminophen"
-          }
-        ]
-      },
-      {
-        "text": "Propranolol Hydrochloride",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 25,
-            "entity": "medicine",
-            "start": 0,
-            "value": "Propranolol Hydrochloride"
-          }
-        ]
-      },
-      {
-        "text": "Naproxen",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 8,
-            "entity": "medicine",
-            "start": 0,
-            "value": "Naproxen"
+            "value": "aspirin"
           }
         ]
       },
@@ -3851,54 +3209,6 @@
         ]
       },
       {
-        "text": "Levothyroxine Sodium",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 20,
-            "entity": "medicine",
-            "start": 0,
-            "value": "Levothyroxine Sodium"
-          }
-        ]
-      },
-      {
-        "text": "Risperidone",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 11,
-            "entity": "medicine",
-            "start": 0,
-            "value": "Risperidone"
-          }
-        ]
-      },
-      {
-        "text": "Bupropion Hydrochloride",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "medicine",
-            "start": 0,
-            "value": "Bupropion Hydrochloride"
-          }
-        ]
-      },
-      {
-        "text": "Ciprofloxacin",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 13,
-            "entity": "medicine",
-            "start": 0,
-            "value": "Ciprofloxacin"
-          }
-        ]
-      },
-      {
         "text": "Alprazolam",
         "intent": "medicineName",
         "entities": [
@@ -3911,98 +3221,14 @@
         ]
       },
       {
-        "text": "Venlafaxine Hydrochloride",
+        "text": "xanax",
         "intent": "medicineName",
         "entities": [
           {
-            "end": 25,
+            "end": 5,
             "entity": "medicine",
             "start": 0,
-            "value": "Venlafaxine Hydrochloride"
-          }
-        ]
-      },
-      {
-        "text": "Lorazepam",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 9,
-            "entity": "medicine",
-            "start": 0,
-            "value": "Lorazepam"
-          }
-        ]
-      },
-      {
-        "text": "Aripiprazole",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 12,
-            "entity": "medicine",
-            "start": 0,
-            "value": "Aripiprazole"
-          }
-        ]
-      },
-      {
-        "text": "Hydrochlorothiazide",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 19,
-            "entity": "medicine",
-            "start": 0,
-            "value": "Hydrochlorothiazide"
-          }
-        ]
-      },
-      {
-        "text": "Simvastatin",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 11,
-            "entity": "medicine",
-            "start": 0,
-            "value": "Simvastatin"
-          }
-        ]
-      },
-      {
-        "text": "Quetiapine Fumarate",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 19,
-            "entity": "medicine",
-            "start": 0,
-            "value": "Quetiapine Fumarate"
-          }
-        ]
-      },
-      {
-        "text": "Pain Relief",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 11,
-            "entity": "medicine",
-            "start": 0,
-            "value": "Pain Relief"
-          }
-        ]
-      },
-      {
-        "text": "Olanzapine",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 10,
-            "entity": "medicine",
-            "start": 0,
-            "value": "Olanzapine"
+            "value": "xanax"
           }
         ]
       },
@@ -4031,182 +3257,14 @@
         ]
       },
       {
-        "text": "Amitriptyline Hydrochloride",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "medicine",
-            "start": 0,
-            "value": "Amitriptyline Hydrochloride"
-          }
-        ]
-      },
-      {
-        "text": "Clonazepam",
+        "text": "clonazepam",
         "intent": "medicineName",
         "entities": [
           {
             "end": 10,
             "entity": "medicine",
             "start": 0,
-            "value": "Clonazepam"
-          }
-        ]
-      },
-      {
-        "text": "Stool Softener",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 14,
-            "entity": "medicine",
-            "start": 0,
-            "value": "Stool Softener"
-          }
-        ]
-      },
-      {
-        "text": "Atenolol",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 8,
-            "entity": "medicine",
-            "start": 0,
-            "value": "Atenolol"
-          }
-        ]
-      },
-      {
-        "text": "Hydrocortisone",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 14,
-            "entity": "medicine",
-            "start": 0,
-            "value": "Hydrocortisone"
-          }
-        ]
-      },
-      {
-        "text": "methylphenidate hydrochloride",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 29,
-            "entity": "medicine",
-            "start": 0,
-            "value": "methylphenidate hydrochloride"
-          }
-        ]
-      },
-      {
-        "text": "prednisone",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 10,
-            "entity": "medicine",
-            "start": 0,
-            "value": "prednisone"
-          }
-        ]
-      },
-      {
-        "text": "allergy relief",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 14,
-            "entity": "medicine",
-            "start": 0,
-            "value": "allergy relief"
-          }
-        ]
-      },
-      {
-        "text": "metronidazole",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 13,
-            "entity": "medicine",
-            "start": 0,
-            "value": "metronidazole"
-          }
-        ]
-      },
-      {
-        "text": "furosemide",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 10,
-            "entity": "medicine",
-            "start": 0,
-            "value": "furosemide"
-          }
-        ]
-      },
-      {
-        "text": "ibuprofen",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 9,
-            "entity": "medicine",
-            "start": 0,
-            "value": "ibuprofen"
-          }
-        ]
-      },
-      {
-        "text": "levofloxacin",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 12,
-            "entity": "medicine",
-            "start": 0,
-            "value": "levofloxacin"
-          }
-        ]
-      },
-      {
-        "text": "doxycycline hyclate",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 19,
-            "entity": "medicine",
-            "start": 0,
-            "value": "doxycycline hyclate"
-          }
-        ]
-      },
-      {
-        "text": "amlodipine besylate",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 19,
-            "entity": "medicine",
-            "start": 0,
-            "value": "amlodipine besylate"
-          }
-        ]
-      },
-      {
-        "text": "phentermine hydrochloride",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 25,
-            "entity": "medicine",
-            "start": 0,
-            "value": "phentermine hydrochloride"
+            "value": "clonazepam"
           }
         ]
       },
@@ -4223,126 +3281,6 @@
         ]
       },
       {
-        "text": "nitrogen",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 8,
-            "entity": "medicine",
-            "start": 0,
-            "value": "nitrogen"
-          }
-        ]
-      },
-      {
-        "text": "fluconazole",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 11,
-            "entity": "medicine",
-            "start": 0,
-            "value": "fluconazole"
-          }
-        ]
-      },
-      {
-        "text": "naproxen sodium",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 15,
-            "entity": "medicine",
-            "start": 0,
-            "value": "naproxen sodium"
-          }
-        ]
-      },
-      {
-        "text": "methocarbamol",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 13,
-            "entity": "medicine",
-            "start": 0,
-            "value": "methocarbamol"
-          }
-        ]
-      },
-      {
-        "text": "potassium chloride",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 18,
-            "entity": "medicine",
-            "start": 0,
-            "value": "potassium chloride"
-          }
-        ]
-      },
-      {
-        "text": "diazepam",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 8,
-            "entity": "medicine",
-            "start": 0,
-            "value": "diazepam"
-          }
-        ]
-      },
-      {
-        "text": "omeprazole",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 10,
-            "entity": "medicine",
-            "start": 0,
-            "value": "omeprazole"
-          }
-        ]
-      },
-      {
-        "text": "diclofenac sodium",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 17,
-            "entity": "medicine",
-            "start": 0,
-            "value": "diclofenac sodium"
-          }
-        ]
-      },
-      {
-        "text": "nifedipine",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 10,
-            "entity": "medicine",
-            "start": 0,
-            "value": "nifedipine"
-          }
-        ]
-      },
-      {
-        "text": "glipizide",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 9,
-            "entity": "medicine",
-            "start": 0,
-            "value": "glipizide"
-          }
-        ]
-      },
-      {
         "text": "oxycodone hydrochloride",
         "intent": "medicineName",
         "entities": [
@@ -4351,18 +3289,6 @@
             "entity": "medicine",
             "start": 0,
             "value": "oxycodone hydrochloride"
-          }
-        ]
-      },
-      {
-        "text": "mirtazapine",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 11,
-            "entity": "medicine",
-            "start": 0,
-            "value": "mirtazapine"
           }
         ]
       },
@@ -4379,138 +3305,6 @@
         ]
       },
       {
-        "text": "ranitidine",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 10,
-            "entity": "medicine",
-            "start": 0,
-            "value": "ranitidine"
-          }
-        ]
-      },
-      {
-        "text": "fluoxetine",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 10,
-            "entity": "medicine",
-            "start": 0,
-            "value": "fluoxetine"
-          }
-        ]
-      },
-      {
-        "text": "topiramate",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 10,
-            "entity": "medicine",
-            "start": 0,
-            "value": "topiramate"
-          }
-        ]
-      },
-      {
-        "text": "lovastatin",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 10,
-            "entity": "medicine",
-            "start": 0,
-            "value": "lovastatin"
-          }
-        ]
-      },
-      {
-        "text": "oxycodone and acetaminophen",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "medicine",
-            "start": 0,
-            "value": "oxycodone and acetaminophen"
-          }
-        ]
-      },
-      {
-        "text": "hydralazine hydrochloride",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 25,
-            "entity": "medicine",
-            "start": 0,
-            "value": "hydralazine hydrochloride"
-          }
-        ]
-      },
-      {
-        "text": "sodium chloride",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 15,
-            "entity": "medicine",
-            "start": 0,
-            "value": "sodium chloride"
-          }
-        ]
-      },
-      {
-        "text": "pramipexole dihydrochloride",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "medicine",
-            "start": 0,
-            "value": "pramipexole dihydrochloride"
-          }
-        ]
-      },
-      {
-        "text": "hydroxyzine hydrochloride",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 25,
-            "entity": "medicine",
-            "start": 0,
-            "value": "hydroxyzine hydrochloride"
-          }
-        ]
-      },
-      {
-        "text": "promethazine hydrochloride",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 26,
-            "entity": "medicine",
-            "start": 0,
-            "value": "promethazine hydrochloride"
-          }
-        ]
-      },
-      {
-        "text": "benazepril hydrochloride",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 24,
-            "entity": "medicine",
-            "start": 0,
-            "value": "benazepril hydrochloride"
-          }
-        ]
-      },
-      {
         "text": "paroxetine",
         "intent": "medicineName",
         "entities": [
@@ -4519,126 +3313,6 @@
             "entity": "medicine",
             "start": 0,
             "value": "paroxetine"
-          }
-        ]
-      },
-      {
-        "text": "famotidine",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 10,
-            "entity": "medicine",
-            "start": 0,
-            "value": "famotidine"
-          }
-        ]
-      },
-      {
-        "text": "lidocaine hydrochloride",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "medicine",
-            "start": 0,
-            "value": "lidocaine hydrochloride"
-          }
-        ]
-      },
-      {
-        "text": "ondansetron",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 11,
-            "entity": "medicine",
-            "start": 0,
-            "value": "ondansetron"
-          }
-        ]
-      },
-      {
-        "text": "acyclovir",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 9,
-            "entity": "medicine",
-            "start": 0,
-            "value": "acyclovir"
-          }
-        ]
-      },
-      {
-        "text": "ampicillin",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 10,
-            "entity": "medicine",
-            "start": 0,
-            "value": "ampicillin"
-          }
-        ]
-      },
-      {
-        "text": "trazodone hydrochloride",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "medicine",
-            "start": 0,
-            "value": "trazodone hydrochloride"
-          }
-        ]
-      },
-      {
-        "text": "sleep aid",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 9,
-            "entity": "medicine",
-            "start": 0,
-            "value": "sleep aid"
-          }
-        ]
-      },
-      {
-        "text": "estradiol",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 9,
-            "entity": "medicine",
-            "start": 0,
-            "value": "estradiol"
-          }
-        ]
-      },
-      {
-        "text": "glimepiride",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 11,
-            "entity": "medicine",
-            "start": 0,
-            "value": "glimepiride"
-          }
-        ]
-      },
-      {
-        "text": "atorvastatin calcium",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 20,
-            "entity": "medicine",
-            "start": 0,
-            "value": "atorvastatin calcium"
           }
         ]
       },
@@ -4667,54 +3341,6 @@
         ]
       },
       {
-        "text": "verapamil hydrochloride",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 23,
-            "entity": "medicine",
-            "start": 0,
-            "value": "verapamil hydrochloride"
-          }
-        ]
-      },
-      {
-        "text": "valsartan",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 9,
-            "entity": "medicine",
-            "start": 0,
-            "value": "valsartan"
-          }
-        ]
-      },
-      {
-        "text": "fenofibrate",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 11,
-            "entity": "medicine",
-            "start": 0,
-            "value": "fenofibrate"
-          }
-        ]
-      },
-      {
-        "text": "celecoxib",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 9,
-            "entity": "medicine",
-            "start": 0,
-            "value": "celecoxib"
-          }
-        ]
-      },
-      {
         "text": "adderall xr",
         "intent": "medicineName",
         "entities": [
@@ -4735,66 +3361,6 @@
             "entity": "medicine",
             "start": 0,
             "value": "vicodin"
-          }
-        ]
-      },
-      {
-        "text": "lisinopril",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 10,
-            "entity": "medicine",
-            "start": 0,
-            "value": "lisinopril"
-          }
-        ]
-      },
-      {
-        "text": "simvastatin",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 11,
-            "entity": "medicine",
-            "start": 0,
-            "value": "simvastatin"
-          }
-        ]
-      },
-      {
-        "text": "amlodipine",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 10,
-            "entity": "medicine",
-            "start": 0,
-            "value": "amlodipine"
-          }
-        ]
-      },
-      {
-        "text": "acetaminophen",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 13,
-            "entity": "medicine",
-            "start": 0,
-            "value": "acetaminophen"
-          }
-        ]
-      },
-      {
-        "text": "levothryoxine",
-        "intent": "medicineName",
-        "entities": [
-          {
-            "end": 13,
-            "entity": "medicine",
-            "start": 0,
-            "value": "levothryoxine"
           }
         ]
       },
@@ -5426,196 +3992,84 @@
         ]
       },
       {
-        "text": "send them a note Dr. Barker",
+        "text": "send them a note to my doctor",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "dr",
-            "start": 17,
-            "value": "Dr. Barker"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "tell Doctor Barker know that",
+        "text": "leave a message",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 18,
-            "entity": "dr",
-            "start": 5,
-            "value": "Doctor Barker"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "send them a message to Doctor Fung",
+        "text": "send them a message",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 34,
-            "entity": "dr",
-            "start": 23,
-            "value": "Doctor Fung"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "leave Doctor Fung something",
+        "text": "leave my Doctor a note",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 17,
-            "entity": "dr",
-            "start": 6,
-            "value": "Doctor Fung"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "tell Doctor Barker a note",
+        "text": "I need to tell my doctor something",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 18,
-            "entity": "dr",
-            "start": 5,
-            "value": "Doctor Barker"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "send them a note Dr. Marino",
+        "text": "send them a note",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "dr",
-            "start": 17,
-            "value": "Dr. Marino"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "let Doctor Fung a note",
+        "text": "give Doctor a note",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 15,
-            "entity": "dr",
-            "start": 4,
-            "value": "Doctor Fung"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "tell Dr. Marino know that",
+        "text": "tell Dr. that",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 15,
-            "entity": "dr",
-            "start": 5,
-            "value": "Dr. Marino"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "let them know to Dr. Fung",
+        "text": "leave a message",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 25,
-            "entity": "dr",
-            "start": 17,
-            "value": "Dr. Fung"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "let Doctor Marino know that",
+        "text": "can I leave a message",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 17,
-            "entity": "dr",
-            "start": 4,
-            "value": "Doctor Marino"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "let them know to Doctor Barker",
+        "text": "let the doctor know",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 30,
-            "entity": "dr",
-            "start": 17,
-            "value": "Doctor Barker"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "tell Dr. Fung a message",
+        "text": "I want to send my doctor a message",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 13,
-            "entity": "dr",
-            "start": 5,
-            "value": "Dr. Fung"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "let Dr. Fung something",
+        "text": "send message to dr.",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 12,
-            "entity": "dr",
-            "start": 4,
-            "value": "Dr. Fung"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "let them know Dr. Fung",
+        "text": "tell my doctor that I am not feeling well",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 22,
-            "entity": "dr",
-            "start": 14,
-            "value": "Dr. Fung"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "let Doctor Marino something",
+        "text": "let my doctor know something",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 17,
-            "entity": "dr",
-            "start": 4,
-            "value": "Doctor Marino"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "send them a note to Doctor Fung",
+        "text": "tell the doctor that I am not feeling well",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 31,
-            "entity": "dr",
-            "start": 20,
-            "value": "Doctor Fung"
-          }
-        ]
+        "entities": []
       },
       {
         "text": "let them know",
@@ -5623,196 +4077,84 @@
         "entities": []
       },
       {
-        "text": "tell Doctor Fung something",
+        "text": "send a message to doctor",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 16,
-            "entity": "dr",
-            "start": 5,
-            "value": "Doctor Fung"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "let Dr. Barker a message",
+        "text": "message doctor",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 14,
-            "entity": "dr",
-            "start": 4,
-            "value": "Dr. Barker"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "tell Dr. Barker a note",
+        "text": "leave a note",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 15,
-            "entity": "dr",
-            "start": 5,
-            "value": "Dr. Barker"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "tell Dr. Fung know that",
+        "text": "tell the Doctor that",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 13,
-            "entity": "dr",
-            "start": 5,
-            "value": "Dr. Fung"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "send them a note Doctor Fung",
+        "text": "I need to speak with my doctor",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 28,
-            "entity": "dr",
-            "start": 17,
-            "value": "Doctor Fung"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "leave a message to Doctor Marino",
+        "text": "can I tell my doctor something",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 32,
-            "entity": "dr",
-            "start": 19,
-            "value": "Doctor Marino"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "send them a note Doctor Marino",
+        "text": "may you tell doctor that",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 30,
-            "entity": "dr",
-            "start": 17,
-            "value": "Doctor Marino"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "leave a message Doctor Fung",
+        "text": "message doctor that",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "dr",
-            "start": 16,
-            "value": "Doctor Fung"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "let Doctor Fung a message",
+        "text": "give them a message",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 15,
-            "entity": "dr",
-            "start": 4,
-            "value": "Doctor Fung"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "let Doctor Marino a message",
+        "text": "tell them",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 17,
-            "entity": "dr",
-            "start": 4,
-            "value": "Doctor Marino"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "send them a message Dr. Barker",
+        "text": "send them a message",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 30,
-            "entity": "dr",
-            "start": 20,
-            "value": "Dr. Barker"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "let Dr. Marino a note",
+        "text": "give them a note",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 14,
-            "entity": "dr",
-            "start": 4,
-            "value": "Dr. Marino"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "send them a message to Doctor Barker",
+        "text": "send them a message to",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 36,
-            "entity": "dr",
-            "start": 23,
-            "value": "Doctor Barker"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "tell Dr. Fung a note",
+        "text": "give notice that",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 13,
-            "entity": "dr",
-            "start": 5,
-            "value": "Dr. Fung"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "let Dr. Fung a message",
+        "text": "i need to tell my doctor",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 12,
-            "entity": "dr",
-            "start": 4,
-            "value": "Dr. Fung"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "let Dr. Barker know that",
+        "text": "tell doctor that",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 14,
-            "entity": "dr",
-            "start": 4,
-            "value": "Dr. Barker"
-          }
-        ]
+        "entities": []
       },
       {
         "text": "let them know to",
@@ -5820,40 +4162,21 @@
         "entities": []
       },
       {
-        "text": "leave Dr. Marino a note",
+        "text": "leave dr. marino a note",
         "intent": "message_dr",
         "entities": [
           {
             "end": 16,
             "entity": "dr",
             "start": 6,
-            "value": "Dr. Marino"
+            "value": "dr. marino"
           }
         ]
       },
       {
-        "text": "let Doctor Barker a message",
+        "text": "send my doctor a message",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 17,
-            "entity": "dr",
-            "start": 4,
-            "value": "Doctor Barker"
-          }
-        ]
-      },
-      {
-        "text": "let Dr. Marino a message",
-        "intent": "message_dr",
-        "entities": [
-          {
-            "end": 14,
-            "entity": "dr",
-            "start": 4,
-            "value": "Dr. Marino"
-          }
-        ]
+        "entities": []
       },
       {
         "text": "leave Doctor Marino a note",
@@ -5868,52 +4191,24 @@
         ]
       },
       {
-        "text": "leave a message Doctor Barker",
+        "text": "leave a message to Doctor",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 29,
-            "entity": "dr",
-            "start": 16,
-            "value": "Doctor Barker"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "tell Dr. Marino something",
+        "text": "tell doctor something",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 15,
-            "entity": "dr",
-            "start": 5,
-            "value": "Dr. Marino"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "let them know to Dr. Barker",
+        "text": "let them know",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "dr",
-            "start": 17,
-            "value": "Dr. Barker"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "let Dr. Barker something",
+        "text": "I need to let the doctor know something",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 14,
-            "entity": "dr",
-            "start": 4,
-            "value": "Dr. Barker"
-          }
-        ]
+        "entities": []
       },
       {
         "text": "send them a note",
@@ -5921,52 +4216,24 @@
         "entities": []
       },
       {
-        "text": "let Doctor Marino a note",
+        "text": "give dr a message",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 17,
-            "entity": "dr",
-            "start": 4,
-            "value": "Doctor Marino"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "tell Doctor Fung a message",
+        "text": "tell Doctor",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 16,
-            "entity": "dr",
-            "start": 5,
-            "value": "Doctor Fung"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "let them know Doctor Marino",
+        "text": "let them know",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "dr",
-            "start": 14,
-            "value": "Doctor Marino"
-          }
-        ]
+        "entities": []
       },
       {
-        "text": "send them a message to Dr. Marino",
+        "text": "send a message to Dr.",
         "intent": "message_dr",
-        "entities": [
-          {
-            "end": 33,
-            "entity": "dr",
-            "start": 23,
-            "value": "Dr. Marino"
-          }
-        ]
+        "entities": []
       },
       {
         "text": "My vision is blurred",
@@ -5981,7 +4248,7 @@
         ]
       },
       {
-        "text": "I am writing to let you know",
+        "text": "I am writing to let you know I am doing well",
         "intent": "note_to_doc",
         "entities": [
           {
@@ -6105,7 +4372,7 @@
         "intent": "note_to_doc",
         "entities": [
           {
-            "end": 52,
+            "end": 51,
             "entity": "message",
             "start": 0,
             "value": "My stomach hurts after eating pie, what should I do?"
@@ -6125,6 +4392,30 @@
         ]
       },
       {
+        "text": "help I dont understand my instructions",
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "message",
+            "start": 0,
+            "value": "I look forward to seeing you, thanks"
+          }
+        ]
+      },
+      {
+        "text": "could you help me? I am having difficulty since my recent appointment",
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 69,
+            "entity": "message",
+            "start": 0,
+            "value": "I look forward to seeing you, thanks"
+          }
+        ]
+      },
+      {
         "text": "see results",
         "intent": "review_labResults",
         "entities": []
@@ -6135,7 +4426,7 @@
         "entities": []
       },
       {
-        "text": "results",
+        "text": "results of lab",
         "intent": "review_labResults",
         "entities": []
       },
@@ -6165,18 +4456,23 @@
         "entities": []
       },
       {
-        "text": "recent lab results",
+        "text": "may I see my lab results",
         "intent": "review_labResults",
         "entities": []
       },
       {
-        "text": "request due payments",
-        "intent": "viewBills",
+        "text": "do you have my lab results",
+        "intent": "review_labResults",
         "entities": []
       },
       {
-        "text": "view payments",
-        "intent": "viewBills",
+        "text": "can I view my lab results",
+        "intent": "review_labResults",
+        "entities": []
+      },
+      {
+        "text": "what are my lab results",
+        "intent": "review_labResults",
         "entities": []
       },
       {
@@ -6226,6 +4522,136 @@
       },
       {
         "text": "let me see my recent bills",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "let me view payments",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "may I see bills due",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "view my outstanding bill",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "see bill",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "show me my outstanding payments",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "do I have any bills?",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "list all bills",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "can you show me what are my outstanding bills",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "please let me see my bills",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "see all bills due",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "view my outstanding bills",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "see my bills",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "show me my outstanding payments",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "what are my bills owed?",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "list bills owed",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "can you tell me what are my outstanding bills",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "please let me see my recent bills",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "Can I please see my due payments",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "may I please see my bills due",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "view any outstanding bills",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "see all bills",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "show me what my outstanding payments are",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "do I have to pay any bills?",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "list all of my bills",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "can you please show me what are my outstanding bills",
+        "intent": "viewBills",
+        "entities": []
+      },
+      {
+        "text": "please let me see my bills due",
         "intent": "viewBills",
         "entities": []
       }

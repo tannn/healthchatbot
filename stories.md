@@ -123,7 +123,7 @@
     - utter_reviewLabResults
 * request_refill
     - utter_ask_medicine
-* medicineName{"medicine": "Adderrall"}
+* medicineName{"medicine": "Adderall"}
     - slot{"medicine": "Adderrall"}
     - utter_prescription_refill
 
@@ -223,7 +223,5 @@
     - utter_confirmed_message
 
 ## Billing
-* greeting
-    - utter_greet
 * viewBills
   	-	utter_bills

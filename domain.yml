@@ -56,7 +56,7 @@ templates:
   utter_confirmed:
     - "Got it! Your appointment to see {dr} is scheduled for {date}."
   utter_confimed_message:
-    - "Got it! We'll forward your message to your {dr} and get back to you soon."
+    - "Got it! We'll forward your message to your and get back to you soon."
   utter_bills:
     - "Your last bill is still unpaid: $322 (General appointment)"
     - "Your last 2 bills are unpaid: $22,040 (Thyroid Surgery), $2,200 (X-ray)"
