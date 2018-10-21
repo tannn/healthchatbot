@@ -63,7 +63,8 @@ templates:
     - "Ok"
     - "Got it"
   utter_reviewLabResults:
-    - "Here are your lab results: you are dead."
+    - "Here are your lab results: the white blood cell count in your blood is high. Please schedule an appointment soon."
+    - "Here are your lab results: a mass of mucus was detected at the bottom of your lungs. Your doctor sent your prescription to your local pharmacy."
   utter_prescription_refill:
     - "Your doctor will review your prescription refill soon."
   utter_ask_medicine:

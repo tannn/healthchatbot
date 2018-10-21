@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/Tanner/healthchatbot/models/second/nlu/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/Users/Tanner/healthchatbot/models/second/nlu/intent_classifier_tensorflow_embedding.ckpt"
