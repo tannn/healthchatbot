@@ -13,6 +13,14 @@
 * confirm_date{"date":"Thursday"}
 	- utter_confirmed
 
+## Message to Doc
+* message_dr
+	- utter_ask_which_dr
+* confirm_dr{"dr":"Dr. Smith"}
+	- utter_ask_message
+* note_to_doc{"message":"I keep throwing up"}
+	- utter_confirmed_message
+
 ## Message to Doctor, yes message, and doc
 * message_dr{"dr":"Dr. Marino"}
 	- utter_ask_message
@@ -46,6 +54,12 @@
 	- utter_confirmed_message
 * review_labResults
 	- utter_reviewLabResults
+
+## Request refill
+* request_refill
+	- utter_ask_medicine
+* medicineName{"medicine":"vicodin"}
+	- utter_prescription_refill
 
 ## Complicated1
 * create_apt
