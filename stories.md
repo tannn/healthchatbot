@@ -54,6 +54,8 @@
 	- utter_confirmed_message
 * review_labResults
 	- utter_reviewLabResults
+* viewBills
+  	-	utter_bills
 
 ## Request refill
 * request_refill
@@ -68,6 +70,8 @@
 	- utter_ask_date
 * confirm_date {"date":"Wednesday"}
 	- utter_confirmed
+* viewBills
+  	-	utter_bills
 * message_dr
 	- utter_ask_message
 * note_to_doc{"message":"My knee still hurts"}
@@ -94,6 +98,8 @@
 	- utter_reviewLabResults
 * request_refill{"medicine":"Mirena"}
 	- utter_prescription_refill
+* viewBills
+  	-	utter_bills
 
 ## Generated Story -633546204153406052
 * greeting
@@ -177,8 +183,8 @@
     - utter_confirmed_message
 * request_refill
     - utter_ask_medicine
-* medicineName{"medicine": "Adderrall"}
-    - slot{"medicine": "Adderrall"}
+* medicineName{"medicine": "Adderall"}
+    - slot{"medicine": "Adderall"}
     - utter_prescription_refill
 
 ## Note to Doctor
