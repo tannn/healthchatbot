@@ -23,6 +23,10 @@
       },
       {
         "intent": "greeting",
+        "text": "hi"
+      },
+      {
+        "intent": "greeting",
         "text": "hey"
       },
       {

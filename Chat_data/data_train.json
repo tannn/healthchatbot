@@ -29,6 +29,11 @@
         "entities": []
       },
       {
+        "text": "hi",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
         "text": "hey",
         "intent": "greeting",
         "entities": []
