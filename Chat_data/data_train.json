@@ -3717,6 +3717,978 @@
           }
         ]
       },
+{
+"text": "Ibuprofen"
+"intent": "medicineName",
+"entities": [
+{
+"end": 9
+"entity": "medicine",
+"start": 0,
+"value": "Ibuprofen"
+}
+]
+},
+{
+"text": "Morphine Sulfate"
+"intent": "medicineName",
+"entities": [
+{
+"end": 16
+"entity": "medicine",
+"start": 0,
+"value": "Morphine Sulfate"
+}
+]
+},
+{
+"text": "Lamotrigine"
+"intent": "medicineName",
+"entities": [
+{
+"end": 11
+"entity": "medicine",
+"start": 0,
+"value": "Lamotrigine"
+}
+]
+},
+{
+"text": "Lisinopril"
+"intent": "medicineName",
+"entities": [
+{
+"end": 10
+"entity": "medicine",
+"start": 0,
+"value": "Lisinopril"
+}
+]
+},
+{
+"text": "Aspirin"
+"intent": "medicineName",
+"entities": [
+{
+"end": 7
+"entity": "medicine",
+"start": 0,
+"value": "Aspirin"
+}
+]
+},
+{
+"text": "Hydrocodone Bitartrate and Acetaminophen"
+"intent": "medicineName",
+"entities": [
+{
+"end": 40
+"entity": "medicine",
+"start": 0,
+"value": "Hydrocodone Bitartrate and Acetaminophen"
+}
+]
+},
+{
+"text": "Propranolol Hydrochloride"
+"intent": "medicineName",
+"entities": [
+{
+"end": 25
+"entity": "medicine",
+"start": 0,
+"value": "Propranolol Hydrochloride"
+}
+]
+},
+{
+"text": "Naproxen"
+"intent": "medicineName",
+"entities": [
+{
+"end": 8
+"entity": "medicine",
+"start": 0,
+"value": "Naproxen"
+}
+]
+},
+{
+"text": "Amoxicillin"
+"intent": "medicineName",
+"entities": [
+{
+"end": 11
+"entity": "medicine",
+"start": 0,
+"value": "Amoxicillin"
+}
+]
+},
+{
+"text": "Levothyroxine Sodium"
+"intent": "medicineName",
+"entities": [
+{
+"end": 20
+"entity": "medicine",
+"start": 0,
+"value": "Levothyroxine Sodium"
+}
+]
+},
+{
+"text": "Risperidone"
+"intent": "medicineName",
+"entities": [
+{
+"end": 11
+"entity": "medicine",
+"start": 0,
+"value": "Risperidone"
+}
+]
+},
+{
+"text": "Bupropion Hydrochloride"
+"intent": "medicineName",
+"entities": [
+{
+"end": 23
+"entity": "medicine",
+"start": 0,
+"value": "Bupropion Hydrochloride"
+}
+]
+},
+{
+"text": "Ciprofloxacin"
+"intent": "medicineName",
+"entities": [
+{
+"end": 13
+"entity": "medicine",
+"start": 0,
+"value": "Ciprofloxacin"
+}
+]
+},
+{
+"text": "Alprazolam"
+"intent": "medicineName",
+"entities": [
+{
+"end": 10
+"entity": "medicine",
+"start": 0,
+"value": "Alprazolam"
+}
+]
+},
+{
+"text": "Venlafaxine Hydrochloride"
+"intent": "medicineName",
+"entities": [
+{
+"end": 25
+"entity": "medicine",
+"start": 0,
+"value": "Venlafaxine Hydrochloride"
+}
+]
+},
+{
+"text": "Lorazepam"
+"intent": "medicineName",
+"entities": [
+{
+"end": 9
+"entity": "medicine",
+"start": 0,
+"value": "Lorazepam"
+}
+]
+},
+{
+"text": "Aripiprazole"
+"intent": "medicineName",
+"entities": [
+{
+"end": 12
+"entity": "medicine",
+"start": 0,
+"value": "Aripiprazole"
+}
+]
+},
+{
+"text": "Hydrochlorothiazide"
+"intent": "medicineName",
+"entities": [
+{
+"end": 19
+"entity": "medicine",
+"start": 0,
+"value": "Hydrochlorothiazide"
+}
+]
+},
+{
+"text": "Simvastatin"
+"intent": "medicineName",
+"entities": [
+{
+"end": 11
+"entity": "medicine",
+"start": 0,
+"value": "Simvastatin"
+}
+]
+},
+{
+"text": "Quetiapine Fumarate"
+"intent": "medicineName",
+"entities": [
+{
+"end": 19
+"entity": "medicine",
+"start": 0,
+"value": "Quetiapine Fumarate"
+}
+]
+},
+{
+"text": "Pain Relief"
+"intent": "medicineName",
+"entities": [
+{
+"end": 11
+"entity": "medicine",
+"start": 0,
+"value": "Pain Relief"
+}
+]
+},
+{
+"text": "Olanzapine"
+"intent": "medicineName",
+"entities": [
+{
+"end": 10
+"entity": "medicine",
+"start": 0,
+"value": "Olanzapine"
+}
+]
+},
+{
+"text": "Carvedilol"
+"intent": "medicineName",
+"entities": [
+{
+"end": 10
+"entity": "medicine",
+"start": 0,
+"value": "Carvedilol"
+}
+]
+},
+{
+"text": "Cephalexin"
+"intent": "medicineName",
+"entities": [
+{
+"end": 10
+"entity": "medicine",
+"start": 0,
+"value": "Cephalexin"
+}
+]
+},
+{
+"text": "Amitriptyline Hydrochloride"
+"intent": "medicineName",
+"entities": [
+{
+"end": 27
+"entity": "medicine",
+"start": 0,
+"value": "Amitriptyline Hydrochloride"
+}
+]
+},
+{
+"text": "Clonazepam"
+"intent": "medicineName",
+"entities": [
+{
+"end": 10
+"entity": "medicine",
+"start": 0,
+"value": "Clonazepam"
+}
+]
+},
+{
+"text": "Stool Softener"
+"intent": "medicineName",
+"entities": [
+{
+"end": 14
+"entity": "medicine",
+"start": 0,
+"value": "Stool Softener"
+}
+]
+},
+{
+"text": "Atenolol"
+"intent": "medicineName",
+"entities": [
+{
+"end": 8
+"entity": "medicine",
+"start": 0,
+"value": "Atenolol"
+}
+]
+},
+{
+"text": "Hydrocortisone"
+"intent": "medicineName",
+"entities": [
+{
+"end": 14
+"entity": "medicine",
+"start": 0,
+"value": "Hydrocortisone"
+}
+]
+},
+{
+"text": "methylphenidate hydrochloride"
+"intent": "medicinename",
+"entities": [
+{
+"end": 29
+"entity": "medicine",
+"start": 0,
+"value": "methylphenidate hydrochloride"
+}
+]
+},
+{
+"text": "prednisone"
+"intent": "medicinename",
+"entities": [
+{
+"end": 10
+"entity": "medicine",
+"start": 0,
+"value": "prednisone"
+}
+]
+},
+{
+"text": "allergy relief"
+"intent": "medicinename",
+"entities": [
+{
+"end": 14
+"entity": "medicine",
+"start": 0,
+"value": "allergy relief"
+}
+]
+},
+{
+"text": "metronidazole"
+"intent": "medicinename",
+"entities": [
+{
+"end": 13
+"entity": "medicine",
+"start": 0,
+"value": "metronidazole"
+}
+]
+},
+{
+"text": "furosemide"
+"intent": "medicinename",
+"entities": [
+{
+"end": 10
+"entity": "medicine",
+"start": 0,
+"value": "furosemide"
+}
+]
+},
+{
+"text": "ibuprofen"
+"intent": "medicinename",
+"entities": [
+{
+"end": 9
+"entity": "medicine",
+"start": 0,
+"value": "ibuprofen"
+}
+]
+},
+{
+"text": "levofloxacin"
+"intent": "medicinename",
+"entities": [
+{
+"end": 12
+"entity": "medicine",
+"start": 0,
+"value": "levofloxacin"
+}
+]
+},
+{
+"text": "doxycycline hyclate"
+"intent": "medicinename",
+"entities": [
+{
+"end": 19
+"entity": "medicine",
+"start": 0,
+"value": "doxycycline hyclate"
+}
+]
+},
+{
+"text": "amlodipine besylate"
+"intent": "medicinename",
+"entities": [
+{
+"end": 19
+"entity": "medicine",
+"start": 0,
+"value": "amlodipine besylate"
+}
+]
+},
+{
+"text": "phentermine hydrochloride"
+"intent": "medicinename",
+"entities": [
+{
+"end": 25
+"entity": "medicine",
+"start": 0,
+"value": "phentermine hydrochloride"
+}
+]
+},
+{
+"text": "acetaminophen"
+"intent": "medicinename",
+"entities": [
+{
+"end": 13
+"entity": "medicine",
+"start": 0,
+"value": "acetaminophen"
+}
+]
+},
+{
+"text": "nitrogen"
+"intent": "medicinename",
+"entities": [
+{
+"end": 8
+"entity": "medicine",
+"start": 0,
+"value": "nitrogen"
+}
+]
+},
+{
+"text": "fluconazole"
+"intent": "medicinename",
+"entities": [
+{
+"end": 11
+"entity": "medicine",
+"start": 0,
+"value": "fluconazole"
+}
+]
+},
+{
+"text": "naproxen sodium"
+"intent": "medicinename",
+"entities": [
+{
+"end": 15
+"entity": "medicine",
+"start": 0,
+"value": "naproxen sodium"
+}
+]
+},
+{
+"text": "methocarbamol"
+"intent": "medicinename",
+"entities": [
+{
+"end": 13
+"entity": "medicine",
+"start": 0,
+"value": "methocarbamol"
+}
+]
+},
+{
+"text": "potassium chloride"
+"intent": "medicinename",
+"entities": [
+{
+"end": 18
+"entity": "medicine",
+"start": 0,
+"value": "potassium chloride"
+}
+]
+},
+{
+"text": "diazepam"
+"intent": "medicinename",
+"entities": [
+{
+"end": 8
+"entity": "medicine",
+"start": 0,
+"value": "diazepam"
+}
+]
+},
+{
+"text": "omeprazole"
+"intent": "medicinename",
+"entities": [
+{
+"end": 10
+"entity": "medicine",
+"start": 0,
+"value": "omeprazole"
+}
+]
+},
+{
+"text": "diclofenac sodium"
+"intent": "medicinename",
+"entities": [
+{
+"end": 17
+"entity": "medicine",
+"start": 0,
+"value": "diclofenac sodium"
+}
+]
+},
+{
+"text": "nifedipine"
+"intent": "medicinename",
+"entities": [
+{
+"end": 10
+"entity": "medicine",
+"start": 0,
+"value": "nifedipine"
+}
+]
+},
+{
+"text": "glipizide"
+"intent": "medicinename",
+"entities": [
+{
+"end": 9
+"entity": "medicine",
+"start": 0,
+"value": "glipizide"
+}
+]
+},
+{
+"text": "oxycodone hydrochloride"
+"intent": "medicinename",
+"entities": [
+{
+"end": 23
+"entity": "medicine",
+"start": 0,
+"value": "oxycodone hydrochloride"
+}
+]
+},
+{
+"text": "mirtazapine"
+"intent": "medicinename",
+"entities": [
+{
+"end": 11
+"entity": "medicine",
+"start": 0,
+"value": "mirtazapine"
+}
+]
+},
+{
+"text": "nicotine"
+"intent": "medicinename",
+"entities": [
+{
+"end": 8
+"entity": "medicine",
+"start": 0,
+"value": "nicotine"
+}
+]
+},
+{
+"text": "ranitidine"
+"intent": "medicinename",
+"entities": [
+{
+"end": 10
+"entity": "medicine",
+"start": 0,
+"value": "ranitidine"
+}
+]
+},
+{
+"text": "fluoxetine"
+"intent": "medicinename",
+"entities": [
+{
+"end": 10
+"entity": "medicine",
+"start": 0,
+"value": "fluoxetine"
+}
+]
+},
+{
+"text": "topiramate"
+"intent": "medicinename",
+"entities": [
+{
+"end": 10
+"entity": "medicine",
+"start": 0,
+"value": "topiramate"
+}
+]
+},
+{
+"text": "lovastatin"
+"intent": "medicinename",
+"entities": [
+{
+"end": 10
+"entity": "medicine",
+"start": 0,
+"value": "lovastatin"
+}
+]
+},
+{
+"text": "oxycodone and acetaminophen"
+"intent": "medicinename",
+"entities": [
+{
+"end": 27
+"entity": "medicine",
+"start": 0,
+"value": "oxycodone and acetaminophen"
+}
+]
+},
+{
+"text": "hydralazine hydrochloride"
+"intent": "medicinename",
+"entities": [
+{
+"end": 25
+"entity": "medicine",
+"start": 0,
+"value": "hydralazine hydrochloride"
+}
+]
+},
+{
+"text": "sodium chloride"
+"intent": "medicinename",
+"entities": [
+{
+"end": 15
+"entity": "medicine",
+"start": 0,
+"value": "sodium chloride"
+}
+]
+},
+{
+"text": "pramipexole dihydrochloride"
+"intent": "medicinename",
+"entities": [
+{
+"end": 27
+"entity": "medicine",
+"start": 0,
+"value": "pramipexole dihydrochloride"
+}
+]
+},
+{
+"text": "hydroxyzine hydrochloride"
+"intent": "medicinename",
+"entities": [
+{
+"end": 25
+"entity": "medicine",
+"start": 0,
+"value": "hydroxyzine hydrochloride"
+}
+]
+},
+{
+"text": "promethazine hydrochloride"
+"intent": "medicinename",
+"entities": [
+{
+"end": 26
+"entity": "medicine",
+"start": 0,
+"value": "promethazine hydrochloride"
+}
+]
+},
+{
+"text": "benazepril hydrochloride"
+"intent": "medicinename",
+"entities": [
+{
+"end": 24
+"entity": "medicine",
+"start": 0,
+"value": "benazepril hydrochloride"
+}
+]
+},
+{
+"text": "paroxetine"
+"intent": "medicinename",
+"entities": [
+{
+"end": 10
+"entity": "medicine",
+"start": 0,
+"value": "paroxetine"
+}
+]
+},
+{
+"text": "famotidine"
+"intent": "medicinename",
+"entities": [
+{
+"end": 10
+"entity": "medicine",
+"start": 0,
+"value": "famotidine"
+}
+]
+},
+{
+"text": "lidocaine hydrochloride"
+"intent": "medicinename",
+"entities": [
+{
+"end": 23
+"entity": "medicine",
+"start": 0,
+"value": "lidocaine hydrochloride"
+}
+]
+},
+{
+"text": "ondansetron"
+"intent": "medicinename",
+"entities": [
+{
+"end": 11
+"entity": "medicine",
+"start": 0,
+"value": "ondansetron"
+}
+]
+},
+{
+"text": "acyclovir"
+"intent": "medicinename",
+"entities": [
+{
+"end": 9
+"entity": "medicine",
+"start": 0,
+"value": "acyclovir"
+}
+]
+},
+{
+"text": "ampicillin"
+"intent": "medicinename",
+"entities": [
+{
+"end": 10
+"entity": "medicine",
+"start": 0,
+"value": "ampicillin"
+}
+]
+},
+{
+"text": "trazodone hydrochloride"
+"intent": "medicinename",
+"entities": [
+{
+"end": 23
+"entity": "medicine",
+"start": 0,
+"value": "trazodone hydrochloride"
+}
+]
+},
+{
+"text": "sleep aid"
+"intent": "medicinename",
+"entities": [
+{
+"end": 9
+"entity": "medicine",
+"start": 0,
+"value": "sleep aid"
+}
+]
+},
+{
+"text": "estradiol"
+"intent": "medicinename",
+"entities": [
+{
+"end": 9
+"entity": "medicine",
+"start": 0,
+"value": "estradiol"
+}
+]
+},
+{
+"text": "glimepiride"
+"intent": "medicinename",
+"entities": [
+{
+"end": 11
+"entity": "medicine",
+"start": 0,
+"value": "glimepiride"
+}
+]
+},
+{
+"text": "atorvastatin calcium"
+"intent": "medicinename",
+"entities": [
+{
+"end": 20
+"entity": "medicine",
+"start": 0,
+"value": "atorvastatin calcium"
+}
+]
+},
+{
+"text": "temozolomide"
+"intent": "medicinename",
+"entities": [
+{
+"end": 12
+"entity": "medicine",
+"start": 0,
+"value": "temozolomide"
+}
+]
+},
+{
+"text": "doxycycline"
+"intent": "medicinename",
+"entities": [
+{
+"end": 11
+"entity": "medicine",
+"start": 0,
+"value": "doxycycline"
+}
+]
+},
+{
+"text": "verapamil hydrochloride"
+"intent": "medicinename",
+"entities": [
+{
+"end": 23
+"entity": "medicine",
+"start": 0,
+"value": "verapamil hydrochloride"
+}
+]
+},
+{
+"text": "valsartan"
+"intent": "medicinename",
+"entities": [
+{
+"end": 9
+"entity": "medicine",
+"start": 0,
+"value": "valsartan"
+}
+]
+},
+{
+"text": "fenofibrate"
+"intent": "medicinename",
+"entities": [
+{
+"end": 11
+"entity": "medicine",
+"start": 0,
+"value": "fenofibrate"
+}
+]
+},
+{
+"text": "celecoxib"
+"intent": "medicinename",
+"entities": [
+{
+"end": 9
+"entity": "medicine",
+"start": 0,
+"value": "celecoxib"
+}
+]
+},
       {
         "text": "adderall xr",
         "intent": "medicineName",
