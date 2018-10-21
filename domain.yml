@@ -12,7 +12,6 @@ intents:
   - review_labResults
   - medicineName
   - seeNextAppointment
-  - note_to_doc
 
 slots:
   dr:
@@ -34,7 +33,6 @@ actions:
   - utter_ask_which_dr
   - utter_ask_date
   - utter_confirmed
-  - utter_ok
   - utter_ask_message
   - utter_confirmed_message
   - utter_reviewLabResults
@@ -59,9 +57,6 @@ templates:
     - "Got it! Your appointment to see {dr} is scheduled for {date}."
   utter_confimed_message:
     - "Got it! We'll forward your message to your {dr} and get back to you soon."
-  utter_ok:
-    - "Ok"
-    - "Got it"
   utter_bills:
     - "Your last bill is still unpaid: $322 (General appointment)"
     - "Your last 2 bills are unpaid: $22,040 (Thyroid Surgery), $2,200 (X-ray)"
