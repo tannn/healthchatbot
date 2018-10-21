@@ -15,6 +15,3 @@ Created for HackISU Fall 2018
 - Note to doctor		-	"My knee has been acting up"
 - Review lab results		-	"May I see my recent lab results?"
 - View outstanding bills	-	"Show me my outstanding bills"
-
-#### Planned functionality:
-- Next appointment		-	"When is my next appointment?"
