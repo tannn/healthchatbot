@@ -3,7 +3,7 @@
 Created for HackISU Fall 2018
 
 
-Current chat functionality:
+#### Current chat functionality:
 - Greeting 			-	"Hi chatbot!"
 - Create appointment 		- 	"I would like to schedule an appointment"
 - Confirm doctor		- 	"Dr. Fung"
