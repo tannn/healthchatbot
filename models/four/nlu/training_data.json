@@ -1,0 +1,7831 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greeting",
+        "text": "whatsup"
+      },
+      {
+        "intent": "greeting",
+        "text": "yo Mr. Bot"
+      },
+      {
+        "intent": "greeting",
+        "text": "hiya"
+      },
+      {
+        "intent": "greeting",
+        "text": "good morning"
+      },
+      {
+        "intent": "greeting",
+        "text": "morning"
+      },
+      {
+        "intent": "greeting",
+        "text": "greetings"
+      },
+      {
+        "intent": "greeting",
+        "text": "ay boi"
+      },
+      {
+        "intent": "greeting",
+        "text": "howdy"
+      },
+      {
+        "intent": "greeting",
+        "text": "are you around?"
+      },
+      {
+        "intent": "greeting",
+        "text": "hey"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "dr",
+            "start": 30,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 52,
+            "entity": "date",
+            "start": 44,
+            "value": "Saturday"
+          }
+        ],
+        "text": "hello please request apt with Dr. Marino by Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "dr",
+            "start": 10,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 31,
+            "entity": "date",
+            "start": 25,
+            "value": "Friday"
+          }
+        ],
+        "text": "setup apt Doctor Fung at Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "date",
+            "start": 40,
+            "value": "Thursday"
+          }
+        ],
+        "text": "hey would you book an consultation with Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 54,
+            "entity": "dr",
+            "start": 44,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 66,
+            "entity": "date",
+            "start": 58,
+            "value": "Saturday"
+          }
+        ],
+        "text": "are you around? can you book an appointment Dr. Marino at Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 58,
+            "entity": "dr",
+            "start": 45,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 71,
+            "entity": "date",
+            "start": 62,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "morning I'd like to schedule an consultation Doctor Barker at Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "dr",
+            "start": 42,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 60,
+            "entity": "date",
+            "start": 51,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "greetings want to setup consultation with Dr. Fung Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "dr",
+            "start": 35,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 55,
+            "entity": "date",
+            "start": 49,
+            "value": "Monday"
+          }
+        ],
+        "text": "good morning please make apt. with Doctor Marino Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "dr",
+            "start": 31,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 51,
+            "entity": "date",
+            "start": 45,
+            "value": "Sunday"
+          }
+        ],
+        "text": "sup want to create appointment Dr. Marino by Sunday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "dr",
+            "start": 20,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 43,
+            "entity": "date",
+            "start": 34,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "wassup book an apt. Dr. Barker at Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "dr",
+            "start": 21,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 38,
+            "entity": "date",
+            "start": 32,
+            "value": "Monday"
+          }
+        ],
+        "text": "hey please book apt. Dr. Marino Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "dr",
+            "start": 38,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 57,
+            "entity": "date",
+            "start": 49,
+            "value": "Saturday"
+          }
+        ],
+        "text": "ay boi could you please make apt with Dr. Barker Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "date",
+            "start": 42,
+            "value": "Friday"
+          }
+        ],
+        "text": "hiya I'd like to book an appointment with Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "date",
+            "start": 39,
+            "value": "Friday"
+          }
+        ],
+        "text": "morning create an consultation with on Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "dr",
+            "start": 40,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 64,
+            "entity": "date",
+            "start": 55,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "ay boi can you book an appointment with Doctor Fung by Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "dr",
+            "start": 32,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 54,
+            "entity": "date",
+            "start": 47,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "howdy can you set up an meeting Doctor Fung at Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "dr",
+            "start": 28,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "hello book appointment with Doctor Marino"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "dr",
+            "start": 30,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 53,
+            "entity": "date",
+            "start": 44,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "ello please setup appointment Dr. Barker at Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "dr",
+            "start": 32,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 50,
+            "entity": "date",
+            "start": 44,
+            "value": "Monday"
+          }
+        ],
+        "text": "howdy please set up an apt with Dr. Fung by Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "dr",
+            "start": 36,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 55,
+            "entity": "date",
+            "start": 48,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "wassup I'd like to book an apt with Doctor Fung Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "dr",
+            "start": 37,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 58,
+            "entity": "date",
+            "start": 52,
+            "value": "Friday"
+          }
+        ],
+        "text": "morning would you setup meeting with Doctor Fung on Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "date",
+            "start": 45,
+            "value": "Sunday"
+          }
+        ],
+        "text": "good day want to schedule an consultation on Sunday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "dr",
+            "start": 36,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 60,
+            "entity": "date",
+            "start": 53,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "ello please setup consultation with Doctor Marino at Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 53,
+            "entity": "dr",
+            "start": 45,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 63,
+            "entity": "date",
+            "start": 57,
+            "value": "Monday"
+          }
+        ],
+        "text": "good afternoon could you please make meeting Dr. Fung at Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "date",
+            "start": 36,
+            "value": "Friday"
+          }
+        ],
+        "text": "howdy would you book an appointment Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "dr",
+            "start": 39,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 61,
+            "entity": "date",
+            "start": 53,
+            "value": "Saturday"
+          }
+        ],
+        "text": "ello could you please book appointment Dr. Marino on Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "dr",
+            "start": 30,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 45,
+            "entity": "date",
+            "start": 39,
+            "value": "Sunday"
+          }
+        ],
+        "text": "ay boi set up an consultation Dr. Fung Sunday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "dr",
+            "start": 45,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "good day want to create an consultation with Dr. Barker at"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 17,
+            "value": "Thursday"
+          }
+        ],
+        "text": "ello make apt on Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 58,
+            "entity": "dr",
+            "start": 45,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 69,
+            "entity": "date",
+            "start": 62,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "are you around? would you setup meeting with Doctor Marino on Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "dr",
+            "start": 29,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 49,
+            "entity": "date",
+            "start": 41,
+            "value": "Thursday"
+          }
+        ],
+        "text": "yo Mr. Bot can you setup apt Dr. Fung on Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "dr",
+            "start": 37,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 59,
+            "entity": "date",
+            "start": 51,
+            "value": "Saturday"
+          }
+        ],
+        "text": "howdy could you please setup meeting Dr. Barker at Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "dr",
+            "start": 43,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "good afternoon would you setup appointment Doctor Marino on"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "date",
+            "start": 37,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "are you around? can you make meeting Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "dr",
+            "start": 27,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 46,
+            "entity": "date",
+            "start": 39,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "ello can you create an apt Dr. Fung on Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "dr",
+            "start": 39,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 62,
+            "entity": "date",
+            "start": 56,
+            "value": "Monday"
+          }
+        ],
+        "text": "sup want to set up an appointment with Doctor Marino on Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "date",
+            "start": 47,
+            "value": "Thursday"
+          }
+        ],
+        "text": "yo Mr. Bot I'd like to book an meeting with on Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "dr",
+            "start": 30,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "whatsup can you setup meeting Doctor Barker"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "dr",
+            "start": 21,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 47,
+            "entity": "date",
+            "start": 38,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "howdy create an apt. Doctor Marino at Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "dr",
+            "start": 21,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 47,
+            "entity": "date",
+            "start": 38,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "can you request apt. Doctor Barker by Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "date",
+            "start": 42,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "are you there schedule an meeting with by Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 53,
+            "entity": "dr",
+            "start": 40,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 64,
+            "entity": "date",
+            "start": 57,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "howdy I'd like to setup an consultation Doctor Marino by Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "date",
+            "start": 41,
+            "value": "Monday"
+          }
+        ],
+        "text": "greetings would you create an meeting at Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "dr",
+            "start": 39,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "whatsup want to book consultation with Doctor Marino by"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "dr",
+            "start": 34,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 51,
+            "entity": "date",
+            "start": 45,
+            "value": "Monday"
+          }
+        ],
+        "text": "morning want to setup an apt with Dr. Marino Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "dr",
+            "start": 34,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 55,
+            "entity": "date",
+            "start": 48,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "hi I'd like to setup an apt. with Dr. Marino by Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "text": "ello could you please setup apt on"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "dr",
+            "start": 37,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 57,
+            "entity": "date",
+            "start": 51,
+            "value": "Sunday"
+          }
+        ],
+        "text": "good day I'd like to setup apt. with Dr. Barker by Sunday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "dr",
+            "start": 33,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "good day can you setup apt. with Doctor Barker at"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "dr",
+            "start": 46,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 68,
+            "entity": "date",
+            "start": 60,
+            "value": "Thursday"
+          }
+        ],
+        "text": "whatsup I'd like to book an consultation with Dr. Barker at Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 61,
+            "entity": "dr",
+            "start": 48,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 70,
+            "entity": "date",
+            "start": 62,
+            "value": "Saturday"
+          }
+        ],
+        "text": "greetings could you please make an meeting with Doctor Barker Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "dr",
+            "start": 32,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 52,
+            "entity": "date",
+            "start": 46,
+            "value": "Monday"
+          }
+        ],
+        "text": "morning would you setup meeting Dr. Barker on Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "date",
+            "start": 40,
+            "value": "Thursday"
+          }
+        ],
+        "text": "good morning can you create apt with on Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "dr",
+            "start": 38,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "howdy would you set up an appointment Dr. Fung by"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "dr",
+            "start": 28,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 47,
+            "entity": "date",
+            "start": 39,
+            "value": "Saturday"
+          }
+        ],
+        "text": "howdy I'd like to book apt. Dr. Barker Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "dr",
+            "start": 44,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 68,
+            "entity": "date",
+            "start": 59,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "ay boi I'd like to book an appointment with Doctor Fung on Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "dr",
+            "start": 37,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 55,
+            "entity": "date",
+            "start": 49,
+            "value": "Friday"
+          }
+        ],
+        "text": "hi can you schedule appointment with Dr. Fung by Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "dr",
+            "start": 27,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 45,
+            "entity": "date",
+            "start": 39,
+            "value": "Friday"
+          }
+        ],
+        "text": "howdy can you setup an apt Doctor Fung Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "dr",
+            "start": 43,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 58,
+            "entity": "date",
+            "start": 52,
+            "value": "Sunday"
+          }
+        ],
+        "text": "greetings I'd like to request an apt. with Dr. Fung Sunday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "dr",
+            "start": 42,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 63,
+            "entity": "date",
+            "start": 56,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "whatsup please schedule consultation with Dr. Barker on Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 54,
+            "entity": "dr",
+            "start": 41,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 67,
+            "entity": "date",
+            "start": 58,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "good afternoon can you setup an apt with Doctor Marino on Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "dr",
+            "start": 22,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 45,
+            "entity": "date",
+            "start": 39,
+            "value": "Friday"
+          }
+        ],
+        "text": "setup an consultation Doctor Barker on Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "dr",
+            "start": 40,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "greetings I'd like to make consultation Doctor Fung by"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "dr",
+            "start": 34,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 51,
+            "entity": "date",
+            "start": 45,
+            "value": "Friday"
+          }
+        ],
+        "text": "howdy I'd like to setup apt. with Dr. Marino Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "dr",
+            "start": 31,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 51,
+            "entity": "date",
+            "start": 45,
+            "value": "Monday"
+          }
+        ],
+        "text": "aloha would you book apt. with Dr. Barker at Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "date",
+            "start": 24,
+            "value": "Friday"
+          }
+        ],
+        "text": "hi want to setup apt at Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 67,
+            "entity": "dr",
+            "start": 54,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "are you around? could you please book an meeting with Doctor Marino"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 65,
+            "entity": "dr",
+            "start": 52,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 75,
+            "entity": "date",
+            "start": 69,
+            "value": "Friday"
+          }
+        ],
+        "text": "are you around? can you create an consultation with Doctor Barker by Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "dr",
+            "start": 42,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 64,
+            "entity": "date",
+            "start": 56,
+            "value": "Saturday"
+          }
+        ],
+        "text": "good day want to make an appointment with Dr. Barker at Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "dr",
+            "start": 32,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 53,
+            "entity": "date",
+            "start": 46,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "howdy would you make an meeting Dr. Barker at Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 67,
+            "entity": "date",
+            "start": 61,
+            "value": "Monday"
+          }
+        ],
+        "text": "good afternoon could you please book an consultation with by Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "dr",
+            "start": 27,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 50,
+            "entity": "date",
+            "start": 42,
+            "value": "Thursday"
+          }
+        ],
+        "text": "hiya create an appointment Doctor Fung at Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "dr",
+            "start": 38,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 62,
+            "entity": "date",
+            "start": 53,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "whatsup I'd like to setup appointment Doctor Fung by Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 67,
+            "entity": "dr",
+            "start": 54,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 77,
+            "entity": "date",
+            "start": 71,
+            "value": "Monday"
+          }
+        ],
+        "text": "are you there could you please set up an consultation Doctor Marino by Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "date",
+            "start": 27,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "morning setup apt. with at Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "dr",
+            "start": 23,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 48,
+            "entity": "date",
+            "start": 40,
+            "value": "Thursday"
+          }
+        ],
+        "text": "morning set up an apt. Doctor Marino at Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 58,
+            "entity": "dr",
+            "start": 47,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 67,
+            "entity": "date",
+            "start": 59,
+            "value": "Saturday"
+          }
+        ],
+        "text": "are you there I'd like to request meeting with Doctor Fung Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "dr",
+            "start": 31,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "sup want to schedule apt. with Doctor Barker by"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "dr",
+            "start": 33,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "ello please request meeting with Dr. Fung by"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "dr",
+            "start": 31,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 53,
+            "entity": "date",
+            "start": 45,
+            "value": "Thursday"
+          }
+        ],
+        "text": "ay boi would you set up an apt Dr. Barker on Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 64,
+            "entity": "dr",
+            "start": 51,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 75,
+            "entity": "date",
+            "start": 68,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "ay boi could you please setup an consultation with Doctor Barker at Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "dr",
+            "start": 35,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 55,
+            "entity": "date",
+            "start": 49,
+            "value": "Friday"
+          }
+        ],
+        "text": "ay boi can you create consultation Dr. Barker by Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "dr",
+            "start": 37,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 60,
+            "entity": "date",
+            "start": 51,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "ello I'd like to create an apt. with Dr. Marino by Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "dr",
+            "start": 20,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "schedule an meeting Dr. Barker"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "date",
+            "start": 23,
+            "value": "Thursday"
+          }
+        ],
+        "text": "hello book appointment Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 60,
+            "entity": "dr",
+            "start": 47,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 70,
+            "entity": "date",
+            "start": 61,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "yo Mr. Bot I'd like to schedule an appointment Doctor Barker Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 57,
+            "entity": "dr",
+            "start": 47,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 68,
+            "entity": "date",
+            "start": 61,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "are you there can you schedule an consultation Dr. Barker on Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "dr",
+            "start": 39,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 65,
+            "entity": "date",
+            "start": 56,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "ello could you please make appointment Doctor Marino at Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "dr",
+            "start": 37,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 57,
+            "entity": "date",
+            "start": 49,
+            "value": "Saturday"
+          }
+        ],
+        "text": "good morning would you schedule apt. Dr. Fung by Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "dr",
+            "start": 34,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 52,
+            "entity": "date",
+            "start": 45,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "hey could you please make an apt. Dr. Barker Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "dr",
+            "start": 34,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 54,
+            "entity": "date",
+            "start": 48,
+            "value": "Monday"
+          }
+        ],
+        "text": "hello could you please create apt Dr. Barker by Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "dr",
+            "start": 40,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 59,
+            "entity": "date",
+            "start": 52,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "sup could you please schedule apt. with Dr. Fung on Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 57,
+            "entity": "dr",
+            "start": 44,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 67,
+            "entity": "date",
+            "start": 61,
+            "value": "Sunday"
+          }
+        ],
+        "text": "good day I'd like to set up an consultation Doctor Marino on Sunday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "dr",
+            "start": 35,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 57,
+            "entity": "date",
+            "start": 49,
+            "value": "Saturday"
+          }
+        ],
+        "text": "howdy can you request an apt. with Dr. Barker by Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "dr",
+            "start": 40,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 62,
+            "entity": "date",
+            "start": 55,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "good afternoon can you make appointment Doctor Fung at Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 61,
+            "entity": "dr",
+            "start": 51,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "howdy could you please set up an consultation with Dr. Marino on"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 53,
+            "entity": "dr",
+            "start": 43,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 63,
+            "entity": "date",
+            "start": 57,
+            "value": "Friday"
+          }
+        ],
+        "text": "good afternoon can you set up an apt. with Dr. Barker on Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "dr",
+            "start": 37,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 59,
+            "entity": "date",
+            "start": 52,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "sup would you make consultation with Doctor Fung by Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "date",
+            "start": 37,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "howdy would you setup appointment by Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "date",
+            "start": 40,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "greetings please create consultation at Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "text": "are you there could you please book an apt. by"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 14,
+            "value": "Friday"
+          }
+        ],
+        "text": "Dr. Marino by Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "Doctor Fung"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 3,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "to Doctor Marino"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 17,
+            "value": "Monday"
+          }
+        ],
+        "text": "Doctor Marino at Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 19,
+            "value": "Monday"
+          }
+        ],
+        "text": "with Dr. Marino by Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 17,
+            "value": "Thursday"
+          }
+        ],
+        "text": "with Dr. Fung at Thursday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 22,
+            "entity": "date",
+            "start": 16,
+            "value": "Friday"
+          }
+        ],
+        "text": "with Dr. Barker Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 21,
+            "entity": "date",
+            "start": 15,
+            "value": "Monday"
+          }
+        ],
+        "text": "Doctor Fung at Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 30,
+            "entity": "date",
+            "start": 22,
+            "value": "Thursday"
+          }
+        ],
+        "text": "with Doctor Barker by Thursday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 28,
+            "entity": "date",
+            "start": 20,
+            "value": "Thursday"
+          }
+        ],
+        "text": "with Doctor Fung at Thursday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "Doctor Marino"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 14,
+            "value": "Monday"
+          }
+        ],
+        "text": "Dr. Barker on Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "Doctor Marino at"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 19,
+            "value": "Monday"
+          }
+        ],
+        "text": "with Dr. Barker at Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 18,
+            "entity": "date",
+            "start": 11,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "Dr. Barker Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 22,
+            "entity": "date",
+            "start": 14,
+            "value": "Thursday"
+          }
+        ],
+        "text": "Dr. Marino at Thursday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 19,
+            "entity": "date",
+            "start": 12,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "Dr. Fung on Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "with Doctor Barker on"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 15,
+            "value": "Saturday"
+          }
+        ],
+        "text": "Doctor Fung on Saturday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 29,
+            "entity": "date",
+            "start": 22,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "with Doctor Marino on Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 21,
+            "entity": "date",
+            "start": 15,
+            "value": "Monday"
+          }
+        ],
+        "text": "Doctor Fung on Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "Doctor Barker on"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "with Doctor Fung at"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 14,
+            "value": "Friday"
+          }
+        ],
+        "text": "Doctor Barker Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 28,
+            "entity": "date",
+            "start": 19,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "with Dr. Marino on Wednesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 14,
+            "value": "Monday"
+          }
+        ],
+        "text": "Dr. Barker by Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 31,
+            "entity": "date",
+            "start": 22,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "with Doctor Barker by Wednesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 18,
+            "entity": "date",
+            "start": 12,
+            "value": "Monday"
+          }
+        ],
+        "text": "Dr. Fung by Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 15,
+            "value": "Saturday"
+          }
+        ],
+        "text": "Doctor Fung at Saturday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 27,
+            "entity": "date",
+            "start": 19,
+            "value": "Saturday"
+          }
+        ],
+        "text": "with Dr. Marino by Saturday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "Doctor Fung at"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 19,
+            "value": "Friday"
+          }
+        ],
+        "text": "with Dr. Barker on Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 30,
+            "entity": "date",
+            "start": 22,
+            "value": "Thursday"
+          }
+        ],
+        "text": "with Doctor Marino on Thursday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 19,
+            "value": "Friday"
+          }
+        ],
+        "text": "with Dr. Marino on Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 16,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "with Dr. Barker Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 17,
+            "value": "Friday"
+          }
+        ],
+        "text": "with Dr. Fung on Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 27,
+            "entity": "date",
+            "start": 19,
+            "value": "Saturday"
+          }
+        ],
+        "text": "with Doctor Barker Saturday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 18,
+            "entity": "date",
+            "start": 12,
+            "value": "Monday"
+          }
+        ],
+        "text": "Doctor Fung Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 17,
+            "value": "Sunday"
+          }
+        ],
+        "text": "with Dr. Fung by Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 30,
+            "entity": "date",
+            "start": 22,
+            "value": "Saturday"
+          }
+        ],
+        "text": "with Doctor Barker at Saturday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 17,
+            "entity": "date",
+            "start": 11,
+            "value": "Friday"
+          }
+        ],
+        "text": "Dr. Marino Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 17,
+            "value": "Sunday"
+          }
+        ],
+        "text": "Doctor Barker on Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 28,
+            "entity": "date",
+            "start": 22,
+            "value": "Sunday"
+          }
+        ],
+        "text": "with Doctor Barker at Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 24,
+            "entity": "date",
+            "start": 17,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "Doctor Marino at Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "Dr. Marino by"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 26,
+            "entity": "date",
+            "start": 19,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "with Dr. Marino by Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 27,
+            "entity": "date",
+            "start": 19,
+            "value": "Thursday"
+          }
+        ],
+        "text": "with Dr. Barker on Thursday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 28,
+            "entity": "date",
+            "start": 22,
+            "value": "Monday"
+          }
+        ],
+        "text": "with Doctor Marino on Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 18,
+            "entity": "date",
+            "start": 12,
+            "value": "Sunday"
+          }
+        ],
+        "text": "Dr. Fung by Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 14,
+            "value": "Sunday"
+          }
+        ],
+        "text": "Dr. Barker by Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 28,
+            "entity": "date",
+            "start": 22,
+            "value": "Friday"
+          }
+        ],
+        "text": "with Doctor Marino by Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 26,
+            "entity": "date",
+            "start": 20,
+            "value": "Monday"
+          }
+        ],
+        "text": "with Doctor Fung by Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 28,
+            "entity": "date",
+            "start": 19,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "with Doctor Marino Wednesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "Dr. Barker by"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "Dr. Fung on"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 28,
+            "entity": "date",
+            "start": 19,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "with Dr. Barker by Wednesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 24,
+            "entity": "date",
+            "start": 15,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "Doctor Fung on Wednesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 18,
+            "entity": "date",
+            "start": 11,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "Dr. Marino Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 18,
+            "entity": "date",
+            "start": 12,
+            "value": "Friday"
+          }
+        ],
+        "text": "Dr. Fung on Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 26,
+            "entity": "date",
+            "start": 17,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "Doctor Marino at Wednesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 31,
+            "entity": "date",
+            "start": 22,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "with Doctor Marino on Wednesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 24,
+            "entity": "date",
+            "start": 17,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "with Dr. Fung on Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "Dr. Marino"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "Dr. Fung"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 28,
+            "entity": "date",
+            "start": 22,
+            "value": "Friday"
+          }
+        ],
+        "text": "with Doctor Barker on Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 21,
+            "entity": "date",
+            "start": 14,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "Doctor Barker Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 17,
+            "entity": "date",
+            "start": 11,
+            "value": "Monday"
+          }
+        ],
+        "text": "Dr. Barker Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 30,
+            "entity": "date",
+            "start": 22,
+            "value": "Saturday"
+          }
+        ],
+        "text": "with Doctor Barker by Saturday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 17,
+            "value": "Monday"
+          }
+        ],
+        "text": "Doctor Marino by Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 14,
+            "value": "Sunday"
+          }
+        ],
+        "text": "Dr. Barker on Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 11,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "Dr. Barker Wednesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 17,
+            "value": "Saturday"
+          }
+        ],
+        "text": "Doctor Barker by Saturday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 27,
+            "entity": "date",
+            "start": 20,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "with Doctor Fung at Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 14,
+            "value": "Monday"
+          }
+        ],
+        "text": "Doctor Barker Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 24,
+            "entity": "date",
+            "start": 17,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "Doctor Marino on Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 17,
+            "value": "Thursday"
+          }
+        ],
+        "text": "Doctor Barker on Thursday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "Doctor Barker by"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 14,
+            "value": "Monday"
+          }
+        ],
+        "text": "Doctor Marino Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 14,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "Doctor Marino Wednesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 19,
+            "value": "Sunday"
+          }
+        ],
+        "text": "with Doctor Barker Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "with Doctor Fung on"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 22,
+            "entity": "date",
+            "start": 14,
+            "value": "Thursday"
+          }
+        ],
+        "text": "Dr. Marino by Thursday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 17,
+            "value": "Monday"
+          }
+        ],
+        "text": "Doctor Marino on Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 14,
+            "value": "Sunday"
+          }
+        ],
+        "text": "with Dr. Fung Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 21,
+            "entity": "date",
+            "start": 15,
+            "value": "Sunday"
+          }
+        ],
+        "text": "Doctor Fung by Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 26,
+            "entity": "date",
+            "start": 20,
+            "value": "Friday"
+          }
+        ],
+        "text": "with Doctor Fung by Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 26,
+            "entity": "date",
+            "start": 19,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "with Doctor Barker Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 19,
+            "value": "Friday"
+          }
+        ],
+        "text": "with Dr. Marino by Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 14,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "Dr. Barker by Wednesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 17,
+            "entity": "date",
+            "start": 9,
+            "value": "Saturday"
+          }
+        ],
+        "text": "Dr. Fung Saturday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 19,
+            "value": "Monday"
+          }
+        ],
+        "text": "with Doctor Barker Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 17,
+            "value": "Friday"
+          }
+        ],
+        "text": "with Dr. Fung at Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 17,
+            "value": "Sunday"
+          }
+        ],
+        "text": "with Dr. Fung on Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 17,
+            "value": "Sunday"
+          }
+        ],
+        "text": "with Doctor Fung Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 12,
+            "value": "Thursday"
+          }
+        ],
+        "text": "Dr. Fung at Thursday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 17,
+            "value": "Friday"
+          }
+        ],
+        "text": "Doctor Marino by Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 17,
+            "value": "Friday"
+          }
+        ],
+        "text": "Doctor Barker at Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 22,
+            "entity": "date",
+            "start": 14,
+            "value": "Saturday"
+          }
+        ],
+        "text": "Dr. Marino by Saturday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 19,
+            "value": "Monday"
+          }
+        ],
+        "text": "with Dr. Barker by Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 27,
+            "entity": "date",
+            "start": 20,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "with Doctor Fung on Tuesday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "date",
+            "start": 3,
+            "value": "Saturday"
+          }
+        ],
+        "text": "by Saturday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "date",
+            "start": 3,
+            "value": "Friday"
+          }
+        ],
+        "text": "at Friday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "date",
+            "start": 3,
+            "value": "Monday"
+          }
+        ],
+        "text": "by Monday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "date",
+            "start": 3,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "by Tuesday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "date",
+            "start": 3,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "at Tuesday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "date",
+            "start": 0,
+            "value": "Friday"
+          }
+        ],
+        "text": "Friday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "date",
+            "start": 3,
+            "value": "Friday"
+          }
+        ],
+        "text": "on Friday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "date",
+            "start": 3,
+            "value": "Saturday"
+          }
+        ],
+        "text": "on Saturday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "date",
+            "start": 3,
+            "value": "Sunday"
+          }
+        ],
+        "text": "on Sunday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "date",
+            "start": 0,
+            "value": "Thursday"
+          }
+        ],
+        "text": "Thursday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "date",
+            "start": 3,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "at Wednesday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "date",
+            "start": 3,
+            "value": "Thursday"
+          }
+        ],
+        "text": "on Thursday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "date",
+            "start": 3,
+            "value": "Sunday"
+          }
+        ],
+        "text": "at Sunday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "date",
+            "start": 0,
+            "value": "Saturday"
+          }
+        ],
+        "text": "Saturday"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "ello would you tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "howdy can you tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "howdy please tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "aloha would you view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "greetings could you please when is my next appointment?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "morning tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "good day when is my next appointment?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "sup can you when is my next appointment?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "yo Mr. Bot please when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "are you there can you when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "whatsup when is my next appointment?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "morning I'd like to view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "sup could you please view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "hi would you tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "whatsup could you please when is my next appointment?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "greetings could you please view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "good day could you please tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "hiya could you please when is my next appointment?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "hey want to view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "good day please when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "hiya could you please tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "howdy please when is my next appointment?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "when is my next appointment?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "sup want to tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "howdy want to when is my next appointment?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "hello want to when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "ay boi could you please view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "are you around? could you please when is my next appointment?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "aloha could you please view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "ello want to tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "howdy want to view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "good day could you please when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "howdy can you when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "yo Mr. Bot please when is my next appointment?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "can you view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "hello could you please when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "greetings would you view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "aloha could you please when is my next appointment?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "hi when is my next appointment?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "howdy when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "hiya please tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "whatsup want to view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "hi tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "good afternoon I'd like to view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "yo Mr. Bot view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "ay boi please when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "aloha could you please when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "aloha would you when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "whatsup want to when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "hiya can you view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "wassup can you when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "hi would you when is my next appointment?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "hi I'd like to tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "aloha I'd like to tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "whatsup would you tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "hiya I'd like to tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "are you there I'd like to view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "good morning when is my next appointment?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "aloha view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "morning could you please view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "good afternoon when is my next appointment?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "hi please view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "are you around? I'd like to tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "wassup please tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "good afternoon want to when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "sup I'd like to view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "are you around? please view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "yo Mr. Bot could you please when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "hello I'd like to tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "howdy would you when is my next appointment?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "morning would you when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "sup want to when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "howdy would you view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "are you around? please tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "good day want to when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "I'd like to view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "aloha would you tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "howdy I'd like to when is my next appointment?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "hey could you please when is my next appointment?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "yo Mr. Bot can you tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "aloha please view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "whatsup please view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "wassup I'd like to when is my next appointment?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "howdy view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "ay boi would you tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "howdy could you please view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "good afternoon want to tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "hello could you please view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "good day would you when is my next appointment?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "yo Mr. Bot can you when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "wassup tell me when my next appointment is"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "sup would you view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "are you there I'd like to when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "sup I'd like to when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "want to when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "good day I'd like to when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "wassup would you when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "are you around? could you please view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "ay boi tell me when my next appointment is"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "medicine",
+            "start": 33,
+            "value": "amlodipine"
+          }
+        ],
+        "text": "hey I'd like to refillrequest on amlodipine"
+      },
+      {
+        "intent": "request_refill",
+        "text": "refill request"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "medicine",
+            "start": 36,
+            "value": "azithromycin"
+          }
+        ],
+        "text": "good day would you refillrequest of azithromycin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "medicine",
+            "start": 41,
+            "value": "metformin"
+          }
+        ],
+        "text": "aloha could you please refillrequest for metformin"
+      },
+      {
+        "intent": "request_refill",
+        "text": "morning refillrequest on"
+      },
+      {
+        "intent": "request_refill",
+        "text": "greetings want to refillrequest on"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "medicine",
+            "start": 30,
+            "value": "lipitor"
+          }
+        ],
+        "text": "hiya want to refillrequest on lipitor"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "medicine",
+            "start": 39,
+            "value": "lipitor"
+          }
+        ],
+        "text": "good afternoon please refillrequest on lipitor"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "medicine",
+            "start": 39,
+            "value": "acetaminophen"
+          }
+        ],
+        "text": "good morning can you refillrequest for acetaminophen"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "medicine",
+            "start": 39,
+            "value": "metformin"
+          }
+        ],
+        "text": "good morning want to refillrequest for metformin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "medicine",
+            "start": 32,
+            "value": "levothryoxine"
+          }
+        ],
+        "text": "morning please refillrequest on levothryoxine"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "medicine",
+            "start": 34,
+            "value": "azithromycin"
+          }
+        ],
+        "text": "morning I'd like to refillrequest azithromycin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "medicine",
+            "start": 30,
+            "value": "metformin"
+          }
+        ],
+        "text": "hi would you refillrequest of metformin"
+      },
+      {
+        "intent": "request_refill",
+        "text": "yo Mr. Bot want to refillrequest of"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "medicine",
+            "start": 29,
+            "value": "azithromycin"
+          }
+        ],
+        "text": "wassup want to refillrequest azithromycin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 53,
+            "entity": "medicine",
+            "start": 41,
+            "value": "azithromycin"
+          }
+        ],
+        "text": "are you around? want to refillrequest of azithromycin"
+      },
+      {
+        "intent": "request_refill",
+        "text": "good day I'd like to refillrequest"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "medicine",
+            "start": 28,
+            "value": "amlodipine"
+          }
+        ],
+        "text": "sup please refillrequest of amlodipine"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "medicine",
+            "start": 35,
+            "value": "levothryoxine"
+          }
+        ],
+        "text": "howdy I'd like to refillrequest on levothryoxine"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "medicine",
+            "start": 36,
+            "value": "lipitor"
+          }
+        ],
+        "text": "are you there want to refillrequest lipitor"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "medicine",
+            "start": 35,
+            "value": "azithromycin"
+          }
+        ],
+        "text": "morning would you refillrequest of azithromycin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "medicine",
+            "start": 27,
+            "value": "vicodin"
+          }
+        ],
+        "text": "good day refillrequest for vicodin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "medicine",
+            "start": 36,
+            "value": "vicodin"
+          }
+        ],
+        "text": "wassup I'd like to refillrequest on vicodin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "medicine",
+            "start": 36,
+            "value": "lisinopril"
+          }
+        ],
+        "text": "yo Mr. Bot want to refillrequest of lisinopril"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "medicine",
+            "start": 42,
+            "value": "vicodin"
+          }
+        ],
+        "text": "whatsup could you please refillrequest of vicodin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "medicine",
+            "start": 31,
+            "value": "simvastatin"
+          }
+        ],
+        "text": "wassup please refillrequest on simvastatin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "medicine",
+            "start": 30,
+            "value": "amlodipine"
+          }
+        ],
+        "text": "whatsup can you refillrequest amlodipine"
+      },
+      {
+        "intent": "request_refill",
+        "text": "morning want to refillrequest of"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "medicine",
+            "start": 34,
+            "value": "metformin"
+          }
+        ],
+        "text": "morning want to refillrequest for metformin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "medicine",
+            "start": 29,
+            "value": "levothryoxine"
+          }
+        ],
+        "text": "sup want to refillrequest of levothryoxine"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "medicine",
+            "start": 37,
+            "value": "simvastatin"
+          }
+        ],
+        "text": "good afternoon can you refillrequest simvastatin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "medicine",
+            "start": 34,
+            "value": "amlodipine"
+          }
+        ],
+        "text": "whatsup can you refillrequest for amlodipine"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "medicine",
+            "start": 29,
+            "value": "lisinopril"
+          }
+        ],
+        "text": "ello would you refillrequest lisinopril"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "medicine",
+            "start": 34,
+            "value": "vicodin"
+          }
+        ],
+        "text": "good day can you refillrequest on vicodin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "medicine",
+            "start": 43,
+            "value": "vicodin"
+          }
+        ],
+        "text": "whatsup could you please refillrequest for vicodin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "medicine",
+            "start": 28,
+            "value": "azithromycin"
+          }
+        ],
+        "text": "yo Mr. Bot refillrequest on azithromycin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "medicine",
+            "start": 30,
+            "value": "vicodin"
+          }
+        ],
+        "text": "ello want to refillrequest of vicodin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "medicine",
+            "start": 37,
+            "value": "levothryoxine"
+          }
+        ],
+        "text": "howdy could you please refillrequest levothryoxine"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "medicine",
+            "start": 28,
+            "value": "hydrocodone"
+          }
+        ],
+        "text": "greetings refillrequest for hydrocodone"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "medicine",
+            "start": 30,
+            "value": "simvastatin"
+          }
+        ],
+        "text": "hiya want to refillrequest of simvastatin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "medicine",
+            "start": 30,
+            "value": "simvastatin"
+          }
+        ],
+        "text": "hello please refillrequest on simvastatin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "medicine",
+            "start": 22,
+            "value": "vicodin"
+          }
+        ],
+        "text": "hiya refillrequest of vicodin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "medicine",
+            "start": 41,
+            "value": "hydrocodone"
+          }
+        ],
+        "text": "good afternoon I'd like to refillrequest hydrocodone"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "medicine",
+            "start": 33,
+            "value": "azithromycin"
+          }
+        ],
+        "text": "are you around? refillrequest of azithromycin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 53,
+            "entity": "medicine",
+            "start": 40,
+            "value": "levothryoxine"
+          }
+        ],
+        "text": "are you there want to refillrequest for levothryoxine"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "medicine",
+            "start": 38,
+            "value": "azithromycin"
+          }
+        ],
+        "text": "are you there please refillrequest of azithromycin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "medicine",
+            "start": 36,
+            "value": "simvastatin"
+          }
+        ],
+        "text": "howdy I'd like to refillrequest for simvastatin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "medicine",
+            "start": 30,
+            "value": "amlodipine"
+          }
+        ],
+        "text": "ello can you refillrequest of amlodipine"
+      },
+      {
+        "intent": "request_refill",
+        "text": "I'd like to refillrequest"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 53,
+            "entity": "medicine",
+            "start": 43,
+            "value": "amlodipine"
+          }
+        ],
+        "text": "good morning I'd like to refillrequest for amlodipine"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "medicine",
+            "start": 34,
+            "value": "levothryoxine"
+          }
+        ],
+        "text": "howdy would you refillrequest for levothryoxine"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "medicine",
+            "start": 41,
+            "value": "vicodin"
+          }
+        ],
+        "text": "greetings could you please refillrequest vicodin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 59,
+            "entity": "medicine",
+            "start": 48,
+            "value": "hydrocodone"
+          }
+        ],
+        "text": "are you there could you please refillrequest on hydrocodone"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "medicine",
+            "start": 29,
+            "value": "amlodipine"
+          }
+        ],
+        "text": "hey can you refillrequest of amlodipine"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "medicine",
+            "start": 24,
+            "value": "azithromycin"
+          }
+        ],
+        "text": "wassup refillrequest of azithromycin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "medicine",
+            "start": 30,
+            "value": "lisinopril"
+          }
+        ],
+        "text": "whatsup want to refillrequest lisinopril"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "medicine",
+            "start": 44,
+            "value": "vicodin"
+          }
+        ],
+        "text": "good afternoon I'd like to refillrequest of vicodin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "medicine",
+            "start": 28,
+            "value": "acetaminophen"
+          }
+        ],
+        "text": "hey would you refillrequest acetaminophen"
+      },
+      {
+        "intent": "request_refill",
+        "text": "are you around? can you refillrequest for"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "medicine",
+            "start": 33,
+            "value": "azithromycin"
+          }
+        ],
+        "text": "whatsup please refillrequest for azithromycin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "medicine",
+            "start": 35,
+            "value": "lisinopril"
+          }
+        ],
+        "text": "hey could you please refillrequest lisinopril"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "medicine",
+            "start": 28,
+            "value": "azithromycin"
+          }
+        ],
+        "text": "hello can you refillrequest azithromycin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 60,
+            "entity": "medicine",
+            "start": 49,
+            "value": "simvastatin"
+          }
+        ],
+        "text": "are you there could you please refillrequest for simvastatin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "medicine",
+            "start": 29,
+            "value": "acetaminophen"
+          }
+        ],
+        "text": "hey can you refillrequest on acetaminophen"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "medicine",
+            "start": 32,
+            "value": "simvastatin"
+          }
+        ],
+        "text": "howdy I'd like to refillrequest simvastatin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "medicine",
+            "start": 40,
+            "value": "metformin"
+          }
+        ],
+        "text": "are you around? please refillrequest on metformin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "medicine",
+            "start": 32,
+            "value": "levothryoxine"
+          }
+        ],
+        "text": "aloha I'd like to refillrequest levothryoxine"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "medicine",
+            "start": 22,
+            "value": "hydrocodone"
+          }
+        ],
+        "text": "sup refillrequest for hydrocodone"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "medicine",
+            "start": 32,
+            "value": "vicodin"
+          }
+        ],
+        "text": "morning would you refillrequest vicodin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 53,
+            "entity": "medicine",
+            "start": 40,
+            "value": "levothryoxine"
+          }
+        ],
+        "text": "yo Mr. Bot I'd like to refillrequest of levothryoxine"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "medicine",
+            "start": 37,
+            "value": "hydrocodone"
+          }
+        ],
+        "text": "good morning would you refillrequest hydrocodone"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "medicine",
+            "start": 38,
+            "value": "levothryoxine"
+          }
+        ],
+        "text": "wassup could you please refillrequest levothryoxine"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "medicine",
+            "start": 30,
+            "value": "levothryoxine"
+          }
+        ],
+        "text": "howdy please refillrequest of levothryoxine"
+      },
+      {
+        "intent": "request_refill",
+        "text": "howdy please refillrequest on"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 54,
+            "entity": "medicine",
+            "start": 43,
+            "value": "simvastatin"
+          }
+        ],
+        "text": "are you there I'd like to refillrequest of simvastatin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "medicine",
+            "start": 38,
+            "value": "amlodipine"
+          }
+        ],
+        "text": "are you around? can you refillrequest amlodipine"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "medicine",
+            "start": 29,
+            "value": "metformin"
+          }
+        ],
+        "text": "I'd like to refillrequest on metformin"
+      },
+      {
+        "intent": "request_refill",
+        "text": "yo Mr. Bot I'd like to refillrequest for"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "medicine",
+            "start": 31,
+            "value": "levothryoxine"
+          }
+        ],
+        "text": "hello can you refillrequest on levothryoxine"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "medicine",
+            "start": 32,
+            "value": "metformin"
+          }
+        ],
+        "text": "aloha I'd like to refillrequest metformin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "medicine",
+            "start": 33,
+            "value": "levothryoxine"
+          }
+        ],
+        "text": "whatsup want to refillrequest of levothryoxine"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "medicine",
+            "start": 33,
+            "value": "hydrocodone"
+          }
+        ],
+        "text": "sup I'd like to refillrequest on hydrocodone"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "medicine",
+            "start": 26,
+            "value": "simvastatin"
+          }
+        ],
+        "text": "ello please refillrequest simvastatin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "medicine",
+            "start": 40,
+            "value": "metformin"
+          }
+        ],
+        "text": "hiya could you please refillrequest for metformin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "medicine",
+            "start": 33,
+            "value": "azithromycin"
+          }
+        ],
+        "text": "wassup want to refillrequest for azithromycin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "medicine",
+            "start": 32,
+            "value": "amlodipine"
+          }
+        ],
+        "text": "howdy want to refillrequest for amlodipine"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "medicine",
+            "start": 29,
+            "value": "hydrocodone"
+          }
+        ],
+        "text": "hey want to refillrequest of hydrocodone"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "medicine",
+            "start": 35,
+            "value": "azithromycin"
+          }
+        ],
+        "text": "whatsup would you refillrequest on azithromycin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "medicine",
+            "start": 28,
+            "value": "vicodin"
+          }
+        ],
+        "text": "greetings refillrequest for vicodin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "medicine",
+            "start": 30,
+            "value": "lisinopril"
+          }
+        ],
+        "text": "howdy please refillrequest of lisinopril"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "medicine",
+            "start": 34,
+            "value": "amlodipine"
+          }
+        ],
+        "text": "could you please refillrequest on amlodipine"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 53,
+            "entity": "medicine",
+            "start": 42,
+            "value": "hydrocodone"
+          }
+        ],
+        "text": "are you around? want to refillrequest for hydrocodone"
+      },
+      {
+        "intent": "request_refill",
+        "text": "are you around? could you please refillrequest of"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "medicine",
+            "start": 27,
+            "value": "vicodin"
+          }
+        ],
+        "text": "ello want to refillrequest vicodin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "medicine",
+            "start": 20,
+            "value": "simvastatin"
+          }
+        ],
+        "text": "hi refillrequest on simvastatin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "medicine",
+            "start": 32,
+            "value": "hydrocodone"
+          }
+        ],
+        "text": "wassup can you refillrequest on hydrocodone"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "medicine",
+            "start": 36,
+            "value": "simvastatin"
+          }
+        ],
+        "text": "yo Mr. Bot want to refillrequest of simvastatin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "medicine",
+            "start": 22,
+            "value": "azithromycin"
+          }
+        ],
+        "text": "sup refillrequest for azithromycin"
+      },
+      {
+        "intent": "request_refill",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "medicine",
+            "start": 32,
+            "value": "vicodin"
+          }
+        ],
+        "text": "aloha want to refillrequest for vicodin"
+      },
+      {
+        "intent": "request_refill",
+        "text": "good afternoon want to refillrequest for"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "I think I need a different prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "yo Mr. Bot prescription not working"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "howdy prescription not working"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "are you there try something different"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "howdy experiencing symptoms"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "sup don't like my medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "greetings different medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "wassup don't like my medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "ay boi try something different"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "morning try something different"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "are you around? try new prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "hey different prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "hello different medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "greetings having problems with my prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "sup different medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "whatsup try something different"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "good afternoon different prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "aloha don't like my medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "sup different prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "Can I try something different"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "new medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "howdy don't like my medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "ay boi don't like my medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "ello having problems with my prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "morning don't like my medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "hi different prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "good day different prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "howdy try new prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "aloha prescription not working"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "are you around? experiencing symptoms"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "are you around? new medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "hello prescription not working"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "howdy try something different"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "aloha different medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "ello experiencing symptoms"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "hi experiencing symptoms"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "whatsup having problems with my prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "hi different medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "My prescription not working"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "ay boi different prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "morning different medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "sup try new prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "hi new medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "are you there different medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "hey don't like my medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "hello having problems with my prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "whatsup different prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "sup having problems with my prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "good afternoon try something different"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "i want to try new medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "are you there prescription not working"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "sup new medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "wassup different prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "whatsup prescription not working"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "hello try new prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "wassup different medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "hey different medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "are you around? different prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "wassup try something different"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "morning prescription not working"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "good morning prescription not working"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "ay boi new medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "ello different medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "good morning experiencing symptoms"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "good day experiencing symptoms"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "I am having problems with my prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "experiencing symptoms"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "greetings try something different"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "yo Mr. Bot having problems with my prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "don't like my medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "aloha try something different"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "good afternoon experiencing symptoms"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "good morning different prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "try new prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "good afternoon don't like my medicine"
+      },
+      {
+        "intent": "medicineName",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "medicine",
+            "start": 0,
+            "value": "hydrocodone"
+          }
+        ],
+        "text": "hydrocodone"
+      },
+      {
+        "intent": "medicineName",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "medicine",
+            "start": 0,
+            "value": "simvastatin"
+          }
+        ],
+        "text": "simvastatin"
+      },
+      {
+        "intent": "medicineName",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "medicine",
+            "start": 0,
+            "value": "amlodipine"
+          }
+        ],
+        "text": "amlodipine"
+      },
+      {
+        "intent": "medicineName",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "medicine",
+            "start": 0,
+            "value": "levothryoxine"
+          }
+        ],
+        "text": "levothryoxine"
+      },
+      {
+        "intent": "medicineName",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "medicine",
+            "start": 0,
+            "value": "lisinopril"
+          }
+        ],
+        "text": "lisinopril"
+      },
+      {
+        "intent": "medicineName",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "medicine",
+            "start": 0,
+            "value": "azithromycin"
+          }
+        ],
+        "text": "azithromycin"
+      },
+      {
+        "intent": "medicineName",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "medicine",
+            "start": 0,
+            "value": "lipitor"
+          }
+        ],
+        "text": "lipitor"
+      },
+      {
+        "intent": "medicineName",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "medicine",
+            "start": 0,
+            "value": "acetaminophen"
+          }
+        ],
+        "text": "acetaminophen"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 6,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "leave Dr. Marino a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "dr",
+            "start": 21,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "good day want to let Doctor Marino know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "dr",
+            "start": 35,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "hiya would you send them a note to Dr. Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "dr",
+            "start": 17,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "let them know to Doctor Fung"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "dr",
+            "start": 12,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "wassup tell Doctor Barker a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "dr",
+            "start": 24,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "ay boi let them know to Doctor Marino"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "dr",
+            "start": 18,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "hiya please leave Dr. Marino know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "dr",
+            "start": 31,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "could you please let them know Dr. Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "dr",
+            "start": 12,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "can you let Dr. Fung know that"
+      },
+      {
+        "intent": "message_dr",
+        "text": "morning can you let them know to"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "dr",
+            "start": 22,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "could you please tell Doctor Marino a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "dr",
+            "start": 11,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "wassup let Doctor Barker something"
+      },
+      {
+        "intent": "message_dr",
+        "text": "yo Mr. Bot I'd like to send them a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "dr",
+            "start": 21,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "wassup want to leave Doctor Barker know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "dr",
+            "start": 34,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "aloha can you send them a note to Doctor Marino"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "dr",
+            "start": 25,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "greetings would you tell Dr. Fung know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "dr",
+            "start": 30,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "howdy want to leave a message Dr. Fung"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "dr",
+            "start": 23,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "greetings can you tell Doctor Marino know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 57,
+            "entity": "dr",
+            "start": 46,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "good afternoon I'd like to leave a message to Doctor Fung"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "dr",
+            "start": 20,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "morning can you let Dr. Barker know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "dr",
+            "start": 31,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "are you around? would you tell Doctor Fung a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "dr",
+            "start": 31,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "hi I'd like to leave a message Doctor Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "dr",
+            "start": 18,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "sup want to leave Doctor Marino a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "dr",
+            "start": 28,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "hiya send them a message to Doctor Fung"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "dr",
+            "start": 20,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "howdy can you leave Doctor Barker something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "dr",
+            "start": 31,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "sup please send them a note to Dr. Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "dr",
+            "start": 30,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "good morning I'd like to tell Doctor Marino know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "dr",
+            "start": 21,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "wassup can you leave Doctor Fung know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "dr",
+            "start": 37,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "good day I'd like to leave a message Doctor Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "dr",
+            "start": 18,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "howdy please tell Doctor Barker know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "dr",
+            "start": 26,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "please leave a message to Doctor Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "dr",
+            "start": 16,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "greetings leave Dr. Barker something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "dr",
+            "start": 43,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "good afternoon can you send them a note to Doctor Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "dr",
+            "start": 25,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "sup could you please let Doctor Marino something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "dr",
+            "start": 28,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "ay boi could you please let Doctor Marino know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 60,
+            "entity": "dr",
+            "start": 47,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "good morning could you please send them a note Doctor Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "dr",
+            "start": 19,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "ello want to leave Dr. Fung something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "dr",
+            "start": 31,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "hiya please leave a message to Dr. Marino"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "dr",
+            "start": 25,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "good day would you leave Dr. Barker something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 54,
+            "entity": "dr",
+            "start": 44,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "are you around? can you send them a note to Dr. Marino"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "dr",
+            "start": 18,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "good morning tell Doctor Fung a message"
+      },
+      {
+        "intent": "message_dr",
+        "text": "yo Mr. Bot I'd like to send them a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "dr",
+            "start": 27,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "hiya could you please tell Dr. Fung know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "dr",
+            "start": 23,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "yo Mr. Bot can you let Dr. Barker something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "dr",
+            "start": 27,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "can you leave a message to Doctor Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "dr",
+            "start": 4,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "let Doctor Barker a note"
+      },
+      {
+        "intent": "message_dr",
+        "text": "hi can you let them know"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "dr",
+            "start": 25,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "good day I'd like to let Doctor Fung know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 54,
+            "entity": "dr",
+            "start": 44,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "are you there please send them a message to Dr. Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "dr",
+            "start": 14,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "good day tell Doctor Barker know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "dr",
+            "start": 34,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "whatsup I'd like to let them know Dr. Fung"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "dr",
+            "start": 18,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "sup can you leave Dr. Fung a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "dr",
+            "start": 28,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "good afternoon want to tell Doctor Barker a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "dr",
+            "start": 23,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "aloha let them know to Doctor Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "dr",
+            "start": 35,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "good morning could you please tell Doctor Fung know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "dr",
+            "start": 33,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "whatsup want to let them know to Doctor Marino"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "dr",
+            "start": 12,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "whatsup let Dr. Barker know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "dr",
+            "start": 27,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "hey please leave a message Dr. Fung"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "dr",
+            "start": 30,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "are you there would you leave Doctor Marino know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "dr",
+            "start": 29,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "good afternoon would you let Dr. Fung a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "dr",
+            "start": 33,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "howdy would you send them a note Doctor Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "dr",
+            "start": 16,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "greetings leave Dr. Fung something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 53,
+            "entity": "dr",
+            "start": 45,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "whatsup could you please send them a note to Dr. Fung"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "dr",
+            "start": 18,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "I'd like to leave Dr. Marino know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "dr",
+            "start": 44,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "wassup could you please send them a message Dr. Fung"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "dr",
+            "start": 24,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "morning would you leave Dr. Barker a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "dr",
+            "start": 16,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "sup want to let Dr. Fung know that"
+      },
+      {
+        "intent": "message_dr",
+        "text": "greetings would you send them a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "dr",
+            "start": 28,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "wassup could you please let Doctor Fung something"
+      },
+      {
+        "intent": "message_dr",
+        "text": "are you around? can you send them a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "dr",
+            "start": 20,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "hiya would you tell Dr. Marino a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "dr",
+            "start": 24,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "morning leave a message Dr. Fung"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "dr",
+            "start": 26,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "good morning want to tell Doctor Marino something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "dr",
+            "start": 39,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "morning want to send them a message to Doctor Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "dr",
+            "start": 16,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "hey please tell Dr. Barker a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "dr",
+            "start": 13,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "ay boi leave Doctor Marino a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "dr",
+            "start": 33,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "ello I'd like to leave a message Doctor Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "dr",
+            "start": 35,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "good morning could you please tell Dr. Marino a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "dr",
+            "start": 34,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "howdy want to send them a message Dr. Marino"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "dr",
+            "start": 16,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "hi want to tell Dr. Barker a message"
+      },
+      {
+        "intent": "message_dr",
+        "text": "morning could you please send them a message to"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "dr",
+            "start": 25,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "good day I'd like to let Dr. Fung something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "dr",
+            "start": 26,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "hiya could you please let Dr. Fung something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "dr",
+            "start": 25,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "hi want to let them know Dr. Fung"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "dr",
+            "start": 18,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "aloha want to let Dr. Barker a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "dr",
+            "start": 38,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "yo Mr. Bot please send them a note to Dr. Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "dr",
+            "start": 18,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "good morning tell Dr. Marino something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "dr",
+            "start": 34,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "hello I'd like to leave a message Doctor Marino"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "dr",
+            "start": 33,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "greetings could you please leave Dr. Fung a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "dr",
+            "start": 38,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "are you there would you let them know Doctor Marino"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "dr",
+            "start": 21,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "howdy would you tell Dr. Barker a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "dr",
+            "start": 25,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "good morning please tell Dr. Fung a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "dr",
+            "start": 43,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "hello could you please send them a note to Doctor Marino"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "dr",
+            "start": 16,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "yo Mr. Bot tell Dr. Barker a note"
+      },
+      {
+        "intent": "message_dr",
+        "text": "hello want to send them a note to"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "dr",
+            "start": 24,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "whatsup I'd like to let Doctor Marino a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "dr",
+            "start": 35,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "yo Mr. Bot please let them know to Doctor Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "dr",
+            "start": 37,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "good afternoon could you please tell Doctor Fung a note"
+      },
+      {
+        "intent": "message_dr",
+        "text": "howdy please send them a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "dr",
+            "start": 25,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "hi could you please tell Dr. Marino something"
+      },
+      {
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "message",
+            "start": 0,
+            "value": "I just wanted to say thank you"
+          }
+        ],
+        "text": "I just wanted to say thank you"
+      },
+      {
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "message",
+            "start": 0,
+            "value": "I look forward to seeing you, thanks"
+          }
+        ],
+        "text": "I look forward to seeing you, thanks"
+      },
+      {
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "message",
+            "start": 0,
+            "value": "I feel out of it"
+          }
+        ],
+        "text": "I feel out of it"
+      },
+      {
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "message",
+            "start": 0,
+            "value": "I am having difficulty breathing"
+          }
+        ],
+        "text": "I am having difficulty breathing"
+      },
+      {
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "message",
+            "start": 0,
+            "value": "My head hurts"
+          }
+        ],
+        "text": "My head hurts"
+      },
+      {
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "message",
+            "start": 0,
+            "value": "My knee still hurts"
+          }
+        ],
+        "text": "My knee still hurts"
+      },
+      {
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 58,
+            "entity": "message",
+            "start": 0,
+            "value": "Thank you for easing my pain and thanks for encouraging me"
+          }
+        ],
+        "text": "Thank you for easing my pain and thanks for encouraging me"
+      },
+      {
+        "intent": "review_lab",
+        "text": "lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "hello want to lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "howdy could you please request lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "morning I'd like to see results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "howdy want to appointment results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "howdy please lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "hey would you results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "hi could you please request lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "are you there please view results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "ello could you please request lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "ello can you results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "ello would you lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "whatsup results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "whatsup would you see my lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "greetings can you results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "aloha could you please request lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "are you around? please appointment results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "good afternoon please lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "whatsup want to results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "howdy view results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "morning want to see my lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "hi please recent lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "howdy can you see results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "wassup can you recent lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "wassup view results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "yo Mr. Bot want to lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "are you there I'd like to results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "sup I'd like to see results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "morning can you see my lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "ay boi please view results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "are you there could you please results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "good morning could you please request lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "are you around? I'd like to see results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "greetings could you please request lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "hey want to see results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "hi I'd like to lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "good afternoon can you view results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "yo Mr. Bot could you please see results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "good morning can you view results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "are you around? want to view results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "ello results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "whatsup I'd like to see my lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "morning please results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "howdy want to view results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "ello want to view results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "yo Mr. Bot please request lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "hiya would you see my lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "ay boi could you please lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "hi can you see results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "whatsup please request lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "morning I'd like to view results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "howdy would you see my lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "good afternoon see results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "are you there would you recent lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "good morning I'd like to view results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "hello can you view results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "see my lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "are you there want to lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "yo Mr. Bot would you see my lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "good afternoon want to lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "wassup want to see results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "hello would you results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "ay boi I'd like to results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "whatsup I'd like to appointment results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "sup can you view results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "aloha can you lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "howdy please recent lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "hi want to recent lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "good morning can you results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "greetings would you see results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "are you there would you request lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "sup results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "good afternoon request lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "ay boi would you lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "wassup please recent lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "whatsup can you request lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "please view results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "greetings would you results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "morning I'd like to see my lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "good afternoon could you please results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "are you around? please lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "are you around? results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "good morning want to see results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "good day would you see results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "good afternoon would you see results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "are you around? I'd like to view results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "wassup would you results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "hiya results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "aloha I'd like to recent lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "yo Mr. Bot would you lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "howdy can you recent lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "hi want to lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "howdy please view results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "ay boi want to request lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "hi please view results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "morning want to lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "hi could you please appointment results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "whatsup want to see my lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "greetings could you please see results"
+      },
+      {
+        "intent": "makePayment",
+        "text": "resultsPayment"
+      },
+      {
+        "intent": "makePayment",
+        "text": "aloha pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "wassup can you pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "hi can you pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "hiya please make a payment"
+      },
+      {
+        "intent": "makePayment",
+        "text": "aloha pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "aloha make a payment"
+      },
+      {
+        "intent": "makePayment",
+        "text": "whatsup please pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "howdy can you pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "are you there can you pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "yo Mr. Bot can you pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "good afternoon could you please pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "hiya pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "hey want to make a payment"
+      },
+      {
+        "intent": "makePayment",
+        "text": "sup could you please make a payment"
+      },
+      {
+        "intent": "makePayment",
+        "text": "greetings would you pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "good day please pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "whatsup want to pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "hey I'd like to pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "ay boi please make a payment"
+      },
+      {
+        "intent": "makePayment",
+        "text": "are you there can you pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "greetings please pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "good afternoon could you please make a payment"
+      },
+      {
+        "intent": "makePayment",
+        "text": "morning could you please pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "aloha I'd like to make a payment"
+      },
+      {
+        "intent": "makePayment",
+        "text": "make a payment"
+      },
+      {
+        "intent": "makePayment",
+        "text": "howdy could you please pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "hello pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "hi please pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "yo Mr. Bot want to pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "ello could you please pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "hiya I'd like to pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "good day I'd like to pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "hiya want to pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "are you there would you pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "aloha want to pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "howdy want to make a payment"
+      },
+      {
+        "intent": "makePayment",
+        "text": "are you around? can you pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "morning please pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "hi can you pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "good day pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "howdy pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "morning could you please pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "hello would you pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "greetings could you please pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "howdy can you pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "yo Mr. Bot can you pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "howdy please pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "whatsup please make a payment"
+      },
+      {
+        "intent": "makePayment",
+        "text": "good morning can you pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "ay boi could you please pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "hello can you make a payment"
+      },
+      {
+        "intent": "makePayment",
+        "text": "morning want to pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "hello I'd like to pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "ello want to pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "are you around? pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "good morning would you pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "good morning want to make a payment"
+      },
+      {
+        "intent": "makePayment",
+        "text": "hi want to pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "hello would you pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "hi could you please pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "hello want to pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "morning pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "wassup I'd like to pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "sup want to make a payment"
+      },
+      {
+        "intent": "makePayment",
+        "text": "I'd like to make a payment"
+      },
+      {
+        "intent": "makePayment",
+        "text": "ello can you pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "aloha can you pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "ello pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "good day I'd like to pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "could you please pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "howdy would you pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "morning I'd like to pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "wassup could you please make a payment"
+      },
+      {
+        "intent": "makePayment",
+        "text": "howdy please pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "morning would you pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "ello want to pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "hello could you please pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "greetings could you please make a payment"
+      },
+      {
+        "intent": "makePayment",
+        "text": "yo Mr. Bot please pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "aloha would you pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "aloha could you please pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "ay boi can you make a payment"
+      },
+      {
+        "intent": "makePayment",
+        "text": "sup I'd like to pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "howdy want to pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "whatsup would you make a payment"
+      },
+      {
+        "intent": "makePayment",
+        "text": "good morning I'd like to pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "hi pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "whatsup could you please pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "howdy pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "ay boi would you pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "good afternoon would you pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "hey would you pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "whatsup would you pay co-pay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "aloha can you make a payment"
+      },
+      {
+        "intent": "makePayment",
+        "text": "hey can you pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "are you around? could you please make a payment"
+      },
+      {
+        "intent": "makePayment",
+        "text": "good afternoon pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "sup please pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "howdy pay co-pay"
+      },
+      {
+        "intent": "viewBills",
+        "text": "request due payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "whatsup I'd like to see bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "whatsup please view outstanding bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "whatsup would you request due payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "howdy I'd like to view bill"
+      },
+      {
+        "intent": "viewBills",
+        "text": "would you see bills due"
+      },
+      {
+        "intent": "viewBills",
+        "text": "yo Mr. Bot see bills due"
+      },
+      {
+        "intent": "viewBills",
+        "text": "are you around? can you view outstanding bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "wassup please see bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "good afternoon would you view bill"
+      },
+      {
+        "intent": "viewBills",
+        "text": "ay boi could you please see bills due"
+      },
+      {
+        "intent": "viewBills",
+        "text": "hiya want to see bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "yo Mr. Bot could you please view outstanding bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "hello please see bills due"
+      },
+      {
+        "intent": "viewBills",
+        "text": "good afternoon view bill"
+      },
+      {
+        "intent": "viewBills",
+        "text": "good day would you see bills due"
+      },
+      {
+        "intent": "viewBills",
+        "text": "wassup could you please view bill"
+      },
+      {
+        "intent": "viewBills",
+        "text": "hi want to view outstanding bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "wassup please view outstanding bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "hey I'd like to view bill"
+      },
+      {
+        "intent": "viewBills",
+        "text": "morning can you view payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "I'd like to view payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "aloha please request due payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "are you there please see bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "are you there could you please request due payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "are you around? see bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "whatsup I'd like to view payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "good day can you view outstanding bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "morning would you see bills due"
+      },
+      {
+        "intent": "viewBills",
+        "text": "are you around? would you view outstanding bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "ay boi request due payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "wassup could you please view outstanding bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "good afternoon please view payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "good morning view payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "howdy would you view bill"
+      },
+      {
+        "intent": "viewBills",
+        "text": "hi please view outstanding bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "good morning can you request due payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "hello see bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "howdy I'd like to see bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "howdy want to view bill"
+      },
+      {
+        "intent": "viewBills",
+        "text": "hi I'd like to view payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "are you around? want to view bill"
+      },
+      {
+        "intent": "viewBills",
+        "text": "are you there want to view payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "whatsup want to see bills due"
+      },
+      {
+        "intent": "viewBills",
+        "text": "I'd like to see bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "sup can you request due payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "wassup please view payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "hi can you show outstanding payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "howdy can you view payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "yo Mr. Bot could you please view payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "are you around? would you see bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "can you see bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "howdy want to request due payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "good morning request due payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "ay boi I'd like to view bill"
+      },
+      {
+        "intent": "viewBills",
+        "text": "hi want to request due payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "ello can you view payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "good day I'd like to view payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "whatsup view bill"
+      },
+      {
+        "intent": "viewBills",
+        "text": "aloha view outstanding bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "hi can you view bill"
+      },
+      {
+        "intent": "viewBills",
+        "text": "yo Mr. Bot could you please request due payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "hey please view payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "are you there would you view bill"
+      },
+      {
+        "intent": "viewBills",
+        "text": "are you around? I'd like to view payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "sup I'd like to see bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "wassup I'd like to view bill"
+      },
+      {
+        "intent": "viewBills",
+        "text": "wassup would you show outstanding payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "sup please show outstanding payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "aloha can you view bill"
+      },
+      {
+        "intent": "viewBills",
+        "text": "good afternoon I'd like to see bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "good day please view bill"
+      },
+      {
+        "intent": "viewBills",
+        "text": "yo Mr. Bot I'd like to show outstanding payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "morning can you view outstanding bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "whatsup I'd like to view outstanding bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "howdy would you see bills due"
+      },
+      {
+        "intent": "viewBills",
+        "text": "whatsup could you please see bills due"
+      },
+      {
+        "intent": "viewBills",
+        "text": "howdy can you view outstanding bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "greetings want to view payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "greetings I'd like to request due payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "wassup want to see bills due"
+      },
+      {
+        "intent": "viewBills",
+        "text": "ello can you see bills due"
+      },
+      {
+        "intent": "viewBills",
+        "text": "howdy view outstanding bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "are you there please request due payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "hiya could you please see bills due"
+      },
+      {
+        "intent": "viewBills",
+        "text": "hey can you show outstanding payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "ay boi I'd like to show outstanding payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "sup can you see bills due"
+      },
+      {
+        "intent": "viewBills",
+        "text": "hello I'd like to see bills due"
+      },
+      {
+        "intent": "viewBills",
+        "text": "howdy could you please view payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "ay boi would you request due payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "howdy can you show outstanding payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "hey would you view bill"
+      },
+      {
+        "intent": "viewBills",
+        "text": "ay boi would you view payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "morning want to view bill"
+      },
+      {
+        "intent": "viewBills",
+        "text": "whatsup would you view payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "wassup I'd like to request due payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "wassup I'd like to view payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "I'd like to view outstanding bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "I'd like to see bills due"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

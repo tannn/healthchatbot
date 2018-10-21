@@ -1,0 +1,37 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "message",
+        "medicine",
+        "date",
+        "dr"
+      ]
+    },
+    "utter_confirmed_message": {
+      "slots": []
+    },
+    "utter_reviewLabResults": {
+      "slots": []
+    },
+    "utter_confirmed": {
+      "slots": []
+    },
+    "utter_prescription_refill": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.11.12",
+  "python": "3.6.5",
+  "max_histories": [
+    null,
+    3,
+    3
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.fallback.FallbackPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
+}

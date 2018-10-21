@@ -1,0 +1,5071 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greeting",
+        "text": "ello"
+      },
+      {
+        "intent": "greeting",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greeting",
+        "text": "hello"
+      },
+      {
+        "intent": "greeting",
+        "text": "aloha"
+      },
+      {
+        "intent": "greeting",
+        "text": "ay boi"
+      },
+      {
+        "intent": "greeting",
+        "text": "hey"
+      },
+      {
+        "intent": "greeting",
+        "text": "sup"
+      },
+      {
+        "intent": "greeting",
+        "text": "morning"
+      },
+      {
+        "intent": "greeting",
+        "text": "good morning"
+      },
+      {
+        "intent": "greeting",
+        "text": "hiya"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "dr",
+            "start": 26,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 48,
+            "entity": "date",
+            "start": 40,
+            "value": "Saturday"
+          }
+        ],
+        "text": "book an consultation with Doctor Barker Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "dr",
+            "start": 21,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 44,
+            "entity": "date",
+            "start": 35,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "schedule appointment Dr. Marino by Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "dr",
+            "start": 28,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 51,
+            "entity": "date",
+            "start": 45,
+            "value": "Friday"
+          }
+        ],
+        "text": "set up an consultation with Doctor Barker at Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "dr",
+            "start": 23,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 48,
+            "entity": "date",
+            "start": 40,
+            "value": "Thursday"
+          }
+        ],
+        "text": "setup appointment with Doctor Marino on Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "dr",
+            "start": 14,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 34,
+            "entity": "date",
+            "start": 28,
+            "value": "Sunday"
+          }
+        ],
+        "text": "book apt with Dr. Barker at Sunday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "dr",
+            "start": 22,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 42,
+            "entity": "date",
+            "start": 36,
+            "value": "Monday"
+          }
+        ],
+        "text": "schedule meeting with Dr. Marino on Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "dr",
+            "start": 19,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 42,
+            "entity": "date",
+            "start": 36,
+            "value": "Friday"
+          }
+        ],
+        "text": "setup meeting with Doctor Barker at Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "dr",
+            "start": 27,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 49,
+            "entity": "date",
+            "start": 41,
+            "value": "Thursday"
+          }
+        ],
+        "text": "schedule consultation with Dr. Barker by Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "dr",
+            "start": 21,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 44,
+            "entity": "date",
+            "start": 36,
+            "value": "Saturday"
+          }
+        ],
+        "text": "make an meeting with Doctor Fung at Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "date",
+            "start": 13,
+            "value": "Monday"
+          }
+        ],
+        "text": "setup apt by Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "dr",
+            "start": 10,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 32,
+            "entity": "date",
+            "start": 24,
+            "value": "Saturday"
+          }
+        ],
+        "text": "make apt. Doctor Barker Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "date",
+            "start": 28,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "create consultation with by Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "dr",
+            "start": 27,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 48,
+            "entity": "date",
+            "start": 39,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "create an appointment with Dr. Fung at Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "dr",
+            "start": 28,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 53,
+            "entity": "date",
+            "start": 45,
+            "value": "Saturday"
+          }
+        ],
+        "text": "set up an consultation with Doctor Barker on Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "dr",
+            "start": 20,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "make an appointment Dr. Barker on"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 10,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 19,
+            "value": "Monday"
+          }
+        ],
+        "text": "setup apt Dr. Fung Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "dr",
+            "start": 30,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 48,
+            "entity": "date",
+            "start": 41,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "schedule an consultation with Dr. Marino Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "dr",
+            "start": 20,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 41,
+            "entity": "date",
+            "start": 34,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "book an appointment Dr. Barker by Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "dr",
+            "start": 21,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "make an consultation Dr. Marino by"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "dr",
+            "start": 23,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 43,
+            "entity": "date",
+            "start": 37,
+            "value": "Friday"
+          }
+        ],
+        "text": "create an meeting with Doctor Barker Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "date",
+            "start": 16,
+            "value": "Sunday"
+          }
+        ],
+        "text": "request apt. by Sunday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "dr",
+            "start": 11,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 35,
+            "entity": "date",
+            "start": 28,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "create apt Doctor Barker on Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 14,
+            "value": "Monday"
+          }
+        ],
+        "text": "setup meeting Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "dr",
+            "start": 11,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 33,
+            "entity": "date",
+            "start": 25,
+            "value": "Thursday"
+          }
+        ],
+        "text": "create apt Doctor Marino Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "dr",
+            "start": 12,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 38,
+            "entity": "date",
+            "start": 29,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "book an apt Doctor Barker at Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "dr",
+            "start": 15,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 40,
+            "entity": "date",
+            "start": 32,
+            "value": "Thursday"
+          }
+        ],
+        "text": "book apt. with Doctor Barker by Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "dr",
+            "start": 19,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 44,
+            "entity": "date",
+            "start": 36,
+            "value": "Saturday"
+          }
+        ],
+        "text": "setup meeting with Doctor Marino by Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "date",
+            "start": 21,
+            "value": "Saturday"
+          }
+        ],
+        "text": "make an apt. with by Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "dr",
+            "start": 18,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 41,
+            "entity": "date",
+            "start": 35,
+            "value": "Sunday"
+          }
+        ],
+        "text": "setup an apt with Doctor Barker by Sunday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "dr",
+            "start": 15,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 39,
+            "entity": "date",
+            "start": 32,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "setup apt with Doctor Barker at Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "dr",
+            "start": 22,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 42,
+            "entity": "date",
+            "start": 36,
+            "value": "Friday"
+          }
+        ],
+        "text": "book appointment with Dr. Barker by Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "dr",
+            "start": 15,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 38,
+            "entity": "date",
+            "start": 32,
+            "value": "Sunday"
+          }
+        ],
+        "text": "create an apt. Doctor Barker at Sunday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "dr",
+            "start": 21,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 46,
+            "entity": "date",
+            "start": 38,
+            "value": "Saturday"
+          }
+        ],
+        "text": "request meeting with Doctor Barker by Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "dr",
+            "start": 19,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 39,
+            "entity": "date",
+            "start": 31,
+            "value": "Thursday"
+          }
+        ],
+        "text": "create appointment Dr. Fung by Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "dr",
+            "start": 17,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 37,
+            "entity": "date",
+            "start": 31,
+            "value": "Friday"
+          }
+        ],
+        "text": "make appointment Dr. Barker on Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "dr",
+            "start": 19,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 39,
+            "entity": "date",
+            "start": 33,
+            "value": "Monday"
+          }
+        ],
+        "text": "request an meeting Dr. Marino at Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "date",
+            "start": 24,
+            "value": "Thursday"
+          }
+        ],
+        "text": "schedule appointment on Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "dr",
+            "start": 14,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 37,
+            "entity": "date",
+            "start": 28,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "book apt with Dr. Marino by Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "dr",
+            "start": 22,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "book appointment with Dr. Marino at"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "dr",
+            "start": 14,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 37,
+            "entity": "date",
+            "start": 28,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "setup an apt. Doctor Marino Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "dr",
+            "start": 20,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "request appointment Doctor Barker on"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "dr",
+            "start": 21,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 44,
+            "entity": "date",
+            "start": 38,
+            "value": "Friday"
+          }
+        ],
+        "text": "book an meeting with Doctor Barker by Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "dr",
+            "start": 17,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 39,
+            "entity": "date",
+            "start": 31,
+            "value": "Saturday"
+          }
+        ],
+        "text": "make an apt with Dr. Barker on Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "dr",
+            "start": 14,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 38,
+            "entity": "date",
+            "start": 29,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "schedule apt. Doctor Fung at Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "dr",
+            "start": 17,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 35,
+            "entity": "date",
+            "start": 29,
+            "value": "Sunday"
+          }
+        ],
+        "text": "make an apt with Doctor Fung Sunday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 16,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "book an apt. on Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "dr",
+            "start": 26,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 47,
+            "entity": "date",
+            "start": 41,
+            "value": "Friday"
+          }
+        ],
+        "text": "book an consultation with Doctor Fung on Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "dr",
+            "start": 19,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 43,
+            "entity": "date",
+            "start": 36,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "setup meeting with Doctor Barker on Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "dr",
+            "start": 20,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 35,
+            "entity": "date",
+            "start": 29,
+            "value": "Sunday"
+          }
+        ],
+        "text": "create consultation Dr. Fung Sunday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "dr",
+            "start": 17,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 35,
+            "entity": "date",
+            "start": 29,
+            "value": "Sunday"
+          }
+        ],
+        "text": "setup an meeting Dr. Fung at Sunday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "dr",
+            "start": 15,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 35,
+            "entity": "date",
+            "start": 29,
+            "value": "Friday"
+          }
+        ],
+        "text": "book apt. with Dr. Barker by Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "dr",
+            "start": 19,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 42,
+            "entity": "date",
+            "start": 33,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "schedule apt. with Dr. Barker at Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "dr",
+            "start": 18,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 39,
+            "entity": "date",
+            "start": 33,
+            "value": "Friday"
+          }
+        ],
+        "text": "make meeting with Doctor Fung on Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "dr",
+            "start": 25,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "make an appointment with Dr. Barker"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "date",
+            "start": 29,
+            "value": "Thursday"
+          }
+        ],
+        "text": "setup an appointment with on Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "dr",
+            "start": 23,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "request an appointment Doctor Fung"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "dr",
+            "start": 18,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 39,
+            "entity": "date",
+            "start": 30,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "set up an meeting Dr. Fung on Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "date",
+            "start": 19,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "make an meeting at Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "dr",
+            "start": 25,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 48,
+            "entity": "date",
+            "start": 42,
+            "value": "Monday"
+          }
+        ],
+        "text": "create consultation with Doctor Barker by Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "dr",
+            "start": 17,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 41,
+            "entity": "date",
+            "start": 34,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "make appointment Doctor Barker by Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "dr",
+            "start": 17,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 38,
+            "entity": "date",
+            "start": 31,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "schedule meeting Dr. Barker by Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "date",
+            "start": 25,
+            "value": "Saturday"
+          }
+        ],
+        "text": "make appointment with at Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "dr",
+            "start": 20,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 42,
+            "entity": "date",
+            "start": 34,
+            "value": "Thursday"
+          }
+        ],
+        "text": "schedule an meeting Doctor Barker Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "dr",
+            "start": 20,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 43,
+            "entity": "date",
+            "start": 37,
+            "value": "Monday"
+          }
+        ],
+        "text": "set up an apt. with Doctor Marino at Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "dr",
+            "start": 20,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 41,
+            "entity": "date",
+            "start": 32,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "schedule an meeting Dr. Fung by Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "dr",
+            "start": 17,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 40,
+            "entity": "date",
+            "start": 32,
+            "value": "Saturday"
+          }
+        ],
+        "text": "make appointment Doctor Fung on Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "dr",
+            "start": 11,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 34,
+            "entity": "date",
+            "start": 26,
+            "value": "Thursday"
+          }
+        ],
+        "text": "setup apt. Doctor Fung at Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "dr",
+            "start": 14,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 34,
+            "entity": "date",
+            "start": 28,
+            "value": "Friday"
+          }
+        ],
+        "text": "setup an apt. Dr. Marino at Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "dr",
+            "start": 19,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 42,
+            "entity": "date",
+            "start": 36,
+            "value": "Sunday"
+          }
+        ],
+        "text": "setup meeting with Doctor Barker at Sunday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "date",
+            "start": 24,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "setup an appointment at Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "dr",
+            "start": 28,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 47,
+            "entity": "date",
+            "start": 40,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "set up an consultation with Dr. Fung at Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "dr",
+            "start": 15,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "make apt. with Doctor Barker by"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "dr",
+            "start": 25,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 48,
+            "entity": "date",
+            "start": 42,
+            "value": "Friday"
+          }
+        ],
+        "text": "request appointment with Doctor Barker on Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "dr",
+            "start": 20,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 40,
+            "entity": "date",
+            "start": 34,
+            "value": "Friday"
+          }
+        ],
+        "text": "set up an apt. with Dr. Marino by Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "date",
+            "start": 20,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "schedule an apt. on Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "dr",
+            "start": 14,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 35,
+            "entity": "date",
+            "start": 29,
+            "value": "Friday"
+          }
+        ],
+        "text": "schedule apt. Doctor Fung at Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "date",
+            "start": 16,
+            "value": "Thursday"
+          }
+        ],
+        "text": "schedule apt by Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "dr",
+            "start": 20,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 36,
+            "entity": "date",
+            "start": 29,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "set up an apt. with Dr. Fung Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "dr",
+            "start": 25,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 49,
+            "entity": "date",
+            "start": 42,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "schedule an meeting with Doctor Barker on Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "dr",
+            "start": 18,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 40,
+            "entity": "date",
+            "start": 32,
+            "value": "Thursday"
+          }
+        ],
+        "text": "book meeting with Dr. Barker on Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "dr",
+            "start": 10,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 32,
+            "entity": "date",
+            "start": 24,
+            "value": "Saturday"
+          }
+        ],
+        "text": "make apt. Dr. Marino on Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "dr",
+            "start": 19,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 40,
+            "entity": "date",
+            "start": 34,
+            "value": "Monday"
+          }
+        ],
+        "text": "create an apt with Doctor Fung at Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "dr",
+            "start": 23,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 45,
+            "entity": "date",
+            "start": 37,
+            "value": "Thursday"
+          }
+        ],
+        "text": "book consultation with Dr. Barker at Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "dr",
+            "start": 28,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 51,
+            "entity": "date",
+            "start": 45,
+            "value": "Sunday"
+          }
+        ],
+        "text": "set up an consultation with Doctor Barker at Sunday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "date",
+            "start": 18,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "book an apt. with Wednesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "dr",
+            "start": 13,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 36,
+            "entity": "date",
+            "start": 30,
+            "value": "Friday"
+          }
+        ],
+        "text": "setup an apt Doctor Barker at Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "dr",
+            "start": 25,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 42,
+            "entity": "date",
+            "start": 34,
+            "value": "Saturday"
+          }
+        ],
+        "text": "make an appointment with Dr. Fung Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "dr",
+            "start": 15,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 35,
+            "entity": "date",
+            "start": 29,
+            "value": "Friday"
+          }
+        ],
+        "text": "book apt. with Doctor Marino Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "date",
+            "start": 21,
+            "value": "Sunday"
+          }
+        ],
+        "text": "request consultation Sunday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "dr",
+            "start": 19,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "set up an apt with Doctor Fung"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "dr",
+            "start": 21,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 41,
+            "entity": "date",
+            "start": 35,
+            "value": "Monday"
+          }
+        ],
+        "text": "request consultation Doctor Marino Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "dr",
+            "start": 12,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 32,
+            "entity": "date",
+            "start": 24,
+            "value": "Thursday"
+          }
+        ],
+        "text": "make an apt Doctor Fung Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "dr",
+            "start": 14,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 38,
+            "entity": "date",
+            "start": 31,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "setup meeting Doctor Barker by Tuesday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "dr",
+            "start": 22,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 42,
+            "entity": "date",
+            "start": 36,
+            "value": "Monday"
+          }
+        ],
+        "text": "create an appointment Dr. Barker on Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "dr",
+            "start": 26,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 46,
+            "entity": "date",
+            "start": 40,
+            "value": "Sunday"
+          }
+        ],
+        "text": "setup an appointment with Dr. Marino by Sunday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "dr",
+            "start": 19,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 36,
+            "entity": "date",
+            "start": 28,
+            "value": "Thursday"
+          }
+        ],
+        "text": "set up an apt with Dr. Fung Thursday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "dr",
+            "start": 15,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 35,
+            "entity": "date",
+            "start": 27,
+            "value": "Saturday"
+          }
+        ],
+        "text": "create meeting Dr. Fung at Saturday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "dr",
+            "start": 24,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 44,
+            "entity": "date",
+            "start": 38,
+            "value": "Friday"
+          }
+        ],
+        "text": "setup consultation with Dr. Barker at Friday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "dr",
+            "start": 23,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 43,
+            "entity": "date",
+            "start": 37,
+            "value": "Monday"
+          }
+        ],
+        "text": "setup appointment with Doctor Barker Monday"
+      },
+      {
+        "intent": "create_apt",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "date",
+            "start": 21,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "request consultation Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 3,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "to Doctor Barker"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 21,
+            "entity": "date",
+            "start": 15,
+            "value": "Sunday"
+          }
+        ],
+        "text": "Doctor Fung on Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "Dr. Barker"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 17,
+            "entity": "date",
+            "start": 11,
+            "value": "Sunday"
+          }
+        ],
+        "text": "Dr. Barker Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 21,
+            "entity": "date",
+            "start": 14,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "Dr. Marino by Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 21,
+            "entity": "date",
+            "start": 15,
+            "value": "Monday"
+          }
+        ],
+        "text": "Doctor Fung at Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 28,
+            "entity": "date",
+            "start": 22,
+            "value": "Monday"
+          }
+        ],
+        "text": "with Doctor Barker by Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 14,
+            "value": "Sunday"
+          }
+        ],
+        "text": "Dr. Marino on Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "Dr. Marino"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 27,
+            "entity": "date",
+            "start": 19,
+            "value": "Thursday"
+          }
+        ],
+        "text": "with Dr. Marino at Thursday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 17,
+            "value": "Sunday"
+          }
+        ],
+        "text": "Doctor Marino by Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "with Dr. Barker at"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 17,
+            "value": "Friday"
+          }
+        ],
+        "text": "Doctor Marino on Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 26,
+            "entity": "date",
+            "start": 19,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "with Doctor Barker Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 28,
+            "entity": "date",
+            "start": 22,
+            "value": "Friday"
+          }
+        ],
+        "text": "with Doctor Barker by Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 21,
+            "entity": "date",
+            "start": 14,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "with Dr. Fung Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "Dr. Fung by"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 28,
+            "entity": "date",
+            "start": 22,
+            "value": "Sunday"
+          }
+        ],
+        "text": "with Doctor Barker by Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 27,
+            "entity": "date",
+            "start": 19,
+            "value": "Saturday"
+          }
+        ],
+        "text": "with Dr. Marino on Saturday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 22,
+            "entity": "date",
+            "start": 16,
+            "value": "Monday"
+          }
+        ],
+        "text": "with Dr. Marino Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 14,
+            "value": "Friday"
+          }
+        ],
+        "text": "Dr. Marino at Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 17,
+            "value": "Sunday"
+          }
+        ],
+        "text": "with Dr. Fung by Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 26,
+            "entity": "date",
+            "start": 20,
+            "value": "Friday"
+          }
+        ],
+        "text": "with Doctor Fung at Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 17,
+            "entity": "date",
+            "start": 9,
+            "value": "Saturday"
+          }
+        ],
+        "text": "Dr. Fung Saturday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "Dr. Marino at"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 30,
+            "entity": "date",
+            "start": 22,
+            "value": "Thursday"
+          }
+        ],
+        "text": "with Doctor Barker by Thursday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "with Dr. Fung by"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 14,
+            "value": "Sunday"
+          }
+        ],
+        "text": "Dr. Marino at Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 27,
+            "entity": "date",
+            "start": 19,
+            "value": "Thursday"
+          }
+        ],
+        "text": "with Dr. Barker at Thursday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 19,
+            "entity": "date",
+            "start": 11,
+            "value": "Thursday"
+          }
+        ],
+        "text": "Dr. Barker Thursday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 19,
+            "value": "Monday"
+          }
+        ],
+        "text": "with Doctor Barker Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 18,
+            "entity": "date",
+            "start": 12,
+            "value": "Sunday"
+          }
+        ],
+        "text": "Dr. Fung at Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "Dr. Barker on"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "Doctor Marino"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 22,
+            "entity": "date",
+            "start": 14,
+            "value": "Saturday"
+          }
+        ],
+        "text": "Doctor Marino Saturday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 17,
+            "value": "Friday"
+          }
+        ],
+        "text": "Doctor Barker by Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 28,
+            "entity": "date",
+            "start": 22,
+            "value": "Friday"
+          }
+        ],
+        "text": "with Doctor Marino at Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 16,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "with Dr. Barker Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 22,
+            "entity": "date",
+            "start": 14,
+            "value": "Thursday"
+          }
+        ],
+        "text": "Doctor Marino Thursday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 26,
+            "entity": "date",
+            "start": 20,
+            "value": "Friday"
+          }
+        ],
+        "text": "with Doctor Fung by Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Fung"
+          },
+          {
+            "end": 29,
+            "entity": "date",
+            "start": 20,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "with Doctor Fung at Wednesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 14,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "with Dr. Fung Wednesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "with Doctor Marino at"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 31,
+            "entity": "date",
+            "start": 22,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "with Doctor Marino on Wednesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 19,
+            "value": "Sunday"
+          }
+        ],
+        "text": "with Dr. Barker by Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 14,
+            "value": "Monday"
+          }
+        ],
+        "text": "Dr. Marino by Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 28,
+            "entity": "date",
+            "start": 19,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "with Dr. Barker on Wednesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "with Doctor Marino on"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 28,
+            "entity": "date",
+            "start": 22,
+            "value": "Friday"
+          }
+        ],
+        "text": "with Doctor Marino by Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 24,
+            "entity": "date",
+            "start": 16,
+            "value": "Thursday"
+          }
+        ],
+        "text": "with Dr. Marino Thursday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 26,
+            "entity": "date",
+            "start": 19,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "with Dr. Marino by Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 14,
+            "value": "Monday"
+          }
+        ],
+        "text": "Doctor Barker Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 15,
+            "entity": "date",
+            "start": 9,
+            "value": "Monday"
+          }
+        ],
+        "text": "Dr. Fung Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 14,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "Dr. Barker on Wednesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 19,
+            "entity": "date",
+            "start": 11,
+            "value": "Thursday"
+          }
+        ],
+        "text": "Dr. Marino Thursday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 17,
+            "value": "Saturday"
+          }
+        ],
+        "text": "Doctor Barker at Saturday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 18,
+            "entity": "date",
+            "start": 12,
+            "value": "Monday"
+          }
+        ],
+        "text": "Dr. Fung by Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 30,
+            "entity": "date",
+            "start": 22,
+            "value": "Saturday"
+          }
+        ],
+        "text": "with Doctor Marino at Saturday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 24,
+            "entity": "date",
+            "start": 17,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "Doctor Barker on Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 24,
+            "entity": "date",
+            "start": 17,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "with Dr. Fung at Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "with Dr. Marino on"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "dr",
+            "start": 3,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "to Dr. Fung"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 29,
+            "entity": "date",
+            "start": 22,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "with Doctor Marino on Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 19,
+            "entity": "date",
+            "start": 11,
+            "value": "Saturday"
+          }
+        ],
+        "text": "Dr. Marino Saturday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 19,
+            "value": "Sunday"
+          }
+        ],
+        "text": "with Dr. Barker at Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 17,
+            "value": "Friday"
+          }
+        ],
+        "text": "with Dr. Fung on Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 19,
+            "value": "Friday"
+          }
+        ],
+        "text": "with Doctor Barker Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 19,
+            "value": "Monday"
+          }
+        ],
+        "text": "with Dr. Barker on Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 19,
+            "value": "Friday"
+          }
+        ],
+        "text": "with Dr. Marino at Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 14,
+            "value": "Friday"
+          }
+        ],
+        "text": "Dr. Barker on Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "with Doctor Fung on"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 14,
+            "value": "Friday"
+          }
+        ],
+        "text": "Doctor Marino Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 12,
+            "value": "Saturday"
+          }
+        ],
+        "text": "Dr. Fung at Saturday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 28,
+            "entity": "date",
+            "start": 22,
+            "value": "Sunday"
+          }
+        ],
+        "text": "with Doctor Marino at Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 11,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "Dr. Barker Wednesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 19,
+            "value": "Monday"
+          }
+        ],
+        "text": "with Dr. Barker by Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 29,
+            "entity": "date",
+            "start": 22,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "with Doctor Barker by Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 15,
+            "entity": "date",
+            "start": 9,
+            "value": "Friday"
+          }
+        ],
+        "text": "Dr. Fung Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 14,
+            "value": "Monday"
+          }
+        ],
+        "text": "Dr. Barker at Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 18,
+            "entity": "date",
+            "start": 12,
+            "value": "Monday"
+          }
+        ],
+        "text": "Dr. Fung at Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 11,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "Dr. Marino Wednesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 19,
+            "value": "Sunday"
+          }
+        ],
+        "text": "with Dr. Marino at Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 18,
+            "entity": "date",
+            "start": 12,
+            "value": "Friday"
+          }
+        ],
+        "text": "Dr. Fung by Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 20,
+            "entity": "date",
+            "start": 12,
+            "value": "Saturday"
+          }
+        ],
+        "text": "Dr. Fung by Saturday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 24,
+            "entity": "date",
+            "start": 17,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "Doctor Marino at Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 22,
+            "entity": "date",
+            "start": 14,
+            "value": "Saturday"
+          }
+        ],
+        "text": "Dr. Barker at Saturday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 17,
+            "value": "Monday"
+          }
+        ],
+        "text": "with Dr. Fung at Monday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 27,
+            "entity": "date",
+            "start": 19,
+            "value": "Thursday"
+          }
+        ],
+        "text": "with Doctor Barker Thursday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "with Dr. Barker on"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 30,
+            "entity": "date",
+            "start": 22,
+            "value": "Thursday"
+          }
+        ],
+        "text": "with Doctor Barker on Thursday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 30,
+            "entity": "date",
+            "start": 22,
+            "value": "Saturday"
+          }
+        ],
+        "text": "with Doctor Barker by Saturday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Barker"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 19,
+            "value": "Friday"
+          }
+        ],
+        "text": "with Dr. Barker at Friday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "with Dr. Fung on"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 23,
+            "entity": "date",
+            "start": 17,
+            "value": "Sunday"
+          }
+        ],
+        "text": "Doctor Barker by Sunday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 0,
+            "value": "Doctor Marino"
+          },
+          {
+            "end": 25,
+            "entity": "date",
+            "start": 17,
+            "value": "Thursday"
+          }
+        ],
+        "text": "Doctor Marino on Thursday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          },
+          {
+            "end": 31,
+            "entity": "date",
+            "start": 22,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "with Doctor Barker at Wednesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 22,
+            "entity": "date",
+            "start": 14,
+            "value": "Saturday"
+          }
+        ],
+        "text": "with Dr. Fung Saturday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Marino"
+          },
+          {
+            "end": 21,
+            "entity": "date",
+            "start": 14,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "Dr. Marino at Tuesday"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "with Doctor Barker"
+      },
+      {
+        "intent": "confirm_dr",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "dr",
+            "start": 0,
+            "value": "Dr. Fung"
+          },
+          {
+            "end": 18,
+            "entity": "date",
+            "start": 12,
+            "value": "Sunday"
+          }
+        ],
+        "text": "Dr. Fung by Sunday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "date",
+            "start": 0,
+            "value": "Thursday"
+          }
+        ],
+        "text": "Thursday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "date",
+            "start": 3,
+            "value": "Saturday"
+          }
+        ],
+        "text": "by Saturday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "date",
+            "start": 0,
+            "value": "Tuesday"
+          }
+        ],
+        "text": "Tuesday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "date",
+            "start": 3,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "at Wednesday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "date",
+            "start": 3,
+            "value": "Thursday"
+          }
+        ],
+        "text": "at Thursday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "date",
+            "start": 3,
+            "value": "Monday"
+          }
+        ],
+        "text": "on Monday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "date",
+            "start": 0,
+            "value": "Monday"
+          }
+        ],
+        "text": "Monday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "date",
+            "start": 0,
+            "value": "Saturday"
+          }
+        ],
+        "text": "Saturday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "date",
+            "start": 3,
+            "value": "Friday"
+          }
+        ],
+        "text": "at Friday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "date",
+            "start": 3,
+            "value": "Sunday"
+          }
+        ],
+        "text": "at Sunday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "date",
+            "start": 3,
+            "value": "Saturday"
+          }
+        ],
+        "text": "on Saturday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "date",
+            "start": 3,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "on Wednesday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "date",
+            "start": 3,
+            "value": "Monday"
+          }
+        ],
+        "text": "by Monday"
+      },
+      {
+        "intent": "confirm_date",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "date",
+            "start": 3,
+            "value": "Wednesday"
+          }
+        ],
+        "text": "by Wednesday"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "view next appointment"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "when will my next appointment be?"
+      },
+      {
+        "intent": "seeNextAppointment",
+        "text": "when is my next appointment?"
+      },
+      {
+        "intent": "request_refill",
+        "text": "get a refill"
+      },
+      {
+        "intent": "request_refill",
+        "text": "refill"
+      },
+      {
+        "intent": "request_refill",
+        "text": "renew prescription"
+      },
+      {
+        "intent": "request_refill",
+        "text": "prescription refill"
+      },
+      {
+        "intent": "request_refill",
+        "text": "running low"
+      },
+      {
+        "intent": "request_refill",
+        "text": "need a refill"
+      },
+      {
+        "intent": "request_refill",
+        "text": "more medicine"
+      },
+      {
+        "intent": "request_refill",
+        "text": "prescription is running out"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "try new prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "My prescription not working"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "different medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "prescription not working"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "I think I need a different prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "I am having problems with my prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "experiencing symptoms"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "don't like my medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "Could I get different medicine?"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "having problems with my prescription"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "new medicine"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "try something different"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "I am experiencing symptoms"
+      },
+      {
+        "intent": "prescription_complaint",
+        "text": "different prescription"
+      },
+      {
+        "intent": "medicineName",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "medicine",
+            "start": 0,
+            "value": "metformin"
+          }
+        ],
+        "text": "metformin"
+      },
+      {
+        "intent": "medicineName",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "medicine",
+            "start": 0,
+            "value": "vicodin"
+          }
+        ],
+        "text": "vicodin"
+      },
+      {
+        "intent": "medicineName",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "medicine",
+            "start": 0,
+            "value": "lisinopril"
+          }
+        ],
+        "text": "lisinopril"
+      },
+      {
+        "intent": "medicineName",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "medicine",
+            "start": 0,
+            "value": "simvastatin"
+          }
+        ],
+        "text": "simvastatin"
+      },
+      {
+        "intent": "medicineName",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "medicine",
+            "start": 0,
+            "value": "amlodipine"
+          }
+        ],
+        "text": "amlodipine"
+      },
+      {
+        "intent": "medicineName",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "medicine",
+            "start": 0,
+            "value": "acetaminophen"
+          }
+        ],
+        "text": "acetaminophen"
+      },
+      {
+        "intent": "medicineName",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "medicine",
+            "start": 0,
+            "value": "levothryoxine"
+          }
+        ],
+        "text": "levothryoxine"
+      },
+      {
+        "intent": "medicineName",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "medicine",
+            "start": 0,
+            "value": "hydrocodone"
+          }
+        ],
+        "text": "hydrocodone"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "dr",
+            "start": 20,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "send them a message Doctor Marino"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 4,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "let Doctor Fung know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "tell Dr. Fung something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "dr",
+            "start": 19,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "leave a message to Dr. Marino"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 4,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "let Doctor Fung something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "dr",
+            "start": 23,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "send them a message to Dr. Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "dr",
+            "start": 6,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "leave Doctor Barker know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "dr",
+            "start": 20,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "send them a note to Doctor Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "tell Doctor Marino a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "tell Dr. Marino a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "dr",
+            "start": 17,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "let them know to Dr. Marino"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 6,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "leave Dr. Marino a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "dr",
+            "start": 17,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "let them know to Doctor Marino"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "dr",
+            "start": 6,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "leave Doctor Barker something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "dr",
+            "start": 20,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "send them a message Dr. Fung"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 6,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "leave Dr. Barker a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "dr",
+            "start": 4,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "let Dr. Marino something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "tell Dr. Barker something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "dr",
+            "start": 19,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "leave a message to Doctor Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "dr",
+            "start": 4,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "let Doctor Barker know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "dr",
+            "start": 19,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "leave a message to Dr. Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "dr",
+            "start": 6,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "leave Doctor Marino something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "dr",
+            "start": 6,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "leave Doctor Fung a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "dr",
+            "start": 6,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "leave Doctor Marino a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 6,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "leave Dr. Barker something"
+      },
+      {
+        "intent": "message_dr",
+        "text": "leave a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "dr",
+            "start": 6,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "leave Doctor Fung know that"
+      },
+      {
+        "intent": "message_dr",
+        "text": "send them a message to"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "tell Doctor Barker a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "dr",
+            "start": 16,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "leave a message Dr. Marino"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "dr",
+            "start": 4,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "let Dr. Barker a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "tell Doctor Marino know that"
+      },
+      {
+        "intent": "message_dr",
+        "text": "send them a note to"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "dr",
+            "start": 4,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "let Dr. Fung a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "dr",
+            "start": 20,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "send them a note to Dr. Fung"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "dr",
+            "start": 20,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "send them a message Doctor Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "dr",
+            "start": 4,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "let Dr. Marino know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "dr",
+            "start": 6,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "leave Dr. Fung know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 6,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "leave Dr. Marino something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "dr",
+            "start": 14,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "let them know Dr. Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "dr",
+            "start": 6,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "leave Dr. Fung something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "dr",
+            "start": 16,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "leave a message Dr. Fung"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "dr",
+            "start": 14,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "let them know Doctor Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "dr",
+            "start": 4,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "let Doctor Barker something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "dr",
+            "start": 19,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "leave a message to Doctor Fung"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "tell Dr. Barker know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "dr",
+            "start": 19,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "leave a message to Dr. Fung"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "dr",
+            "start": 17,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "let them know to Doctor Fung"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "dr",
+            "start": 6,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "leave Doctor Barker a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "tell Doctor Barker something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "dr",
+            "start": 20,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "send them a message Dr. Marino"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 6,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "leave Dr. Marino know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "dr",
+            "start": 14,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "let them know Dr. Marino"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "dr",
+            "start": 17,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "send them a note Dr. Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "tell Doctor Barker know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "dr",
+            "start": 23,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "send them a message to Doctor Fung"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "dr",
+            "start": 6,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "leave Doctor Fung something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "tell Doctor Barker a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "dr",
+            "start": 17,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "send them a note Dr. Marino"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 4,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "let Doctor Fung a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "tell Dr. Marino know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "dr",
+            "start": 17,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "let them know to Dr. Fung"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "dr",
+            "start": 4,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "let Doctor Marino know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "dr",
+            "start": 17,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "let them know to Doctor Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "tell Dr. Fung a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "dr",
+            "start": 4,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "let Dr. Fung something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "dr",
+            "start": 14,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "let them know Dr. Fung"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "dr",
+            "start": 4,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "let Doctor Marino something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "dr",
+            "start": 20,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "send them a note to Doctor Fung"
+      },
+      {
+        "intent": "message_dr",
+        "text": "let them know"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "tell Doctor Fung something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "dr",
+            "start": 4,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "let Dr. Barker a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "tell Dr. Barker a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "tell Dr. Fung know that"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "dr",
+            "start": 17,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "send them a note Doctor Fung"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "dr",
+            "start": 19,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "leave a message to Doctor Marino"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "dr",
+            "start": 17,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "send them a note Doctor Marino"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "dr",
+            "start": 16,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "leave a message Doctor Fung"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 4,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "let Doctor Fung a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "dr",
+            "start": 4,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "let Doctor Marino a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "dr",
+            "start": 20,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "send them a message Dr. Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "dr",
+            "start": 4,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "let Dr. Marino a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "dr",
+            "start": 23,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "send them a message to Doctor Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "tell Dr. Fung a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "dr",
+            "start": 4,
+            "value": "Dr. Fung"
+          }
+        ],
+        "text": "let Dr. Fung a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "dr",
+            "start": 4,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "let Dr. Barker know that"
+      },
+      {
+        "intent": "message_dr",
+        "text": "let them know to"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 6,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "leave Dr. Marino a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "dr",
+            "start": 4,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "let Doctor Barker a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "dr",
+            "start": 4,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "let Dr. Marino a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "dr",
+            "start": 6,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "leave Doctor Marino a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "dr",
+            "start": 16,
+            "value": "Doctor Barker"
+          }
+        ],
+        "text": "leave a message Doctor Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "dr",
+            "start": 5,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "tell Dr. Marino something"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "dr",
+            "start": 17,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "let them know to Dr. Barker"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "dr",
+            "start": 4,
+            "value": "Dr. Barker"
+          }
+        ],
+        "text": "let Dr. Barker something"
+      },
+      {
+        "intent": "message_dr",
+        "text": "send them a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "dr",
+            "start": 4,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "let Doctor Marino a note"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "dr",
+            "start": 5,
+            "value": "Doctor Fung"
+          }
+        ],
+        "text": "tell Doctor Fung a message"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "dr",
+            "start": 14,
+            "value": "Doctor Marino"
+          }
+        ],
+        "text": "let them know Doctor Marino"
+      },
+      {
+        "intent": "message_dr",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "dr",
+            "start": 23,
+            "value": "Dr. Marino"
+          }
+        ],
+        "text": "send them a message to Dr. Marino"
+      },
+      {
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "message",
+            "start": 0,
+            "value": "My vision is blurred"
+          }
+        ],
+        "text": "My vision is blurred"
+      },
+      {
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "message",
+            "start": 0,
+            "value": "I am writing to let you know"
+          }
+        ],
+        "text": "I am writing to let you know"
+      },
+      {
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "message",
+            "start": 0,
+            "value": "I feel out of it"
+          }
+        ],
+        "text": "I feel out of it"
+      },
+      {
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "message",
+            "start": 0,
+            "value": "I just wanted to say thank you"
+          }
+        ],
+        "text": "I just wanted to say thank you"
+      },
+      {
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "message",
+            "start": 0,
+            "value": "I am having difficulty breathing"
+          }
+        ],
+        "text": "I am having difficulty breathing"
+      },
+      {
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "message",
+            "start": 0,
+            "value": "My head hurts"
+          }
+        ],
+        "text": "My head hurts"
+      },
+      {
+        "intent": "note_to_doc",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "message",
+            "start": 0,
+            "value": "I look forward to seeing you, thanks"
+          }
+        ],
+        "text": "I look forward to seeing you, thanks"
+      },
+      {
+        "intent": "review_lab",
+        "text": "see results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "view results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "request lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "see my lab results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "appointment results"
+      },
+      {
+        "intent": "review_lab",
+        "text": "recent lab results"
+      },
+      {
+        "intent": "makePayment",
+        "text": "pay bill"
+      },
+      {
+        "intent": "makePayment",
+        "text": "pay copay"
+      },
+      {
+        "intent": "makePayment",
+        "text": "pay co-pay"
+      },
+      {
+        "intent": "viewBills",
+        "text": "request due payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "view payments"
+      },
+      {
+        "intent": "viewBills",
+        "text": "see bills due"
+      },
+      {
+        "intent": "viewBills",
+        "text": "view outstanding bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "see bills"
+      },
+      {
+        "intent": "viewBills",
+        "text": "show outstanding payments"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

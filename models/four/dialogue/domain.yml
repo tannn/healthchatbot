@@ -1,0 +1,90 @@
+%YAML 1.1
+---
+actions:
+- utter_ask_which_dr
+- utter_ask_date
+- utter_confirmed
+- utter_ok
+- utter_ask_message
+- utter_confirmed_message
+- utter_reviewLabResults
+- utter_ask_medicine
+- utter_prescription_refill
+- utter_greet
+config:
+  store_entities_as_slots: true
+entities:
+- dr
+- date
+- message
+- medicine
+intents:
+- create_apt:
+    use_entities: true
+- request_refill:
+    use_entities: true
+- message_dr:
+    use_entities: true
+- review_lab:
+    use_entities: true
+- confirm_dr:
+    use_entities: true
+- confirm_date:
+    use_entities: true
+- prescription_complaint:
+    use_entities: true
+- makePayment:
+    use_entities: true
+- viewBills:
+    use_entities: true
+- greeting:
+    use_entities: true
+- note_to_doc:
+    use_entities: true
+- review_labResults:
+    use_entities: true
+- medicineName:
+    use_entities: true
+- seeNextAppointment:
+    use_entities: true
+slots:
+  date:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  dr:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  medicine:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  message:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_date:
+  - text: When do you want to schedule this appointment?
+  - text: Ok, for what day?
+  utter_ask_medicine:
+  - text: What's the name of your medicine?
+  utter_ask_message:
+  - text: what would you like to ask the doctor?
+  utter_ask_which_dr:
+  - text: Which doctor would you like to see?
+  - text: Ok, who's your doctor?
+  utter_confimed_message:
+  - text: Got it! We'll forward your message to your {dr} and get back to you soon.
+  utter_confirmed:
+  - text: Got it! Your appointment to see {dr} is scheduled for {date}.
+  utter_greet:
+  - text: Hello, how can I help you?
+  - text: Hello, welcome to the health portal!
+  utter_ok:
+  - text: Ok
+  - text: Got it
+  utter_prescription_refill:
+  - text: '{dr} will review your prescription refill soon.'
+  utter_reviewLabResults:
+  - text: 'Here are your lab results: the white blood cell count in your blood is
+      high. Please schedule an appointment soon.'
+  - text: 'Here are your lab results: a mass of mucus was detected at the bottom of
+      your lungs. Your doctor sent your prescription to your local pharmacy.'

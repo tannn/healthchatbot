@@ -95,4 +95,61 @@
 * request_refill{"medicine":"Mirena"}
 	- utter_prescription_refill
 
+## Generated Story -633546204153406052
+* greeting
+    - utter_greet
+* create_apt
+    - utter_ask_which_dr
+* confirm_dr{"dr": "Dr. Howard"}
+    - slot{"dr": "Dr. Howard"}
+    - utter_ask_date
+* confirm_date{"date": "Tuesday"}
+    - slot{"date": "Tuesday"}
+    - utter_confirmed
+* message_dr
+    - utter_ask_message
+* note_to_doc{"message": "My knee is still swollen and in severe pain can you please chop it off"}
+    - slot{"message": "My knee is still swollen and in severe pain can you please chop it off"}
+    - utter_confirmed_message
+* review_labResults
+    - utter_reviewLabResults
+* request_refill
+    - utter_ask_medicine
+* medicineName{"medicine": "Adderrall"}
+    - slot{"medicine": "Adderrall"}
+    - utter_prescription_refill
 
+## Generated Story 1474650407612037026
+* create_apt
+    - utter_ask_which_dr
+* confirm_dr{"dr": "Dr. Marino"}
+    - slot{"dr": "Dr. Marino"}
+    - utter_ask_date
+* confirm_date{"date": "Friday"}
+    - slot{"date": "Friday"}
+    - utter_confirmed
+* request_refill
+    - utter_ask_medicine
+* medicineName{"medicine": "ibuprofen"}
+    - slot{"medicine": "ibuprofen"}
+    - utter_prescription_refill
+* message_dr
+    - utter_ask_message
+* note_to_doc{"message": "I am having pain in my bones"}
+    - slot{"message": "I am having pain in my bones"}
+    - utter_confirmed_message
+
+## new story
+* message_dr
+    - utter_ask_which_dr
+* confirm_dr{"dr": "Dr. Marino"}
+    - slot{"dr": "Dr. Marino"}
+    - utter_ask_message
+* note_to_doc{"message": "I am having a lot of nightmares"}
+    - slot{"message": "I am having a lot of nightmares"}
+    - utter_confirmed_message
+* request_refill
+    - utter_ask_medicine
+* medicineName{"medicine": "aciprofen"}
+    - slot{"medicine": "aciprofen"}
+    - utter_prescription_refill

@@ -2,7 +2,6 @@ intents:
   - create_apt
   - request_refill
   - message_dr
-  - review_lab
   - confirm_dr
   - confirm_date
   - prescription_complaint
