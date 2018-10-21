@@ -56,9 +56,9 @@ templates:
     - "When do you want to schedule this appointment?"
     - "Ok, for what day?"
   utter_confirmed:
-    - "Got it! Your appointment is scheduled."
+    - "Got it! Your appointment to see {dr} is scheduled for {date}."
   utter_confimed_message:
-    - "Got it! We'll forward your message to your doctor and get back to you soon."
+    - "Got it! We'll forward your message to your {dr} and get back to you soon."
   utter_ok:
     - "Ok"
     - "Got it"
@@ -66,6 +66,6 @@ templates:
     - "Here are your lab results: the white blood cell count in your blood is high. Please schedule an appointment soon."
     - "Here are your lab results: a mass of mucus was detected at the bottom of your lungs. Your doctor sent your prescription to your local pharmacy."
   utter_prescription_refill:
-    - "Your doctor will review your prescription refill soon."
+    - "{dr} will review your prescription refill soon."
   utter_ask_medicine:
     - "What's the name of your medicine?"
